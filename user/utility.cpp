@@ -1,4 +1,4 @@
-﻿#include "pch-il2cpp.h"
+#include "pch-il2cpp.h"
 #include "utility.h"
 #include "state.hpp"
 #include "game.h"
@@ -2152,7 +2152,7 @@ bool IsDater(std::string username, int playerCount) {
 //TODO: Workaround
 #define GET_VIRTUAL_INVOKE(obj, method) \
 	((VirtualInvokeData*)(&obj->klass->vtable))[ \
-		(obj->klass->_0.interfaceOffsets ? obj->klass->_0.interfaceOffsets[0].offset : 0) \
+		(obj->klass->interfaceOffsets ? obj->klass->interfaceOffsets[0].offset : 0) \
 		+ offsetof(decltype(obj->klass->vtable), method) \
 		/ sizeof(VirtualInvokeData)]
 
@@ -2346,7 +2346,7 @@ void TrackPlayers()
 {
 	if (!IsInGame() && !IsInLobby()) return;
 
-	float now = app::Time_get_time(NULL);
+	float now = app::Time_1_get_time(NULL);
 	if (now - lastCheckTime < 0.5f) return;
 	lastCheckTime = now;
 

@@ -1,4 +1,4 @@
-﻿#include "pch-il2cpp.h"
+#include "pch-il2cpp.h"
 #include "menu.hpp"
 #include "imgui/imgui.h"
 #include "tabs/about_tab.h"
@@ -265,7 +265,7 @@ namespace Menu {
 			//open respective tabs
 			if (openAbout) AboutTab::Render();
 			else {
-				if (!state.hasOpenedMenuBefore) state.hasOpenedMenuBefore = true;
+				if (!MenuState.hasOpenedMenuBefore) MenuState.hasOpenedMenuBefore = true;
 			}
 			if (openSettings) SettingsTab::Render();
 			if (openGame) GameTab::Render();
