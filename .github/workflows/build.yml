@@ -2,6 +2,7 @@
 name: Build Project
 
 on:
+  push:
   workflow_dispatch:
   release:
     types: [published]
@@ -33,6 +34,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f build_errors_Release.log
           git commit -m "Automated log update [skip ci]" || echo "No changes to commit"
+          git pull --rebase
           git push
         
       - name: Package Release Builds
@@ -74,6 +76,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f build_errors_Debug.log
           git commit -m "Automated log update [skip ci]" || echo "No changes to commit"
+          git pull --rebase
           git push
         
       - name: Package Debug Builds
