@@ -1,4 +1,4 @@
-Build started 4/12/2026 7:21:54 AM.
+Build started 4/12/2026 7:37:02 AM.
 Logging verbosity is set to: Detailed.Process = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe"
 MSBuild executable path = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe"
 Command line arguments = ""C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe" -property:Configuration=Debug -property:PlatformToolset=v143 -fl -flp:logfile=build_errors_Debug.log"
@@ -1348,11 +1348,11 @@ Using "CL" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Ent
 Task "CL"
   Forcing recompile of all source files due to missing PDB "SickoMenu\Debug\vc143.pdb".
   Environment Variables passed to tool:
-    VS_UNICODE_OUTPUT=1580
-    SARIF_OUTPUT_PIPE=1584
+    VS_UNICODE_OUTPUT=1784
+    SARIF_OUTPUT_PIPE=1792
   C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Debug\SickoMenu.pch" /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
   Tracking command:
-  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Debug\SickoMenu.tlog /r D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\PCH-IL2CPP.CPP /b MSBuildConsole_CancelEvent4080dcf9467f4873a7903b08433199b3  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Debug\SickoMenu.pch" /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Debug\SickoMenu.tlog /r D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\PCH-IL2CPP.CPP /b MSBuildConsole_CancelEvente3d4cdd5c5f84bb4a74566341dbb3494  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Debug\SickoMenu.pch" /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
   pch-il2cpp.cpp
 Done executing task "CL".
 Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' != 'true') was evaluated as ('Use' == 'Create' and '' == '' and 'false' != 'true').
@@ -1564,11 +1564,11 @@ Task "CL"
   Write Tracking Logs:
   	SickoMenu\Debug\SickoMenu.tlog\CL.write.1.tlog
   Environment Variables passed to tool:
-    VS_UNICODE_OUTPUT=1548
+    VS_UNICODE_OUTPUT=1576
     SARIF_OUTPUT_PIPE=1540
   C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "appdata\il2cpp-functions.cpp" events\CastVoteEvent.cpp events\CheatDetectedEvent.cpp events\DisconnectEvent.cpp events\KillEvent.cpp events\ProtectPlayerEvent.cpp events\ReportDeadBodyEvent.cpp events\ShapeShiftEvent.cpp events\TaskCompletedEvent.cpp events\VentEvent.cpp events\WalkEvent.cpp gui\console.cpp gui\esp.cpp "gui\gui-helpers.cpp" gui\RenderCmd.cpp gui\Renderer.cpp gui\replay.cpp gui\tabs\about_tab.cpp gui\tabs\debug_tab.cpp gui\tabs\doors_tab.cpp gui\tabs\esp_tab.cpp gui\tabs\game_tab.cpp gui\tabs\host_tab.cpp gui\tabs\players_tab.cpp gui\tabs\radar_tab.cpp gui\tabs\replay_tab.cpp gui\tabs\sabotage_tab.cpp gui\tabs\settings_tab.cpp gui\tabs\tasks_tab.cpp hooks\AccountManager.cpp hooks\AirshipStatus.cpp hooks\Camera.cpp hooks\DirectX.cpp hooks\Dleks.cpp hooks\EOSManager.cpp hooks\ExileController.cpp hooks\FungleShipStatus.cpp hooks\GameOptionsManager.cpp hooks\HudManager.cpp hooks\InnerNetClient.cpp hooks\LobbyBehaviour.cpp hooks\NoShadowBehaviour.cpp hooks\PlainDoor.cpp hooks\PlayerPhysics.cpp hooks\PlayerStorageManager.cpp hooks\PolusShipStatus.cpp hooks\RoleManager.cpp hooks\SabotageSystemType.cpp hooks\SaveManager.cpp hooks\UnityDebug.cpp rpc\CmdCheckMurder.cpp rpc\CustomRpcHandler.cpp rpc\RpcPlayerAppearance.cpp rpc\RpcSetRole.cpp rpc\RpcUsePlatform.cpp user\achievements.cpp user\keybinds.cpp rpc\RpcSetColor.cpp rpc\RpcSetName.cpp includes\crc32.cpp includes\directx11.cpp includes\detours\detours.cpp includes\detours\disasm.cpp includes\detours\modules.cpp gui\theme.cpp rpc\RpcCompleteTask.cpp rpc\RpcCloseDoorsOfType.cpp framework\dllmain.cpp hooks\Chat.cpp hooks\Doors.cpp hooks\KeyboardJoystick.cpp hooks\MeetingHud.cpp hooks\PlayerControl.cpp hooks\SceneManager.cpp hooks\ShipStatus.cpp hooks\PlayerBanData.cpp hooks\Vent.cpp hooks\_hooks.cpp rpc\RpcMurderPlayer.cpp rpc\RpcPlayAnimation.cpp rpc\RpcUpdateSystem.cpp rpc\RpcReportBody.cpp rpc\RpcSetScanner.cpp rpc\RpcSnapTo.cpp gui\tabs\self_tab.cpp user\logger.cpp user\profiler.cpp user\resources.cpp user\utility.cpp "framework\il2cpp-init.cpp" gui\menu.cpp gui\radar.cpp includes\imgui\imgui.cpp includes\imgui\imgui_draw.cpp includes\imgui\imgui_impl_dx11.cpp includes\imgui\imgui_impl_win32.cpp includes\imgui\imgui_widgets.cpp user\game.cpp user\main.cpp user\state.cpp
   Tracking command:
-  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Debug\SickoMenu.tlog /r "D:\A\SICKOMENU-V5\SICKOMENU-V5\APPDATA\IL2CPP-FUNCTIONS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CASTVOTEEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CHEATDETECTEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\DISCONNECTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\KILLEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\PROTECTPLAYEREVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\REPORTDEADBODYEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\SHAPESHIFTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\TASKCOMPLETEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\VENTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\WALKEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\DLLMAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\IL2CPP-INIT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\CONSOLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\ESP.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\GUI-HELPERS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\MENU.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RADAR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERCMD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\REPLAY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ABOUT_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DEBUG_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DOORS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ESP_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\GAME_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\HOST_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\PLAYERS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\RADAR_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\REPLAY_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SABOTAGE_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SELF_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SETTINGS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\TASKS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\THEME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ACCOUNTMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\AIRSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CAMERA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CHAT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DIRECTX.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DLEKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DOORS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EOSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EXILECONTROLLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\FUNGLESHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\GAMEOPTIONSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\HUDMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\INNERNETCLIENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\KEYBOARDJOYSTICK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\LOBBYBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\MEETINGHUD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\NOSHADOWBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAINDOOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERBANDATA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERCONTROL.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERPHYSICS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERSTORAGEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\POLUSSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ROLEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SABOTAGESYSTEMTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SAVEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SCENEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\UNITYDEBUG.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\VENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\_HOOKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\CRC32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DETOURS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DISASM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\MODULES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DIRECTX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_DRAW.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_DX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_WIN32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_WIDGETS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CMDCHECKMURDER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CUSTOMRPCHANDLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCLOSEDOORSOFTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCOMPLETETASK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCMURDERPLAYER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYANIMATION.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYERAPPEARANCE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCREPORTBODY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETCOLOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETNAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETROLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETSCANNER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSNAPTO.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUPDATESYSTEM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUSEPLATFORM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\ACHIEVEMENTS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\GAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\KEYBINDS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\LOGGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\MAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\PROFILER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\RESOURCES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\STATE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\UTILITY.CPP" /b MSBuildConsole_CancelEventd93a906bff374a2fa2755d56ea6a2f45  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "appdata\il2cpp-functions.cpp" events\CastVoteEvent.cpp events\CheatDetectedEvent.cpp events\DisconnectEvent.cpp events\KillEvent.cpp events\ProtectPlayerEvent.cpp events\ReportDeadBodyEvent.cpp events\ShapeShiftEvent.cpp events\TaskCompletedEvent.cpp events\VentEvent.cpp events\WalkEvent.cpp gui\console.cpp gui\esp.cpp "gui\gui-helpers.cpp" gui\RenderCmd.cpp gui\Renderer.cpp gui\replay.cpp gui\tabs\about_tab.cpp gui\tabs\debug_tab.cpp gui\tabs\doors_tab.cpp gui\tabs\esp_tab.cpp gui\tabs\game_tab.cpp gui\tabs\host_tab.cpp gui\tabs\players_tab.cpp gui\tabs\radar_tab.cpp gui\tabs\replay_tab.cpp gui\tabs\sabotage_tab.cpp gui\tabs\settings_tab.cpp gui\tabs\tasks_tab.cpp hooks\AccountManager.cpp hooks\AirshipStatus.cpp hooks\Camera.cpp hooks\DirectX.cpp hooks\Dleks.cpp hooks\EOSManager.cpp hooks\ExileController.cpp hooks\FungleShipStatus.cpp hooks\GameOptionsManager.cpp hooks\HudManager.cpp hooks\InnerNetClient.cpp hooks\LobbyBehaviour.cpp hooks\NoShadowBehaviour.cpp hooks\PlainDoor.cpp hooks\PlayerPhysics.cpp hooks\PlayerStorageManager.cpp hooks\PolusShipStatus.cpp hooks\RoleManager.cpp hooks\SabotageSystemType.cpp hooks\SaveManager.cpp hooks\UnityDebug.cpp rpc\CmdCheckMurder.cpp rpc\CustomRpcHandler.cpp rpc\RpcPlayerAppearance.cpp rpc\RpcSetRole.cpp rpc\RpcUsePlatform.cpp user\achievements.cpp user\keybinds.cpp rpc\RpcSetColor.cpp rpc\RpcSetName.cpp includes\crc32.cpp includes\directx11.cpp includes\detours\detours.cpp includes\detours\disasm.cpp includes\detours\modules.cpp gui\theme.cpp rpc\RpcCompleteTask.cpp rpc\RpcCloseDoorsOfType.cpp framework\dllmain.cpp hooks\Chat.cpp hooks\Doors.cpp hooks\KeyboardJoystick.cpp hooks\MeetingHud.cpp hooks\PlayerControl.cpp hooks\SceneManager.cpp hooks\ShipStatus.cpp hooks\PlayerBanData.cpp hooks\Vent.cpp hooks\_hooks.cpp rpc\RpcMurderPlayer.cpp rpc\RpcPlayAnimation.cpp rpc\RpcUpdateSystem.cpp rpc\RpcReportBody.cpp rpc\RpcSetScanner.cpp rpc\RpcSnapTo.cpp gui\tabs\self_tab.cpp user\logger.cpp user\profiler.cpp user\resources.cpp user\utility.cpp "framework\il2cpp-init.cpp" gui\menu.cpp gui\radar.cpp includes\imgui\imgui.cpp includes\imgui\imgui_draw.cpp includes\imgui\imgui_impl_dx11.cpp includes\imgui\imgui_impl_win32.cpp includes\imgui\imgui_widgets.cpp user\game.cpp user\main.cpp user\state.cpp
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Debug\SickoMenu.tlog /r "D:\A\SICKOMENU-V5\SICKOMENU-V5\APPDATA\IL2CPP-FUNCTIONS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CASTVOTEEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CHEATDETECTEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\DISCONNECTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\KILLEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\PROTECTPLAYEREVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\REPORTDEADBODYEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\SHAPESHIFTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\TASKCOMPLETEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\VENTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\WALKEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\DLLMAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\IL2CPP-INIT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\CONSOLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\ESP.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\GUI-HELPERS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\MENU.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RADAR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERCMD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\REPLAY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ABOUT_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DEBUG_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DOORS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ESP_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\GAME_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\HOST_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\PLAYERS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\RADAR_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\REPLAY_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SABOTAGE_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SELF_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SETTINGS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\TASKS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\THEME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ACCOUNTMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\AIRSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CAMERA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CHAT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DIRECTX.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DLEKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DOORS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EOSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EXILECONTROLLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\FUNGLESHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\GAMEOPTIONSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\HUDMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\INNERNETCLIENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\KEYBOARDJOYSTICK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\LOBBYBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\MEETINGHUD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\NOSHADOWBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAINDOOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERBANDATA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERCONTROL.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERPHYSICS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERSTORAGEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\POLUSSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ROLEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SABOTAGESYSTEMTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SAVEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SCENEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\UNITYDEBUG.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\VENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\_HOOKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\CRC32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DETOURS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DISASM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\MODULES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DIRECTX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_DRAW.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_DX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_WIN32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_WIDGETS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CMDCHECKMURDER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CUSTOMRPCHANDLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCLOSEDOORSOFTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCOMPLETETASK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCMURDERPLAYER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYANIMATION.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYERAPPEARANCE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCREPORTBODY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETCOLOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETNAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETROLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETSCANNER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSNAPTO.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUPDATESYSTEM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUSEPLATFORM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\ACHIEVEMENTS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\GAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\KEYBINDS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\LOGGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\MAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\PROFILER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\RESOURCES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\STATE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\UTILITY.CPP" /b MSBuildConsole_CancelEvent62597b3ef62f45af9eb5d3fc5f467aa3  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "appdata\il2cpp-functions.cpp" events\CastVoteEvent.cpp events\CheatDetectedEvent.cpp events\DisconnectEvent.cpp events\KillEvent.cpp events\ProtectPlayerEvent.cpp events\ReportDeadBodyEvent.cpp events\ShapeShiftEvent.cpp events\TaskCompletedEvent.cpp events\VentEvent.cpp events\WalkEvent.cpp gui\console.cpp gui\esp.cpp "gui\gui-helpers.cpp" gui\RenderCmd.cpp gui\Renderer.cpp gui\replay.cpp gui\tabs\about_tab.cpp gui\tabs\debug_tab.cpp gui\tabs\doors_tab.cpp gui\tabs\esp_tab.cpp gui\tabs\game_tab.cpp gui\tabs\host_tab.cpp gui\tabs\players_tab.cpp gui\tabs\radar_tab.cpp gui\tabs\replay_tab.cpp gui\tabs\sabotage_tab.cpp gui\tabs\settings_tab.cpp gui\tabs\tasks_tab.cpp hooks\AccountManager.cpp hooks\AirshipStatus.cpp hooks\Camera.cpp hooks\DirectX.cpp hooks\Dleks.cpp hooks\EOSManager.cpp hooks\ExileController.cpp hooks\FungleShipStatus.cpp hooks\GameOptionsManager.cpp hooks\HudManager.cpp hooks\InnerNetClient.cpp hooks\LobbyBehaviour.cpp hooks\NoShadowBehaviour.cpp hooks\PlainDoor.cpp hooks\PlayerPhysics.cpp hooks\PlayerStorageManager.cpp hooks\PolusShipStatus.cpp hooks\RoleManager.cpp hooks\SabotageSystemType.cpp hooks\SaveManager.cpp hooks\UnityDebug.cpp rpc\CmdCheckMurder.cpp rpc\CustomRpcHandler.cpp rpc\RpcPlayerAppearance.cpp rpc\RpcSetRole.cpp rpc\RpcUsePlatform.cpp user\achievements.cpp user\keybinds.cpp rpc\RpcSetColor.cpp rpc\RpcSetName.cpp includes\crc32.cpp includes\directx11.cpp includes\detours\detours.cpp includes\detours\disasm.cpp includes\detours\modules.cpp gui\theme.cpp rpc\RpcCompleteTask.cpp rpc\RpcCloseDoorsOfType.cpp framework\dllmain.cpp hooks\Chat.cpp hooks\Doors.cpp hooks\KeyboardJoystick.cpp hooks\MeetingHud.cpp hooks\PlayerControl.cpp hooks\SceneManager.cpp hooks\ShipStatus.cpp hooks\PlayerBanData.cpp hooks\Vent.cpp hooks\_hooks.cpp rpc\RpcMurderPlayer.cpp rpc\RpcPlayAnimation.cpp rpc\RpcUpdateSystem.cpp rpc\RpcReportBody.cpp rpc\RpcSetScanner.cpp rpc\RpcSnapTo.cpp gui\tabs\self_tab.cpp user\logger.cpp user\profiler.cpp user\resources.cpp user\utility.cpp "framework\il2cpp-init.cpp" gui\menu.cpp gui\radar.cpp includes\imgui\imgui.cpp includes\imgui\imgui_draw.cpp includes\imgui\imgui_impl_dx11.cpp includes\imgui\imgui_impl_win32.cpp includes\imgui\imgui_widgets.cpp user\game.cpp user\main.cpp user\state.cpp
   il2cpp-functions.cpp
   CastVoteEvent.cpp
   CheatDetectedEvent.cpp
@@ -1586,122 +1586,7 @@ Task "CL"
   RenderCmd.cpp
   Renderer.cpp
   replay.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/esp.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/gui-helpers.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
+  about_tab.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'gui/esp.cpp')
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86):
@@ -1710,184 +1595,8 @@ D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform 
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(56,76): error C2065: 'Camera_MonoOrStereoscopicEye__Enum_Mono': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'gui/esp.cpp')
   
-  about_tab.cpp
   debug_tab.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/Renderer.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
   doors_tab.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/replay.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
-  esp_tab.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/about_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\about_tab.cpp(48,54): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\about_tab.cpp(48,37): error C7595: 'std::basic_format_string<char>::basic_format_string': call to immediate function is not a constant expression [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(141,67):
@@ -1920,6 +1629,7 @@ D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\about_tab.cpp(48,37): error C7595: 'std:
           C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(141,67):
           while evaluating function 'void std::_You_see_this_error_because_arg_id_is_out_of_range(void) noexcept'
   
+  esp_tab.cpp
   game_tab.cpp
   host_tab.cpp
   players_tab.cpp
@@ -2019,8 +1729,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(458,86): error C2665: 'RpcF
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(458,86):
       while trying to match the argument list '(app::PlayerControl *)'
   
-  replay_tab.cpp
-  sabotage_tab.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(459,96): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(459,92): error C2665: 'RpcForceColor::RpcForceColor': no overloaded function could convert all the argument types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       D:\a\SickoMenu-v5\SickoMenu-v5\rpc\_rpc.h(332,1):
@@ -2038,6 +1746,7 @@ D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(459,92): error C2665: 'RpcF
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(459,92):
       while trying to match the argument list '(app::PlayerControl *)'
   
+  replay_tab.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(467,50): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(467,25): error C2664: 'bool CustomListBoxInt(const char *,int *,const std::vector<const char *,std::allocator<const char *>>,float,ImVec4,ImGuiComboFlags,const char *)': cannot convert argument 2 from 'const std::vector<const char *,std::allocator<const char *>>' to 'int *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\game_tab.cpp(467,77):
@@ -2070,6 +1779,7 @@ D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\host_tab.cpp(390,9): error C2660: 'Input
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\host_tab.cpp(390,9):
       while trying to match the argument list '(const char [9])'
   
+  sabotage_tab.cpp
   settings_tab.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\radar_tab.cpp(35,51): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\radar_tab.cpp(35,7): error C2660: 'ToggleButton': function does not take 1 arguments [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -2111,64 +1821,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(29,25): error C2993: '
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\sabotage_tab.cpp(166,30): error C3536: 'actualSwitches': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\sabotage_tab.cpp(166,91): error C3536: 'expectedSwitches': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   AirshipStatus.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/tabs/settings_tab.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(239,58): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(239,8): error C2660: 'ToggleButton': function does not take 1 arguments [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\gui-helpers.hpp(29,6):
@@ -2192,70 +1844,12 @@ D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(520,12): error C2664: '
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(520,12):
       while trying to match the argument list '(const char [11], int)'
   
-  Camera.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(541,6): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  Camera.cpp
   DirectX.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\AirshipStatus.cpp(14,30): error C3861: 'Time_get_deltaTime': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   Dleks.cpp
   EOSManager.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/Camera.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'hooks/Camera.cpp')
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86):
@@ -2267,64 +1861,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(56,76): error C2065: 'Camera_MonoOrSt
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Camera.cpp(20,18): error C2198: 'app::Vector3 (__cdecl *)(app::Camera *,app::Vector3,app::Camera_MonoOrStereoscopicEye__Enum,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Camera.cpp(29,9): error C2198: 'app::Vector3 (__cdecl *)(app::Camera *,app::Vector3,app::Camera_MonoOrStereoscopicEye__Enum,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   ExileController.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/DirectX.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'hooks/DirectX.cpp')
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86):
@@ -2386,7 +1922,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\EOSManager.cpp(120,70): error C2664: 'Field
   HudManager.cpp
   InnerNetClient.cpp
   LobbyBehaviour.cpp
-  NoShadowBehaviour.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(40,4): error C2198: 'void (__cdecl *)(app::HudManager *,app::PlayerControl *,app::RoleBehaviour *,bool,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(43,5): error C2198: 'void (__cdecl *)(app::HudManager *,app::PlayerControl *,app::RoleBehaviour *,bool,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(47,5): error C2198: 'void (__cdecl *)(app::HudManager *,app::PlayerControl *,app::RoleBehaviour *,bool,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -2437,6 +1972,7 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(219,40): error C7595: 'std::
           C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(141,67):
           while evaluating function 'void std::_You_see_this_error_because_arg_id_is_out_of_range(void) noexcept'
   
+  NoShadowBehaviour.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(235,63): error C2664: 'app::GameObject *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(235,63):
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
@@ -2477,64 +2013,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(303,17): error C7595: 'std::
           while evaluating function 'void std::_You_see_this_error_because_arg_id_is_out_of_range(void) noexcept'
   
   PlainDoor.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/InnerNetClient.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'hooks/InnerNetClient.cpp')
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86):
@@ -2581,7 +2059,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(618,70): error C2665: 'R
       D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(618,70):
       while trying to match the argument list '(app::PlayerControl *)'
   
-  PlayerPhysics.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(619,60): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(620,84): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(620,75): error C2665: 'RpcForceColor::RpcForceColor': no overloaded function could convert all the argument types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -2637,6 +2114,7 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(1163,29): error C2065: '
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(1163,74): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(1163,123): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(1169,90): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  PlayerPhysics.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(1170,66): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(1179,90): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(1180,66): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -2702,11 +2180,11 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\RoleManager.cpp(98,5): error C3861: 'Messag
   UnityDebug.cpp
   CmdCheckMurder.cpp
   CustomRpcHandler.cpp
-  RpcPlayerAppearance.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\UnityDebug.cpp(11,2): error C3861: 'Debug_Log': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\UnityDebug.cpp(17,2): error C3861: 'Debug_LogError': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\UnityDebug.cpp(23,2): error C3861: 'Debug_LogException': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\UnityDebug.cpp(29,2): error C3861: 'Debug_LogWarning': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  RpcPlayerAppearance.cpp
   RpcSetRole.cpp
   RpcUsePlatform.cpp
   achievements.cpp
@@ -2843,64 +2321,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\MeetingHud.cpp(336,73): error C2664: 'app::
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
   
   PlayerBanData.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/PlayerControl.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
 D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'hooks/PlayerControl.cpp')
       D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86):
@@ -2936,7 +2356,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(558,110): error C2440: 't
       D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(558,110):
       This conversion requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
   
-  Vent.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(558,161): error C2440: 'type cast': cannot convert from 'app::ChatControllerState__Enum' to 'int' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(558,161):
       This conversion requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
@@ -2983,6 +2402,7 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1201,98): error C2664: 'a
       D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1201,98):
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
   
+  Vent.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1232,96): error C2664: 'app::GameObject *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1232,96):
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
@@ -3098,64 +2518,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Vent.cpp(55,92): error C2664: 'app::Transfo
   
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Vent.cpp(56,33): error C3536: 'ventVector': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   RpcUpdateSystem.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'hooks/_hooks.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(163,2): error C2065: 'Debug_Log': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(164,2): error C2065: 'Debug_LogError': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(165,2): error C2065: 'Debug_LogException': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -3199,64 +2561,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\rpc\RpcSnapTo.cpp(32,3): error C3861: 'MessageWri
   utility.cpp
   il2cpp-init.cpp
   menu.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'user/resources.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
   radar.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(265,58): error C2338: static_assert failed: 'Color32 must be defined as union' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(359,37): error C2039: 'm_stringLength': is not a member of 'app::String__Fields' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -3339,11 +2643,9 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
 D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1118,68): error C2664: 'FieldInfo *(Il2CppClass *,const char *)': cannot convert argument 1 from 'app::PlayerData__Class *' to 'Il2CppClass *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  imgui.cpp
       D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1118,68):
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
   
-  imgui_draw.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1120,61): error C2664: 'Il2CppObject *(FieldInfo *,Il2CppObject *)': cannot convert argument 2 from 'app::PlayerData *' to 'Il2CppObject *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1120,61):
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
@@ -3376,9 +2678,12 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1461,60): error C2664: 'Il2CppOb
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
   
 D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1471,67): error C2664: 'FieldInfo *(Il2CppClass *,const char *)': cannot convert argument 1 from 'app::PlayerData__Class *' to 'Il2CppClass *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  imgui.cpp
       D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1471,67):
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
   
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1473,60): error C2664: 'Il2CppObject *(FieldInfo *,Il2CppObject *)': cannot convert argument 2 from 'app::PlayerData *' to 'Il2CppObject *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
       D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1473,60):
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
@@ -3387,176 +2692,18 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1475,40): error C2664: 'void (ap
       D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1475,40):
       Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
   
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2165,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2165,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2181,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2181,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2188,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2188,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2195,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2195,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2202,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2202,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2209,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2209,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2217,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2217,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2228,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-  imgui_impl_dx11.cpp
   imgui_impl_win32.cpp
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2228,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2239,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2239,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2250,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2250,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2261,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2261,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2267,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2267,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2273,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2273,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2279,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2279,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2285,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2285,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2290,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2290,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2307,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2307,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2314,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2314,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2320,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2320,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2325,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1405,16):
-      see declaration of 'Il2CppClass_0'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2325,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2349,19): error C2039: 'Time_get_time': is not a member of 'app' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-      D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-appdata.h(20,11):
-      see declaration of 'app'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2349,19): error C3861: 'Time_get_time': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   imgui_widgets.cpp
   game.cpp
-D:\a\SickoMenu-v5\SickoMenu-v5\gui\menu.cpp(268,10): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-D:\a\SickoMenu-v5\SickoMenu-v5\gui\menu.cpp(268,37): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\gui\menu.cpp(268,20): error C2039: 'hasOpenedMenuBefore': is not a member of 'Settings' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+      D:\a\SickoMenu-v5\SickoMenu-v5\user\state.hpp(16,7):
+      see declaration of 'Settings'
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\gui\menu.cpp(268,51): error C2039: 'hasOpenedMenuBefore': is not a member of 'Settings' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+      D:\a\SickoMenu-v5\SickoMenu-v5\user\state.hpp(16,7):
+      see declaration of 'Settings'
+  
   main.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(570,28):
-      see declaration of 'IMoniker'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(619,34):
-      see declaration of 'IEnumFORMATETC'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(626,33):
-      see declaration of 'IEnumSTATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(640,31):
-      see declaration of 'IAdviseSink'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(668,31):
-      see declaration of 'IDataObject'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12414,8):
-      could be 'tagSTATDATA STATDATA'
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(418822,8):
-      or       'app::STATDATA'
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'gui/radar.cpp')
-      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(185,32):
-      see declaration of 'IPropertyBag'
-  
   state.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(13,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'user/main.cpp')
@@ -3914,58 +3061,8 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
 "D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.sln" (default target) (1) ->
 "D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj" (default target) (2) ->
 (ClCompile target) -> 
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(56,76): error C2065: 'Camera_MonoOrStereoscopicEye__Enum_Mono': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\about_tab.cpp(48,54): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\about_tab.cpp(48,37): error C7595: 'std::basic_format_string<char>::basic_format_string': call to immediate function is not a constant expression [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\esp_tab.cpp(19,52): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -4003,16 +3100,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
   D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(29,25): error C2993: '<error type>': is not a valid type for non-type template parameter '_Test' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\sabotage_tab.cpp(166,30): error C3536: 'actualSwitches': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\sabotage_tab.cpp(166,91): error C3536: 'expectedSwitches': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(239,58): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(239,8): error C2660: 'ToggleButton': function does not take 1 arguments [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(398,40): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -4021,30 +3108,10 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(520,12): error C2664: 'bool ImGui::ColorEdit4(const char *,float [],ImGuiColorEditFlags)': cannot convert argument 2 from 'int' to 'float []' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\settings_tab.cpp(541,6): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\AirshipStatus.cpp(14,30): error C3861: 'Time_get_deltaTime': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(56,76): error C2065: 'Camera_MonoOrStereoscopicEye__Enum_Mono': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Camera.cpp(20,18): error C2198: 'app::Vector3 (__cdecl *)(app::Camera *,app::Vector3,app::Camera_MonoOrStereoscopicEye__Enum,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Camera.cpp(29,9): error C2198: 'app::Vector3 (__cdecl *)(app::Camera *,app::Vector3,app::Camera_MonoOrStereoscopicEye__Enum,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(56,76): error C2065: 'Camera_MonoOrStereoscopicEye__Enum_Mono': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\DirectX.cpp(66,111): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -4082,16 +3149,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(288,9): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(304,6): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\HudManager.cpp(303,17): error C7595: 'std::basic_format_string<char,const char (&)[7],std::string &,std::string &,std::string &,std::string &,std::string &,std::string &,std::string &,std::string &>::basic_format_string': call to immediate function is not a constant expression [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(56,76): error C2065: 'Camera_MonoOrStereoscopicEye__Enum_Mono': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\InnerNetClient.cpp(29,39): error C2039: 'name': is not a member of 'app::OpenableDoor__Class' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -4179,16 +3236,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\MeetingHud.cpp(332,70): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\MeetingHud.cpp(333,87): error C2664: 'app::Component *(app::Component *,app::Type *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\MeetingHud.cpp(336,73): error C2664: 'app::GameObject *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(32,86): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\gui\esp.hpp(56,76): error C2065: 'Camera_MonoOrStereoscopicEye__Enum_Mono': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(72,49): error C3861: 'Time_get_fixedDeltaTime': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -4239,16 +3286,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Vent.cpp(41,33): error C3536: 'ventVector': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Vent.cpp(55,92): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\Vent.cpp(56,33): error C3536: 'ventVector': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(163,2): error C2065: 'Debug_Log': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(164,2): error C2065: 'Debug_LogError': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(165,2): error C2065: 'Debug_LogException': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -4282,16 +3319,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
   D:\a\SickoMenu-v5\SickoMenu-v5\rpc\RpcSetScanner.cpp(42,3): error C3861: 'MessageWriter_WriteByte': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\rpc\RpcSnapTo.cpp(26,2): error C2197: 'void (__cdecl *)(app::CustomNetworkTransform *,app::Vector2,MethodInfo *)': too many arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\rpc\RpcSnapTo.cpp(32,3): error C3861: 'MessageWriter_WriteUShort': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(265,58): error C2338: static_assert failed: 'Color32 must be defined as union' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(359,37): error C2039: 'm_stringLength': is not a member of 'app::String__Fields' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(381,37): error C2039: 'm_stringLength': is not a member of 'app::String__Fields' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -4316,60 +3343,8 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
   D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1471,67): error C2664: 'FieldInfo *(Il2CppClass *,const char *)': cannot convert argument 1 from 'app::PlayerData__Class *' to 'Il2CppClass *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1473,60): error C2664: 'Il2CppObject *(FieldInfo *,Il2CppObject *)': cannot convert argument 2 from 'app::PlayerData *' to 'Il2CppObject *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1475,40): error C2664: 'void (app::PlayerCustomizationData *,app::String *,MethodInfo *)': cannot convert argument 1 from 'Il2CppObject *' to 'app::PlayerCustomizationData *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2165,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2165,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2181,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2181,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2188,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2188,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2195,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2195,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2202,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2202,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2209,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2209,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2217,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2217,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2228,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2228,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2239,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2239,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2250,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2250,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2261,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2261,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2267,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2267,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2273,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2273,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2279,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2279,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2285,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2285,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2290,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2290,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2307,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2307,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2314,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2314,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2320,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2320,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2325,15): error C2039: 'interfaceOffsets': is not a member of 'Il2CppClass_0' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2325,15): error C7732: expected an expression before ']' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2349,19): error C2039: 'Time_get_time': is not a member of 'app' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(2349,19): error C3861: 'Time_get_time': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\gui\menu.cpp(268,10): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\gui\menu.cpp(268,37): error C2065: 'state': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(10705,5): error C2371: 'IMoniker': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12263,5): error C2371: 'IEnumFORMATETC': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12416,9): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12424,5): error C2371: 'IEnumSTATDATA': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12534,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12775,5): error C2371: 'IAdviseSink': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(13637,5): error C2371: 'IDataObject': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16496,42): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16504,81): error C2872: 'STATDATA': ambiguous symbol [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(5542,5): error C2371: 'IPropertyBag': redefinition; different basic types [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\gui\menu.cpp(268,20): error C2039: 'hasOpenedMenuBefore': is not a member of 'Settings' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\gui\menu.cpp(268,51): error C2039: 'hasOpenedMenuBefore': is not a member of 'Settings' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(13,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(14,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(15,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
@@ -4474,6 +3449,6 @@ D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:        
   D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(99,1): error C1003: error count exceeds 100; stopping compilation [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 
     8 Warning(s)
-    558 Error(s)
+    386 Error(s)
 
-Time Elapsed 00:10:05.44
+Time Elapsed 00:09:43.85
