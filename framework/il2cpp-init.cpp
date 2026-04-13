@@ -1,42 +1,43 @@
 #include "pch-il2cpp.h"
 #include "il2cpp-init.h"
+#include "il2cpp-helpers.h"
 
-#define DO_API(r, n, p) r (*n) p
-#include "il2cpp-api-functions.h"
 using namespace app;
-#undef DO_API
 
-#define DO_APP_FUNC(a, r, n, p) r (*n) p
-#define DO_APP_FUNC_METHODINFO(a, n) MethodInfo* n
-namespace app {
-	#include "il2cpp-functions.h"
-}
-#undef DO_APP_FUNC
-#undef DO_APP_FUNC_METHODINFO
-
+// We only define the Class/TypeInfo pointers here as they are unique to this file
 #define DO_APP_CLASS(n, s) n ## __Class* n ## __TypeInfo
 namespace app {
-	#include "il2cpp-classes.h"
+#include "../appdata/il2cpp-classes.h"
 }
 #undef DO_APP_CLASS
 
 void init_il2cpp()
 {
-	HMODULE moduleHandle = GetModuleHandleW(L"GameAssembly.dll");
+    HMODULE moduleHandle = GetModuleHandleW(L"GameAssembly.dll");
+    if (!moduleHandle) {
+        // Optional: Add a check or log if the DLL isn't found
+        return;
+    }
 
-	#define DO_API(r, n, p) n = (r (*) p)(GetProcAddress(moduleHandle, #n))
-	#include "il2cpp-api-functions.h"
-	#undef DO_API
+    uintptr_t baseAddress = reinterpret_cast<uintptr_t>(moduleHandle);
 
-	using namespace app;
+    // 1. Initialize API Functions
+    // We use the existing symbols from il2cpp-helpers.h and assign their addresses
+    #define DO_API(r, n, p) n = reinterpret_cast<decltype(n)>(GetProcAddress(moduleHandle, #n))
+    #include "../appdata/il2cpp-api-functions.h"
+    #undef DO_API
 
-	#define DO_APP_FUNC(a, r, n, p) n = reinterpret_cast<decltype(n)>(reinterpret_cast<uintptr_t>(moduleHandle) + a)
-	#define DO_APP_FUNC_METHODINFO(a, n) n = reinterpret_cast<MethodInfo*>(reinterpret_cast<uintptr_t>(moduleHandle) + a)
-	#include "il2cpp-functions.h"
-	#undef DO_APP_FUNC
-	#undef DO_APP_FUNC_METHODINFO
+    using namespace app;
 
-	#define DO_APP_CLASS(n, s) n ## __TypeInfo = reinterpret_cast<decltype(n ## __TypeInfo)>(get_class(s))
-	#include "il2cpp-classes.h"
-	#undef DO_APP_CLASS
+    // 2. Initialize App Functions (Game specific functions)
+    #define DO_APP_FUNC(a, r, n, p) n = reinterpret_cast<decltype(n)>(baseAddress + a)
+    #define DO_APP_FUNC_METHODINFO(a, n) n = reinterpret_cast<MethodInfo*>(baseAddress + a)
+    #include "../appdata/il2cpp-functions.h"
+    #undef DO_APP_FUNC
+    #undef DO_APP_FUNC_METHODINFO
+
+    // 3. Initialize Class TypeInfos
+    #define DO_APP_CLASS(n, s) n ## __TypeInfo = reinterpret_cast<decltype(n ## __TypeInfo)>(get_class(s))
+    #include "../appdata/il2cpp-classes.h"
+    #undef DO_APP_CLASS
 }
