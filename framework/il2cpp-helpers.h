@@ -1,12 +1,17 @@
 #pragma once
-#include "../appdata/il2cpp-api-functions.h"
+#include <string>
+#include <vector>
+#include <type_traits>
 
-// Define the macro so the compiler recognizes the functions in the header
+// FIRST: Load all types so the functions know what Il2CppClass, app::Object, etc. are
+#include "../appdata/il2cpp-types.h"
+
+// SECOND: Define macros for the API
 #ifndef DO_API
 #define DO_API(return_type, name, params) extern "C" return_type name params;
 #endif
 
-// Re-include to apply the macro definition to the API list
+// THIRD: Load the API functions
 #include "../appdata/il2cpp-api-functions.h"
 void new_console();
 std::string convert_from_string(Il2CppString* input);
@@ -158,3 +163,17 @@ public:
 private:
 	Il2CppThread* m_AttachedThread;
 };
+
+// Near the bottom of il2cpp-helpers.h
+
+// Define the App Function macros (including the MethodInfo variant)
+#ifndef DO_APP_FUNC
+#define DO_APP_FUNC(address, return_type, name, params) extern "C" return_type name params;
+#endif
+
+#ifndef DO_APP_FUNC_METHODINFO
+#define DO_APP_FUNC_METHODINFO(address, name) extern "C" const MethodInfo* name;
+#endif
+
+// FINALLY: Load the game functions now that all types and macros are ready
+#include "../appdata/il2cpp-functions.h"
