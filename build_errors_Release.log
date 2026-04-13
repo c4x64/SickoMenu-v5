@@ -1,4 +1,4 @@
-Build started 4/13/2026 8:51:14 AM.
+Build started 4/13/2026 8:55:30 AM.
 Logging verbosity is set to: Detailed.Process = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe"
 MSBuild executable path = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe"
 Command line arguments = ""C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe" -property:Configuration=Release -property:PlatformToolset=v143 -fl -flp:logfile=build_errors_Release.log"
@@ -1342,616 +1342,523 @@ Using "CL" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Ent
 Task "CL"
   All source files are not up-to-date: missing command TLog "D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Release\SickoMenu.tlog\CL.command.1.tlog".
   Environment Variables passed to tool:
-    VS_UNICODE_OUTPUT=1804
-    SARIF_OUTPUT_PIPE=1812
+    VS_UNICODE_OUTPUT=1784
+    SARIF_OUTPUT_PIPE=1792
   C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /nologo /W3 /WX- /diagnostics:column /sdl /MP /Ox /Oy- /GL /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Release\"" /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Release\SickoMenu.pch" /Fo"SickoMenu\Release\\" /Fd"SickoMenu\Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
   Tracking command:
-  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Release\SickoMenu.tlog /r D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\PCH-IL2CPP.CPP /b MSBuildConsole_CancelEvent3ec3405883e24a1ba371d2c5fa5f9769  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /nologo /W3 /WX- /diagnostics:column /sdl /MP /Ox /Oy- /GL /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Release\"" /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Release\SickoMenu.pch" /Fo"SickoMenu\Release\\" /Fd"SickoMenu\Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Release\SickoMenu.tlog /r D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\PCH-IL2CPP.CPP /b MSBuildConsole_CancelEvent4eaf298646fe45b5967687de8b468f5f  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /nologo /W3 /WX- /diagnostics:column /sdl /MP /Ox /Oy- /GL /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Release\"" /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Release\SickoMenu.pch" /Fo"SickoMenu\Release\\" /Fd"SickoMenu\Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
   pch-il2cpp.cpp
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(11,13): error C2061: syntax error: identifier 'il2cpp_init' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-appdata.h(7,9): warning C4005: 'DO_API': macro redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(11,9):
+      see previous definition of 'DO_API'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(11,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(11,1): error C2365: 'il2cpp_init': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(11,1):
+      see declaration of 'il2cpp_init'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(12,13): error C2061: syntax error: identifier 'il2cpp_init_utf16' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(12,1): error C2365: 'il2cpp_init_utf16': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(12,1):
+      see declaration of 'il2cpp_init_utf16'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(12,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(13,1): error C2365: 'il2cpp_shutdown': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(13,1):
+      see declaration of 'il2cpp_shutdown'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(13,14): error C2061: syntax error: identifier 'il2cpp_shutdown' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(14,1): error C2365: 'il2cpp_set_config_dir': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(14,1):
+      see declaration of 'il2cpp_set_config_dir'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(13,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(15,1): error C2365: 'il2cpp_set_data_dir': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(15,1):
+      see declaration of 'il2cpp_set_data_dir'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(14,14): error C2061: syntax error: identifier 'il2cpp_set_config_dir' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(16,1): error C2365: 'il2cpp_set_temp_dir': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(16,1):
+      see declaration of 'il2cpp_set_temp_dir'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(14,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(17,1): error C2365: 'il2cpp_set_commandline_arguments': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(17,1):
+      see declaration of 'il2cpp_set_commandline_arguments'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(15,14): error C2061: syntax error: identifier 'il2cpp_set_data_dir' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(18,1): error C2365: 'il2cpp_set_commandline_arguments_utf16': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(18,1):
+      see declaration of 'il2cpp_set_commandline_arguments_utf16'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(15,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(19,1): error C2365: 'il2cpp_set_config_utf16': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(19,1):
+      see declaration of 'il2cpp_set_config_utf16'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(16,14): error C2061: syntax error: identifier 'il2cpp_set_temp_dir' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(20,1): error C2365: 'il2cpp_set_config': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(20,1):
+      see declaration of 'il2cpp_set_config'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(16,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(22,1): error C2365: 'il2cpp_set_memory_callbacks': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(22,1):
+      see declaration of 'il2cpp_set_memory_callbacks'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(17,14): error C2061: syntax error: identifier 'il2cpp_set_commandline_arguments' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(23,1): error C2365: 'il2cpp_get_corlib': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(23,1):
+      see declaration of 'il2cpp_get_corlib'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(17,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(24,1): error C2365: 'il2cpp_add_internal_call': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(24,1):
+      see declaration of 'il2cpp_add_internal_call'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(18,14): error C2061: syntax error: identifier 'il2cpp_set_commandline_arguments_utf16' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(25,1): error C2365: 'il2cpp_resolve_icall': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(25,1):
+      see declaration of 'il2cpp_resolve_icall'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(27,1): error C2365: 'il2cpp_alloc': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(27,1):
+      see declaration of 'il2cpp_alloc'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(19,14): error C2061: syntax error: identifier 'il2cpp_set_config_utf16' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(28,1): error C2365: 'il2cpp_free': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(28,1):
+      see declaration of 'il2cpp_free'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(19,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(31,1): error C2365: 'il2cpp_array_class_get': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(31,1):
+      see declaration of 'il2cpp_array_class_get'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(20,14): error C2061: syntax error: identifier 'il2cpp_set_config' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(32,1): error C2365: 'il2cpp_array_length': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(32,1):
+      see declaration of 'il2cpp_array_length'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(20,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(33,1): error C2365: 'il2cpp_array_get_byte_length': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(33,1):
+      see declaration of 'il2cpp_array_get_byte_length'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(22,14): error C2061: syntax error: identifier 'il2cpp_set_memory_callbacks' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(34,1): error C2365: 'il2cpp_array_new': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(34,1):
+      see declaration of 'il2cpp_array_new'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(22,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(35,1): error C2365: 'il2cpp_array_new_specific': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(35,1):
+      see declaration of 'il2cpp_array_new_specific'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(23,28): error C2061: syntax error: identifier 'il2cpp_get_corlib' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(36,1): error C2365: 'il2cpp_array_new_full': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(36,1):
+      see declaration of 'il2cpp_array_new_full'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(23,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(37,1): error C2365: 'il2cpp_bounded_array_class_get': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(37,1):
+      see declaration of 'il2cpp_bounded_array_class_get'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(24,14): error C2061: syntax error: identifier 'il2cpp_add_internal_call' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(38,1): error C2365: 'il2cpp_array_element_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(38,1):
+      see declaration of 'il2cpp_array_element_size'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(24,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(41,1): error C2365: 'il2cpp_assembly_get_image': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(41,1):
+      see declaration of 'il2cpp_assembly_get_image'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(25,29): error C2061: syntax error: identifier 'il2cpp_resolve_icall' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(44,1): error C2365: 'il2cpp_class_for_each': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(44,1):
+      see declaration of 'il2cpp_class_for_each'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(25,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(45,1): error C2365: 'il2cpp_class_enum_basetype': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(45,1):
+      see declaration of 'il2cpp_class_enum_basetype'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(27,15): error C2061: syntax error: identifier 'il2cpp_alloc' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(46,1): error C2365: 'il2cpp_class_is_generic': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(46,1):
+      see declaration of 'il2cpp_class_is_generic'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(27,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(47,1): error C2365: 'il2cpp_class_is_inflated': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(47,1):
+      see declaration of 'il2cpp_class_is_inflated'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(28,14): error C2061: syntax error: identifier 'il2cpp_free' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(48,1): error C2365: 'il2cpp_class_is_assignable_from': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(48,1):
+      see declaration of 'il2cpp_class_is_assignable_from'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(28,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(49,1): error C2365: 'il2cpp_class_is_subclass_of': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(49,1):
+      see declaration of 'il2cpp_class_is_subclass_of'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(31,22): error C2061: syntax error: identifier 'il2cpp_array_class_get' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(50,1): error C2365: 'il2cpp_class_has_parent': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(50,1):
+      see declaration of 'il2cpp_class_has_parent'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(31,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(51,1): error C2365: 'il2cpp_class_from_il2cpp_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(51,1):
+      see declaration of 'il2cpp_class_from_il2cpp_type'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(32,18): error C2061: syntax error: identifier 'il2cpp_array_length' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(52,1): error C2365: 'il2cpp_class_from_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(52,1):
+      see declaration of 'il2cpp_class_from_name'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(32,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(53,1): error C2365: 'il2cpp_class_from_system_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(53,1):
+      see declaration of 'il2cpp_class_from_system_type'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(33,18): error C2061: syntax error: identifier 'il2cpp_array_get_byte_length' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(54,1): error C2365: 'il2cpp_class_get_element_class': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(54,1):
+      see declaration of 'il2cpp_class_get_element_class'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(33,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(55,1): error C2365: 'il2cpp_class_get_events': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(55,1):
+      see declaration of 'il2cpp_class_get_events'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(34,22): error C2061: syntax error: identifier 'il2cpp_array_new' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(56,1): error C2365: 'il2cpp_class_get_fields': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(56,1):
+      see declaration of 'il2cpp_class_get_fields'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(34,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(57,1): error C2365: 'il2cpp_class_get_nested_types': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(57,1):
+      see declaration of 'il2cpp_class_get_nested_types'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(35,22): error C2061: syntax error: identifier 'il2cpp_array_new_specific' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(58,1): error C2365: 'il2cpp_class_get_interfaces': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(58,1):
+      see declaration of 'il2cpp_class_get_interfaces'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(35,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(59,1): error C2365: 'il2cpp_class_get_properties': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(59,1):
+      see declaration of 'il2cpp_class_get_properties'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(36,22): error C2061: syntax error: identifier 'il2cpp_array_new_full' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(60,1): error C2365: 'il2cpp_class_get_property_from_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(60,1):
+      see declaration of 'il2cpp_class_get_property_from_name'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(36,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(61,1): error C2365: 'il2cpp_class_get_field_from_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(61,1):
+      see declaration of 'il2cpp_class_get_field_from_name'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(37,22): error C2061: syntax error: identifier 'il2cpp_bounded_array_class_get' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(62,1): error C2365: 'il2cpp_class_get_methods': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(62,1):
+      see declaration of 'il2cpp_class_get_methods'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(37,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(63,1): error C2365: 'il2cpp_class_get_method_from_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(63,1):
+      see declaration of 'il2cpp_class_get_method_from_name'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(38,13): error C2061: syntax error: identifier 'il2cpp_array_element_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(64,1): error C2365: 'il2cpp_class_get_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(64,1):
+      see declaration of 'il2cpp_class_get_name'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(38,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(65,1): error C2365: 'il2cpp_type_get_name_chunked': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(65,1):
+      see declaration of 'il2cpp_type_get_name_chunked'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(41,28): error C2061: syntax error: identifier 'il2cpp_assembly_get_image' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(66,1): error C2365: 'il2cpp_class_get_namespace': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(66,1):
+      see declaration of 'il2cpp_class_get_namespace'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(41,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(67,1): error C2365: 'il2cpp_class_get_parent': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(67,1):
+      see declaration of 'il2cpp_class_get_parent'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(44,14): error C2061: syntax error: identifier 'il2cpp_class_for_each' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(68,1): error C2365: 'il2cpp_class_get_declaring_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(68,1):
+      see declaration of 'il2cpp_class_get_declaring_type'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(44,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(69,1): error C2365: 'il2cpp_class_instance_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(69,1):
+      see declaration of 'il2cpp_class_instance_size'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(45,27): error C2061: syntax error: identifier 'il2cpp_class_enum_basetype' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(70,1): error C2365: 'il2cpp_class_num_fields': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(70,1):
+      see declaration of 'il2cpp_class_num_fields'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(45,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(71,1): error C2365: 'il2cpp_class_is_valuetype': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(71,1):
+      see declaration of 'il2cpp_class_is_valuetype'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(46,14): error C2061: syntax error: identifier 'il2cpp_class_is_generic' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(72,1): error C2365: 'il2cpp_class_value_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(72,1):
+      see declaration of 'il2cpp_class_value_size'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(46,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(73,1): error C2365: 'il2cpp_class_is_blittable': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(73,1):
+      see declaration of 'il2cpp_class_is_blittable'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(47,14): error C2061: syntax error: identifier 'il2cpp_class_is_inflated' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(74,1): error C2365: 'il2cpp_class_get_flags': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(74,1):
+      see declaration of 'il2cpp_class_get_flags'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(47,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(75,1): error C2365: 'il2cpp_class_is_abstract': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(75,1):
+      see declaration of 'il2cpp_class_is_abstract'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(48,14): error C2061: syntax error: identifier 'il2cpp_class_is_assignable_from' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(76,1): error C2365: 'il2cpp_class_is_interface': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(76,1):
+      see declaration of 'il2cpp_class_is_interface'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(48,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(77,1): error C2365: 'il2cpp_class_array_element_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(77,1):
+      see declaration of 'il2cpp_class_array_element_size'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(49,14): error C2061: syntax error: identifier 'il2cpp_class_is_subclass_of' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(78,1): error C2365: 'il2cpp_class_from_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(78,1):
+      see declaration of 'il2cpp_class_from_type'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(49,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(79,1): error C2365: 'il2cpp_class_get_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(79,1):
+      see declaration of 'il2cpp_class_get_type'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(50,14): error C2061: syntax error: identifier 'il2cpp_class_has_parent' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(80,1): error C2365: 'il2cpp_class_get_type_token': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(80,1):
+      see declaration of 'il2cpp_class_get_type_token'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(50,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(81,1): error C2365: 'il2cpp_class_has_attribute': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(81,1):
+      see declaration of 'il2cpp_class_has_attribute'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(51,22): error C2061: syntax error: identifier 'il2cpp_class_from_il2cpp_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(82,1): error C2365: 'il2cpp_class_has_references': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(82,1):
+      see declaration of 'il2cpp_class_has_references'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(51,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(83,1): error C2365: 'il2cpp_class_is_enum': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(83,1):
+      see declaration of 'il2cpp_class_is_enum'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(52,22): error C2061: syntax error: identifier 'il2cpp_class_from_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(84,1): error C2365: 'il2cpp_class_get_image': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(84,1):
+      see declaration of 'il2cpp_class_get_image'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(52,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(85,1): error C2365: 'il2cpp_class_get_assemblyname': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(85,1):
+      see declaration of 'il2cpp_class_get_assemblyname'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(53,22): error C2061: syntax error: identifier 'il2cpp_class_from_system_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(86,1): error C2365: 'il2cpp_class_get_rank': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(86,1):
+      see declaration of 'il2cpp_class_get_rank'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(53,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(87,1): error C2365: 'il2cpp_class_get_data_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(87,1):
+      see declaration of 'il2cpp_class_get_data_size'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(54,22): error C2061: syntax error: identifier 'il2cpp_class_get_element_class' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(88,1): error C2365: 'il2cpp_class_get_static_field_data': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(88,1):
+      see declaration of 'il2cpp_class_get_static_field_data'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(54,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(91,1): error C2365: 'il2cpp_class_get_bitmap_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(91,1):
+      see declaration of 'il2cpp_class_get_bitmap_size'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(55,26): error C2061: syntax error: identifier 'il2cpp_class_get_events' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(92,1): error C2365: 'il2cpp_class_get_bitmap': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(92,1):
+      see declaration of 'il2cpp_class_get_bitmap'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(55,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(95,1): error C2365: 'il2cpp_stats_dump_to_file': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(95,1):
+      see declaration of 'il2cpp_stats_dump_to_file'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(56,20): error C2061: syntax error: identifier 'il2cpp_class_get_fields' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(96,1): error C2365: 'il2cpp_stats_get_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(96,1):
+      see declaration of 'il2cpp_stats_get_value'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(56,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(99,1): error C2365: 'il2cpp_domain_get': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(99,1):
+      see declaration of 'il2cpp_domain_get'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(57,22): error C2061: syntax error: identifier 'il2cpp_class_get_nested_types' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(100,1): error C2365: 'il2cpp_domain_assembly_open': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(100,1):
+      see declaration of 'il2cpp_domain_assembly_open'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(57,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(101,1): error C2365: 'il2cpp_domain_get_assemblies': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(101,1):
+      see declaration of 'il2cpp_domain_get_assemblies'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(58,22): error C2061: syntax error: identifier 'il2cpp_class_get_interfaces' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(104,1): error C2365: 'il2cpp_raise_exception': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(104,1):
+      see declaration of 'il2cpp_raise_exception'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(58,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(105,1): error C2365: 'il2cpp_exception_from_name_msg': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(105,1):
+      see declaration of 'il2cpp_exception_from_name_msg'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(59,29): error C2061: syntax error: identifier 'il2cpp_class_get_properties' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(106,1): error C2365: 'il2cpp_get_exception_argument_null': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(106,1):
+      see declaration of 'il2cpp_get_exception_argument_null'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(59,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(107,1): error C2365: 'il2cpp_format_exception': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(107,1):
+      see declaration of 'il2cpp_format_exception'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(60,29): error C2061: syntax error: identifier 'il2cpp_class_get_property_from_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(108,1): error C2365: 'il2cpp_format_stack_trace': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(108,1):
+      see declaration of 'il2cpp_format_stack_trace'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(60,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(109,1): error C2365: 'il2cpp_unhandled_exception': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(109,1):
+      see declaration of 'il2cpp_unhandled_exception'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(61,20): error C2061: syntax error: identifier 'il2cpp_class_get_field_from_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(110,1): error C2365: 'il2cpp_native_stack_trace': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(110,1):
+      see declaration of 'il2cpp_native_stack_trace'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(61,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(113,1): error C2365: 'il2cpp_field_get_flags': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(113,1):
+      see declaration of 'il2cpp_field_get_flags'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(62,27): error C2061: syntax error: identifier 'il2cpp_class_get_methods' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(114,1): error C2365: 'il2cpp_field_get_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(114,1):
+      see declaration of 'il2cpp_field_get_name'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(62,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(115,1): error C2365: 'il2cpp_field_get_parent': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(115,1):
+      see declaration of 'il2cpp_field_get_parent'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(63,27): error C2061: syntax error: identifier 'il2cpp_class_get_method_from_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(116,1): error C2365: 'il2cpp_field_get_offset': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(116,1):
+      see declaration of 'il2cpp_field_get_offset'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(63,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(117,1): error C2365: 'il2cpp_field_get_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(117,1):
+      see declaration of 'il2cpp_field_get_type'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(64,21): error C2061: syntax error: identifier 'il2cpp_class_get_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(118,1): error C2365: 'il2cpp_field_get_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(118,1):
+      see declaration of 'il2cpp_field_get_value'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(64,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(119,1): error C2365: 'il2cpp_field_get_value_object': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(119,1):
+      see declaration of 'il2cpp_field_get_value_object'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(65,14): error C2061: syntax error: identifier 'il2cpp_type_get_name_chunked' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(120,1): error C2365: 'il2cpp_field_has_attribute': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(120,1):
+      see declaration of 'il2cpp_field_has_attribute'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(65,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(121,1): error C2365: 'il2cpp_field_set_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(121,1):
+      see declaration of 'il2cpp_field_set_value'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(66,21): error C2061: syntax error: identifier 'il2cpp_class_get_namespace' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(122,1): error C2365: 'il2cpp_field_static_get_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(122,1):
+      see declaration of 'il2cpp_field_static_get_value'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(66,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(123,1): error C2365: 'il2cpp_field_static_set_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(123,1):
+      see declaration of 'il2cpp_field_static_set_value'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(67,22): error C2061: syntax error: identifier 'il2cpp_class_get_parent' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(124,1): error C2365: 'il2cpp_field_set_value_object': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(124,1):
+      see declaration of 'il2cpp_field_set_value_object'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(67,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(125,1): error C2365: 'il2cpp_field_is_literal': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(125,1):
+      see declaration of 'il2cpp_field_is_literal'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(68,22): error C2061: syntax error: identifier 'il2cpp_class_get_declaring_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(127,1): error C2365: 'il2cpp_gc_collect': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(127,1):
+      see declaration of 'il2cpp_gc_collect'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(68,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(128,1): error C2365: 'il2cpp_gc_collect_a_little': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(128,1):
+      see declaration of 'il2cpp_gc_collect_a_little'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(69,17): error C2061: syntax error: identifier 'il2cpp_class_instance_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(129,1): error C2365: 'il2cpp_gc_start_incremental_collection': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(129,1):
+      see declaration of 'il2cpp_gc_start_incremental_collection'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(69,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,1): error C2365: 'il2cpp_gc_disable': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,1):
+      see declaration of 'il2cpp_gc_disable'
   
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(70,16): error C2061: syntax error: identifier 'il2cpp_class_num_fields' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(70,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(71,14): error C2061: syntax error: identifier 'il2cpp_class_is_valuetype' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(71,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(72,17): error C2061: syntax error: identifier 'il2cpp_class_value_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(72,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(73,14): error C2061: syntax error: identifier 'il2cpp_class_is_blittable' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(73,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(74,13): error C2061: syntax error: identifier 'il2cpp_class_get_flags' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(74,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(75,14): error C2061: syntax error: identifier 'il2cpp_class_is_abstract' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(75,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(76,14): error C2061: syntax error: identifier 'il2cpp_class_is_interface' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(76,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(77,13): error C2061: syntax error: identifier 'il2cpp_class_array_element_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(77,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(78,22): error C2061: syntax error: identifier 'il2cpp_class_from_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(78,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(79,27): error C2061: syntax error: identifier 'il2cpp_class_get_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(79,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(80,18): error C2061: syntax error: identifier 'il2cpp_class_get_type_token' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(80,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(81,14): error C2061: syntax error: identifier 'il2cpp_class_has_attribute' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(81,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(82,14): error C2061: syntax error: identifier 'il2cpp_class_has_references' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(82,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(83,14): error C2061: syntax error: identifier 'il2cpp_class_is_enum' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(83,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(84,28): error C2061: syntax error: identifier 'il2cpp_class_get_image' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(84,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(85,21): error C2061: syntax error: identifier 'il2cpp_class_get_assemblyname' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(85,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(86,13): error C2061: syntax error: identifier 'il2cpp_class_get_rank' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(86,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(87,18): error C2061: syntax error: identifier 'il2cpp_class_get_data_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(87,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(88,15): error C2061: syntax error: identifier 'il2cpp_class_get_static_field_data' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(88,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(91,16): error C2061: syntax error: identifier 'il2cpp_class_get_bitmap_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(91,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(92,14): error C2061: syntax error: identifier 'il2cpp_class_get_bitmap' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(92,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(95,14): error C2061: syntax error: identifier 'il2cpp_stats_dump_to_file' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(95,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(96,18): error C2061: syntax error: identifier 'il2cpp_stats_get_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(96,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(99,23): error C2061: syntax error: identifier 'il2cpp_domain_get' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(99,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(100,31): error C2061: syntax error: identifier 'il2cpp_domain_assembly_open' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(100,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(101,32): error C2061: syntax error: identifier 'il2cpp_domain_get_assemblies' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(101,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(104,1): error C2061: syntax error: identifier 'il2cpp_raise_exception' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(104,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(105,26): error C2061: syntax error: identifier 'il2cpp_exception_from_name_msg' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(105,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(106,26): error C2061: syntax error: identifier 'il2cpp_get_exception_argument_null' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(106,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(107,14): error C2061: syntax error: identifier 'il2cpp_format_exception' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(107,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(108,14): error C2061: syntax error: identifier 'il2cpp_format_stack_trace' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(108,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(109,14): error C2061: syntax error: identifier 'il2cpp_unhandled_exception' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(109,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(110,14): error C2061: syntax error: identifier 'il2cpp_native_stack_trace' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(110,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(113,13): error C2061: syntax error: identifier 'il2cpp_field_get_flags' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(113,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(114,21): error C2061: syntax error: identifier 'il2cpp_field_get_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(114,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(115,22): error C2061: syntax error: identifier 'il2cpp_field_get_parent' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(115,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(116,16): error C2061: syntax error: identifier 'il2cpp_field_get_offset' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(116,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(117,27): error C2061: syntax error: identifier 'il2cpp_field_get_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(117,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(118,14): error C2061: syntax error: identifier 'il2cpp_field_get_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(118,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(119,23): error C2061: syntax error: identifier 'il2cpp_field_get_value_object' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(119,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(120,14): error C2061: syntax error: identifier 'il2cpp_field_has_attribute' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(120,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(121,14): error C2061: syntax error: identifier 'il2cpp_field_set_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(121,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(122,14): error C2061: syntax error: identifier 'il2cpp_field_static_get_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(122,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(123,14): error C2061: syntax error: identifier 'il2cpp_field_static_set_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(123,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(124,14): error C2061: syntax error: identifier 'il2cpp_field_set_value_object' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(124,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(125,14): error C2061: syntax error: identifier 'il2cpp_field_is_literal' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(125,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(127,14): error C2061: syntax error: identifier 'il2cpp_gc_collect' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(127,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(128,17): error C2061: syntax error: identifier 'il2cpp_gc_collect_a_little' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(128,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(129,14): error C2061: syntax error: identifier 'il2cpp_gc_start_incremental_collection' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(129,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,14): error C2061: syntax error: identifier 'il2cpp_gc_disable' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,14): error C1003: error count exceeds 100; stopping compilation [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,1): error C1003: error count exceeds 100; stopping compilation [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
   
   The command exited with code 2.
@@ -1967,210 +1874,116 @@ Build FAILED.
 "D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.sln" (default target) (1) ->
 "D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj" (default target) (2) ->
 (ClCompile target) -> 
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(11,13): error C2061: syntax error: identifier 'il2cpp_init' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(11,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(12,13): error C2061: syntax error: identifier 'il2cpp_init_utf16' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(12,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(13,14): error C2061: syntax error: identifier 'il2cpp_shutdown' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(13,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(14,14): error C2061: syntax error: identifier 'il2cpp_set_config_dir' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(14,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(15,14): error C2061: syntax error: identifier 'il2cpp_set_data_dir' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(15,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(16,14): error C2061: syntax error: identifier 'il2cpp_set_temp_dir' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(16,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(17,14): error C2061: syntax error: identifier 'il2cpp_set_commandline_arguments' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(17,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(18,14): error C2061: syntax error: identifier 'il2cpp_set_commandline_arguments_utf16' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(18,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(19,14): error C2061: syntax error: identifier 'il2cpp_set_config_utf16' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(19,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(20,14): error C2061: syntax error: identifier 'il2cpp_set_config' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(20,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(22,14): error C2061: syntax error: identifier 'il2cpp_set_memory_callbacks' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(22,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(23,28): error C2061: syntax error: identifier 'il2cpp_get_corlib' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(23,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(24,14): error C2061: syntax error: identifier 'il2cpp_add_internal_call' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(24,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(25,29): error C2061: syntax error: identifier 'il2cpp_resolve_icall' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(25,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(27,15): error C2061: syntax error: identifier 'il2cpp_alloc' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(27,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(28,14): error C2061: syntax error: identifier 'il2cpp_free' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(28,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(31,22): error C2061: syntax error: identifier 'il2cpp_array_class_get' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(31,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(32,18): error C2061: syntax error: identifier 'il2cpp_array_length' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(32,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(33,18): error C2061: syntax error: identifier 'il2cpp_array_get_byte_length' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(33,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(34,22): error C2061: syntax error: identifier 'il2cpp_array_new' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(34,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(35,22): error C2061: syntax error: identifier 'il2cpp_array_new_specific' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(35,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(36,22): error C2061: syntax error: identifier 'il2cpp_array_new_full' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(36,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(37,22): error C2061: syntax error: identifier 'il2cpp_bounded_array_class_get' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(37,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(38,13): error C2061: syntax error: identifier 'il2cpp_array_element_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(38,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(41,28): error C2061: syntax error: identifier 'il2cpp_assembly_get_image' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(41,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(44,14): error C2061: syntax error: identifier 'il2cpp_class_for_each' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(44,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(45,27): error C2061: syntax error: identifier 'il2cpp_class_enum_basetype' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(45,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(46,14): error C2061: syntax error: identifier 'il2cpp_class_is_generic' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(46,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(47,14): error C2061: syntax error: identifier 'il2cpp_class_is_inflated' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(47,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(48,14): error C2061: syntax error: identifier 'il2cpp_class_is_assignable_from' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(48,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(49,14): error C2061: syntax error: identifier 'il2cpp_class_is_subclass_of' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(49,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(50,14): error C2061: syntax error: identifier 'il2cpp_class_has_parent' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(50,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(51,22): error C2061: syntax error: identifier 'il2cpp_class_from_il2cpp_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(51,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(52,22): error C2061: syntax error: identifier 'il2cpp_class_from_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(52,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(53,22): error C2061: syntax error: identifier 'il2cpp_class_from_system_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(53,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(54,22): error C2061: syntax error: identifier 'il2cpp_class_get_element_class' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(54,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(55,26): error C2061: syntax error: identifier 'il2cpp_class_get_events' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(55,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(56,20): error C2061: syntax error: identifier 'il2cpp_class_get_fields' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(56,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(57,22): error C2061: syntax error: identifier 'il2cpp_class_get_nested_types' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(57,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(58,22): error C2061: syntax error: identifier 'il2cpp_class_get_interfaces' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(58,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(59,29): error C2061: syntax error: identifier 'il2cpp_class_get_properties' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(59,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(60,29): error C2061: syntax error: identifier 'il2cpp_class_get_property_from_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(60,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(61,20): error C2061: syntax error: identifier 'il2cpp_class_get_field_from_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(61,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(62,27): error C2061: syntax error: identifier 'il2cpp_class_get_methods' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(62,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(63,27): error C2061: syntax error: identifier 'il2cpp_class_get_method_from_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(63,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(64,21): error C2061: syntax error: identifier 'il2cpp_class_get_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(64,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(65,14): error C2061: syntax error: identifier 'il2cpp_type_get_name_chunked' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(65,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(66,21): error C2061: syntax error: identifier 'il2cpp_class_get_namespace' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(66,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(67,22): error C2061: syntax error: identifier 'il2cpp_class_get_parent' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(67,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(68,22): error C2061: syntax error: identifier 'il2cpp_class_get_declaring_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(68,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(69,17): error C2061: syntax error: identifier 'il2cpp_class_instance_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(69,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(70,16): error C2061: syntax error: identifier 'il2cpp_class_num_fields' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(70,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(71,14): error C2061: syntax error: identifier 'il2cpp_class_is_valuetype' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(71,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(72,17): error C2061: syntax error: identifier 'il2cpp_class_value_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(72,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(73,14): error C2061: syntax error: identifier 'il2cpp_class_is_blittable' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(73,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(74,13): error C2061: syntax error: identifier 'il2cpp_class_get_flags' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(74,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(75,14): error C2061: syntax error: identifier 'il2cpp_class_is_abstract' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(75,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(76,14): error C2061: syntax error: identifier 'il2cpp_class_is_interface' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(76,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(77,13): error C2061: syntax error: identifier 'il2cpp_class_array_element_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(77,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(78,22): error C2061: syntax error: identifier 'il2cpp_class_from_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(78,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(79,27): error C2061: syntax error: identifier 'il2cpp_class_get_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(79,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(80,18): error C2061: syntax error: identifier 'il2cpp_class_get_type_token' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(80,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(81,14): error C2061: syntax error: identifier 'il2cpp_class_has_attribute' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(81,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(82,14): error C2061: syntax error: identifier 'il2cpp_class_has_references' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(82,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(83,14): error C2061: syntax error: identifier 'il2cpp_class_is_enum' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(83,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(84,28): error C2061: syntax error: identifier 'il2cpp_class_get_image' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(84,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(85,21): error C2061: syntax error: identifier 'il2cpp_class_get_assemblyname' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(85,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(86,13): error C2061: syntax error: identifier 'il2cpp_class_get_rank' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(86,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(87,18): error C2061: syntax error: identifier 'il2cpp_class_get_data_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(87,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(88,15): error C2061: syntax error: identifier 'il2cpp_class_get_static_field_data' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(88,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(91,16): error C2061: syntax error: identifier 'il2cpp_class_get_bitmap_size' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(91,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(92,14): error C2061: syntax error: identifier 'il2cpp_class_get_bitmap' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(92,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(95,14): error C2061: syntax error: identifier 'il2cpp_stats_dump_to_file' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(95,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(96,18): error C2061: syntax error: identifier 'il2cpp_stats_get_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(96,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(99,23): error C2061: syntax error: identifier 'il2cpp_domain_get' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(99,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(100,31): error C2061: syntax error: identifier 'il2cpp_domain_assembly_open' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(100,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(101,32): error C2061: syntax error: identifier 'il2cpp_domain_get_assemblies' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(101,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(104,1): error C2061: syntax error: identifier 'il2cpp_raise_exception' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(104,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(105,26): error C2061: syntax error: identifier 'il2cpp_exception_from_name_msg' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(105,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(106,26): error C2061: syntax error: identifier 'il2cpp_get_exception_argument_null' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(106,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(107,14): error C2061: syntax error: identifier 'il2cpp_format_exception' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(107,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(108,14): error C2061: syntax error: identifier 'il2cpp_format_stack_trace' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(108,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(109,14): error C2061: syntax error: identifier 'il2cpp_unhandled_exception' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(109,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(110,14): error C2061: syntax error: identifier 'il2cpp_native_stack_trace' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(110,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(113,13): error C2061: syntax error: identifier 'il2cpp_field_get_flags' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(113,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(114,21): error C2061: syntax error: identifier 'il2cpp_field_get_name' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(114,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(115,22): error C2061: syntax error: identifier 'il2cpp_field_get_parent' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(115,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(116,16): error C2061: syntax error: identifier 'il2cpp_field_get_offset' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(116,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(117,27): error C2061: syntax error: identifier 'il2cpp_field_get_type' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(117,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(118,14): error C2061: syntax error: identifier 'il2cpp_field_get_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(118,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(119,23): error C2061: syntax error: identifier 'il2cpp_field_get_value_object' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(119,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(120,14): error C2061: syntax error: identifier 'il2cpp_field_has_attribute' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(120,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(121,14): error C2061: syntax error: identifier 'il2cpp_field_set_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(121,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(122,14): error C2061: syntax error: identifier 'il2cpp_field_static_get_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(122,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(123,14): error C2061: syntax error: identifier 'il2cpp_field_static_set_value' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(123,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(124,14): error C2061: syntax error: identifier 'il2cpp_field_set_value_object' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(124,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(125,14): error C2061: syntax error: identifier 'il2cpp_field_is_literal' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(125,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(127,14): error C2061: syntax error: identifier 'il2cpp_gc_collect' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(127,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(128,17): error C2061: syntax error: identifier 'il2cpp_gc_collect_a_little' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(128,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(129,14): error C2061: syntax error: identifier 'il2cpp_gc_start_incremental_collection' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(129,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,14): error C2061: syntax error: identifier 'il2cpp_gc_disable' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,14): error C1003: error count exceeds 100; stopping compilation [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-appdata.h(7,9): warning C4005: 'DO_API': macro redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 
-    0 Warning(s)
-    202 Error(s)
 
-Time Elapsed 00:00:29.05
+"D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.sln" (default target) (1) ->
+"D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj" (default target) (2) ->
+(ClCompile target) -> 
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(11,1): error C2365: 'il2cpp_init': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(12,1): error C2365: 'il2cpp_init_utf16': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(13,1): error C2365: 'il2cpp_shutdown': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(14,1): error C2365: 'il2cpp_set_config_dir': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(15,1): error C2365: 'il2cpp_set_data_dir': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(16,1): error C2365: 'il2cpp_set_temp_dir': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(17,1): error C2365: 'il2cpp_set_commandline_arguments': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(18,1): error C2365: 'il2cpp_set_commandline_arguments_utf16': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(19,1): error C2365: 'il2cpp_set_config_utf16': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(20,1): error C2365: 'il2cpp_set_config': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(22,1): error C2365: 'il2cpp_set_memory_callbacks': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(23,1): error C2365: 'il2cpp_get_corlib': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(24,1): error C2365: 'il2cpp_add_internal_call': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(25,1): error C2365: 'il2cpp_resolve_icall': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(27,1): error C2365: 'il2cpp_alloc': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(28,1): error C2365: 'il2cpp_free': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(31,1): error C2365: 'il2cpp_array_class_get': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(32,1): error C2365: 'il2cpp_array_length': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(33,1): error C2365: 'il2cpp_array_get_byte_length': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(34,1): error C2365: 'il2cpp_array_new': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(35,1): error C2365: 'il2cpp_array_new_specific': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(36,1): error C2365: 'il2cpp_array_new_full': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(37,1): error C2365: 'il2cpp_bounded_array_class_get': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(38,1): error C2365: 'il2cpp_array_element_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(41,1): error C2365: 'il2cpp_assembly_get_image': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(44,1): error C2365: 'il2cpp_class_for_each': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(45,1): error C2365: 'il2cpp_class_enum_basetype': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(46,1): error C2365: 'il2cpp_class_is_generic': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(47,1): error C2365: 'il2cpp_class_is_inflated': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(48,1): error C2365: 'il2cpp_class_is_assignable_from': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(49,1): error C2365: 'il2cpp_class_is_subclass_of': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(50,1): error C2365: 'il2cpp_class_has_parent': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(51,1): error C2365: 'il2cpp_class_from_il2cpp_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(52,1): error C2365: 'il2cpp_class_from_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(53,1): error C2365: 'il2cpp_class_from_system_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(54,1): error C2365: 'il2cpp_class_get_element_class': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(55,1): error C2365: 'il2cpp_class_get_events': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(56,1): error C2365: 'il2cpp_class_get_fields': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(57,1): error C2365: 'il2cpp_class_get_nested_types': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(58,1): error C2365: 'il2cpp_class_get_interfaces': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(59,1): error C2365: 'il2cpp_class_get_properties': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(60,1): error C2365: 'il2cpp_class_get_property_from_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(61,1): error C2365: 'il2cpp_class_get_field_from_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(62,1): error C2365: 'il2cpp_class_get_methods': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(63,1): error C2365: 'il2cpp_class_get_method_from_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(64,1): error C2365: 'il2cpp_class_get_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(65,1): error C2365: 'il2cpp_type_get_name_chunked': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(66,1): error C2365: 'il2cpp_class_get_namespace': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(67,1): error C2365: 'il2cpp_class_get_parent': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(68,1): error C2365: 'il2cpp_class_get_declaring_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(69,1): error C2365: 'il2cpp_class_instance_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(70,1): error C2365: 'il2cpp_class_num_fields': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(71,1): error C2365: 'il2cpp_class_is_valuetype': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(72,1): error C2365: 'il2cpp_class_value_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(73,1): error C2365: 'il2cpp_class_is_blittable': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(74,1): error C2365: 'il2cpp_class_get_flags': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(75,1): error C2365: 'il2cpp_class_is_abstract': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(76,1): error C2365: 'il2cpp_class_is_interface': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(77,1): error C2365: 'il2cpp_class_array_element_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(78,1): error C2365: 'il2cpp_class_from_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(79,1): error C2365: 'il2cpp_class_get_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(80,1): error C2365: 'il2cpp_class_get_type_token': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(81,1): error C2365: 'il2cpp_class_has_attribute': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(82,1): error C2365: 'il2cpp_class_has_references': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(83,1): error C2365: 'il2cpp_class_is_enum': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(84,1): error C2365: 'il2cpp_class_get_image': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(85,1): error C2365: 'il2cpp_class_get_assemblyname': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(86,1): error C2365: 'il2cpp_class_get_rank': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(87,1): error C2365: 'il2cpp_class_get_data_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(88,1): error C2365: 'il2cpp_class_get_static_field_data': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(91,1): error C2365: 'il2cpp_class_get_bitmap_size': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(92,1): error C2365: 'il2cpp_class_get_bitmap': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(95,1): error C2365: 'il2cpp_stats_dump_to_file': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(96,1): error C2365: 'il2cpp_stats_get_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(99,1): error C2365: 'il2cpp_domain_get': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(100,1): error C2365: 'il2cpp_domain_assembly_open': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(101,1): error C2365: 'il2cpp_domain_get_assemblies': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(104,1): error C2365: 'il2cpp_raise_exception': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(105,1): error C2365: 'il2cpp_exception_from_name_msg': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(106,1): error C2365: 'il2cpp_get_exception_argument_null': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(107,1): error C2365: 'il2cpp_format_exception': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(108,1): error C2365: 'il2cpp_format_stack_trace': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(109,1): error C2365: 'il2cpp_unhandled_exception': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(110,1): error C2365: 'il2cpp_native_stack_trace': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(113,1): error C2365: 'il2cpp_field_get_flags': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(114,1): error C2365: 'il2cpp_field_get_name': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(115,1): error C2365: 'il2cpp_field_get_parent': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(116,1): error C2365: 'il2cpp_field_get_offset': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(117,1): error C2365: 'il2cpp_field_get_type': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(118,1): error C2365: 'il2cpp_field_get_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(119,1): error C2365: 'il2cpp_field_get_value_object': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(120,1): error C2365: 'il2cpp_field_has_attribute': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(121,1): error C2365: 'il2cpp_field_set_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(122,1): error C2365: 'il2cpp_field_static_get_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(123,1): error C2365: 'il2cpp_field_static_set_value': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(124,1): error C2365: 'il2cpp_field_set_value_object': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(125,1): error C2365: 'il2cpp_field_is_literal': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(127,1): error C2365: 'il2cpp_gc_collect': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(128,1): error C2365: 'il2cpp_gc_collect_a_little': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(129,1): error C2365: 'il2cpp_gc_start_incremental_collection': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,1): error C2365: 'il2cpp_gc_disable': redefinition; previous definition was 'function' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-api-functions.h(130,1): error C1003: error count exceeds 100; stopping compilation [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+
+    1 Warning(s)
+    102 Error(s)
+
+Time Elapsed 00:00:19.91
