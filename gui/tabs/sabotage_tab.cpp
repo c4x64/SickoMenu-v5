@@ -10,6 +10,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
+#include "../framework/il2cpp-helpers.h"
 using namespace app;
 
 namespace SabotageTab {

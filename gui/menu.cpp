@@ -20,6 +20,7 @@
 #include "gui-helpers.hpp"
 #include <map>
 #include <vector>
+#include "../framework/il2cpp-helpers.h"
 #include <string>
 using namespace app;
 
