@@ -1,4 +1,4 @@
-Build started 4/13/2026 8:07:28 AM.
+Build started 4/13/2026 8:36:16 AM.
 Logging verbosity is set to: Detailed.Process = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe"
 MSBuild executable path = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe"
 Command line arguments = ""C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe" -property:Configuration=Debug -property:PlatformToolset=v143 -fl -flp:logfile=build_errors_Debug.log"
@@ -1348,441 +1348,720 @@ Using "CL" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Ent
 Task "CL"
   Forcing recompile of all source files due to missing PDB "SickoMenu\Debug\vc143.pdb".
   Environment Variables passed to tool:
-    VS_UNICODE_OUTPUT=1784
-    SARIF_OUTPUT_PIPE=1792
+    VS_UNICODE_OUTPUT=1580
+    SARIF_OUTPUT_PIPE=1584
   C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Debug\SickoMenu.pch" /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
   Tracking command:
-  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Debug\SickoMenu.tlog /r D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\PCH-IL2CPP.CPP /b MSBuildConsole_CancelEvent3b7d142283d54fe089c3dbdfa5c50dce  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Debug\SickoMenu.pch" /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Debug\SickoMenu.tlog /r D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\PCH-IL2CPP.CPP /b MSBuildConsole_CancelEventca0dc2065f9f4ca6b650b9b7377b6893  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Debug\SickoMenu.pch" /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
   pch-il2cpp.cpp
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18734,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19763,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19786,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19833,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19834,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19836,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19838,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19994,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20224,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20353,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20355,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20356,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20368,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20373,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20374,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20574,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(21431,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(22184,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(22185,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(22186,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(22187,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(23487,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(29840,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(30962,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(145484,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(145485,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(224986,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(224987,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(254587,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327915,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327916,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327917,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327918,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327919,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327920,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327921,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327922,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(328406,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(328407,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(328408,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(706252,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(706255,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(708954,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(708977,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(709067,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(709068,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(709070,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(709072,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(720427,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796265,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796411,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796413,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796414,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796415,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796416,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796417,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(797243,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820275,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820276,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820277,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820278,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820279,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820392,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(931143,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017354,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017441,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017442,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017443,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017444,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017647,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017648,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017649,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017650,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017704,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017706,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1071989,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1239703,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1239766,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1277766,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1277802,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1277869,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1299738,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1534469,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1544198,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1544256,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
-  
-D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1593685,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  (compiling source file 'framework/pch-il2cpp.cpp')
-      D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18721,7):
-      see declaration of 'app::Color32'
+Done executing task "CL".
+Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' != 'true') was evaluated as ('Use' == 'Create' and '' == '' and 'false' != 'true').
+Task "CL"
+  Read Tracking Logs:
+  	SickoMenu\Debug\SickoMenu.tlog\CL.read.1.tlog
+  Outputs for D:\A\SICKOMENU-V5\SICKOMENU-V5\APPDATA\IL2CPP-FUNCTIONS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CASTVOTEEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CHEATDETECTEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\DISCONNECTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\KILLEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\PROTECTPLAYEREVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\REPORTDEADBODYEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\SHAPESHIFTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\TASKCOMPLETEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\VENTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\WALKEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\DLLMAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\IL2CPP-INIT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\CONSOLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\ESP.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\GUI-HELPERS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\MENU.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RADAR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERCMD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\REPLAY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ABOUT_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DEBUG_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DOORS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ESP_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\GAME_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\HOST_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\PLAYERS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\RADAR_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\REPLAY_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SABOTAGE_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SELF_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SETTINGS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\TASKS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\THEME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ACCOUNTMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\AIRSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CAMERA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CHAT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DIRECTX.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DLEKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DOORS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EOSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EXILECONTROLLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\FUNGLESHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\GAMEOPTIONSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\HUDMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\INNERNETCLIENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\KEYBOARDJOYSTICK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\LOBBYBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\MEETINGHUD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\NOSHADOWBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAINDOOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERBANDATA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERCONTROL.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERPHYSICS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERSTORAGEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\POLUSSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ROLEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SABOTAGESYSTEMTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SAVEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SCENEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\UNITYDEBUG.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\VENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\_HOOKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\CRC32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DETOURS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DISASM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\MODULES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DIRECTX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_DRAW.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_DX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_WIN32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_WIDGETS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CMDCHECKMURDER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CUSTOMRPCHANDLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCLOSEDOORSOFTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCOMPLETETASK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCMURDERPLAYER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYANIMATION.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYERAPPEARANCE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCREPORTBODY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETCOLOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETNAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETROLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETSCANNER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSNAPTO.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUPDATESYSTEM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUSEPLATFORM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\ACHIEVEMENTS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\GAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\KEYBINDS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\LOGGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\MAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\PROFILER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\RESOURCES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\STATE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\UTILITY.CPP:
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\IL2CPP-FUNCTIONS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\CASTVOTEEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\CHEATDETECTEDEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DISCONNECTEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\KILLEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\PROTECTPLAYEREVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\REPORTDEADBODYEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\SHAPESHIFTEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\TASKCOMPLETEDEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\VENTEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\WALKEVENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\CONSOLE.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\ESP.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\GUI-HELPERS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RENDERCMD.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RENDERER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\REPLAY.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\ABOUT_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DEBUG_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DOORS_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\ESP_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\GAME_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\HOST_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\PLAYERS_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RADAR_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\REPLAY_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\SABOTAGE_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\SETTINGS_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\TASKS_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\ACCOUNTMANAGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\AIRSHIPSTATUS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\CAMERA.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DIRECTX.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DLEKS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\EOSMANAGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\EXILECONTROLLER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\FUNGLESHIPSTATUS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\GAMEOPTIONSMANAGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\HUDMANAGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\INNERNETCLIENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\LOBBYBEHAVIOUR.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\NOSHADOWBEHAVIOUR.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\PLAINDOOR.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\PLAYERPHYSICS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\PLAYERSTORAGEMANAGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\POLUSSHIPSTATUS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\ROLEMANAGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\SABOTAGESYSTEMTYPE.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\SAVEMANAGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\UNITYDEBUG.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\CMDCHECKMURDER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\CUSTOMRPCHANDLER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCPLAYERAPPEARANCE.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCSETROLE.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCUSEPLATFORM.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\ACHIEVEMENTS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\KEYBINDS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCSETCOLOR.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCSETNAME.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\CRC32.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DIRECTX11.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DETOURS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DISASM.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\MODULES.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\THEME.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCCOMPLETETASK.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCCLOSEDOORSOFTYPE.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DLLMAIN.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\CHAT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\DOORS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\KEYBOARDJOYSTICK.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\MEETINGHUD.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\PLAYERCONTROL.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\SCENEMANAGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\SHIPSTATUS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\PLAYERBANDATA.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\VENT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\_HOOKS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCMURDERPLAYER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCPLAYANIMATION.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCUPDATESYSTEM.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCREPORTBODY.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCSETSCANNER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RPCSNAPTO.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\SELF_TAB.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\LOGGER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\PROFILER.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RESOURCES.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\UTILITY.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\IL2CPP-INIT.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\MENU.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\RADAR.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\IMGUI.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\IMGUI_DRAW.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\IMGUI_IMPL_DX11.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\IMGUI_IMPL_WIN32.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\IMGUI_WIDGETS.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\GAME.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\MAIN.OBJ
+  	D:\A\SICKOMENU-V5\SICKOMENU-V5\SICKOMENU\DEBUG\STATE.OBJ
+  appdata\il2cpp-functions.cpp will be compiled because it was not found in the tracking log.
+  events\CastVoteEvent.cpp will be compiled because it was not found in the tracking log.
+  events\CheatDetectedEvent.cpp will be compiled because it was not found in the tracking log.
+  events\DisconnectEvent.cpp will be compiled because it was not found in the tracking log.
+  events\KillEvent.cpp will be compiled because it was not found in the tracking log.
+  events\ProtectPlayerEvent.cpp will be compiled because it was not found in the tracking log.
+  events\ReportDeadBodyEvent.cpp will be compiled because it was not found in the tracking log.
+  events\ShapeShiftEvent.cpp will be compiled because it was not found in the tracking log.
+  events\TaskCompletedEvent.cpp will be compiled because it was not found in the tracking log.
+  events\VentEvent.cpp will be compiled because it was not found in the tracking log.
+  events\WalkEvent.cpp will be compiled because it was not found in the tracking log.
+  framework\dllmain.cpp will be compiled because it was not found in the tracking log.
+  framework\il2cpp-init.cpp will be compiled because it was not found in the tracking log.
+  gui\RenderCmd.cpp will be compiled because it was not found in the tracking log.
+  gui\Renderer.cpp will be compiled because it was not found in the tracking log.
+  gui\console.cpp will be compiled because it was not found in the tracking log.
+  gui\esp.cpp will be compiled because it was not found in the tracking log.
+  gui\gui-helpers.cpp will be compiled because it was not found in the tracking log.
+  gui\menu.cpp will be compiled because it was not found in the tracking log.
+  gui\radar.cpp will be compiled because it was not found in the tracking log.
+  gui\replay.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\about_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\debug_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\doors_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\esp_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\game_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\host_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\players_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\radar_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\replay_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\sabotage_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\self_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\settings_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\tabs\tasks_tab.cpp will be compiled because it was not found in the tracking log.
+  gui\theme.cpp will be compiled because it was not found in the tracking log.
+  hooks\AccountManager.cpp will be compiled because it was not found in the tracking log.
+  hooks\AirshipStatus.cpp will be compiled because it was not found in the tracking log.
+  hooks\Camera.cpp will be compiled because it was not found in the tracking log.
+  hooks\Chat.cpp will be compiled because it was not found in the tracking log.
+  hooks\DirectX.cpp will be compiled because it was not found in the tracking log.
+  hooks\Dleks.cpp will be compiled because it was not found in the tracking log.
+  hooks\Doors.cpp will be compiled because it was not found in the tracking log.
+  hooks\EOSManager.cpp will be compiled because it was not found in the tracking log.
+  hooks\ExileController.cpp will be compiled because it was not found in the tracking log.
+  hooks\FungleShipStatus.cpp will be compiled because it was not found in the tracking log.
+  hooks\GameOptionsManager.cpp will be compiled because it was not found in the tracking log.
+  hooks\HudManager.cpp will be compiled because it was not found in the tracking log.
+  hooks\InnerNetClient.cpp will be compiled because it was not found in the tracking log.
+  hooks\KeyboardJoystick.cpp will be compiled because it was not found in the tracking log.
+  hooks\LobbyBehaviour.cpp will be compiled because it was not found in the tracking log.
+  hooks\MeetingHud.cpp will be compiled because it was not found in the tracking log.
+  hooks\NoShadowBehaviour.cpp will be compiled because it was not found in the tracking log.
+  hooks\PlainDoor.cpp will be compiled because it was not found in the tracking log.
+  hooks\PlayerBanData.cpp will be compiled because it was not found in the tracking log.
+  hooks\PlayerControl.cpp will be compiled because it was not found in the tracking log.
+  hooks\PlayerPhysics.cpp will be compiled because it was not found in the tracking log.
+  hooks\PlayerStorageManager.cpp will be compiled because it was not found in the tracking log.
+  hooks\PolusShipStatus.cpp will be compiled because it was not found in the tracking log.
+  hooks\RoleManager.cpp will be compiled because it was not found in the tracking log.
+  hooks\SabotageSystemType.cpp will be compiled because it was not found in the tracking log.
+  hooks\SaveManager.cpp will be compiled because it was not found in the tracking log.
+  hooks\SceneManager.cpp will be compiled because it was not found in the tracking log.
+  hooks\ShipStatus.cpp will be compiled because it was not found in the tracking log.
+  hooks\UnityDebug.cpp will be compiled because it was not found in the tracking log.
+  hooks\Vent.cpp will be compiled because it was not found in the tracking log.
+  hooks\_hooks.cpp will be compiled because it was not found in the tracking log.
+  includes\crc32.cpp will be compiled because it was not found in the tracking log.
+  includes\detours\detours.cpp will be compiled because it was not found in the tracking log.
+  includes\detours\disasm.cpp will be compiled because it was not found in the tracking log.
+  includes\detours\modules.cpp will be compiled because it was not found in the tracking log.
+  includes\directx11.cpp will be compiled because it was not found in the tracking log.
+  includes\imgui\imgui.cpp will be compiled because it was not found in the tracking log.
+  includes\imgui\imgui_draw.cpp will be compiled because it was not found in the tracking log.
+  includes\imgui\imgui_impl_dx11.cpp will be compiled because it was not found in the tracking log.
+  includes\imgui\imgui_impl_win32.cpp will be compiled because it was not found in the tracking log.
+  includes\imgui\imgui_widgets.cpp will be compiled because it was not found in the tracking log.
+  rpc\CmdCheckMurder.cpp will be compiled because it was not found in the tracking log.
+  rpc\CustomRpcHandler.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcCloseDoorsOfType.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcCompleteTask.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcMurderPlayer.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcPlayAnimation.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcPlayerAppearance.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcReportBody.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcSetColor.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcSetName.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcSetRole.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcSetScanner.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcSnapTo.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcUpdateSystem.cpp will be compiled because it was not found in the tracking log.
+  rpc\RpcUsePlatform.cpp will be compiled because it was not found in the tracking log.
+  user\achievements.cpp will be compiled because it was not found in the tracking log.
+  user\game.cpp will be compiled because it was not found in the tracking log.
+  user\keybinds.cpp will be compiled because it was not found in the tracking log.
+  user\logger.cpp will be compiled because it was not found in the tracking log.
+  user\main.cpp will be compiled because it was not found in the tracking log.
+  user\profiler.cpp will be compiled because it was not found in the tracking log.
+  user\resources.cpp will be compiled because it was not found in the tracking log.
+  user\state.cpp will be compiled because it was not found in the tracking log.
+  user\utility.cpp will be compiled because it was not found in the tracking log.
+  No output for D:\A\SICKOMENU-V5\SICKOMENU-V5\APPDATA\IL2CPP-FUNCTIONS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CASTVOTEEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CHEATDETECTEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\DISCONNECTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\KILLEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\PROTECTPLAYEREVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\REPORTDEADBODYEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\SHAPESHIFTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\TASKCOMPLETEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\VENTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\WALKEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\DLLMAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\IL2CPP-INIT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\CONSOLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\ESP.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\GUI-HELPERS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\MENU.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RADAR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERCMD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\REPLAY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ABOUT_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DEBUG_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DOORS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ESP_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\GAME_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\HOST_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\PLAYERS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\RADAR_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\REPLAY_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SABOTAGE_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SELF_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SETTINGS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\TASKS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\THEME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ACCOUNTMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\AIRSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CAMERA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CHAT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DIRECTX.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DLEKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DOORS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EOSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EXILECONTROLLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\FUNGLESHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\GAMEOPTIONSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\HUDMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\INNERNETCLIENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\KEYBOARDJOYSTICK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\LOBBYBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\MEETINGHUD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\NOSHADOWBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAINDOOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERBANDATA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERCONTROL.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERPHYSICS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERSTORAGEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\POLUSSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ROLEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SABOTAGESYSTEMTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SAVEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SCENEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\UNITYDEBUG.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\VENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\_HOOKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\CRC32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DETOURS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DISASM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\MODULES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DIRECTX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_DRAW.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_DX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_WIN32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_WIDGETS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CMDCHECKMURDER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CUSTOMRPCHANDLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCLOSEDOORSOFTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCOMPLETETASK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCMURDERPLAYER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYANIMATION.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYERAPPEARANCE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCREPORTBODY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETCOLOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETNAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETROLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETSCANNER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSNAPTO.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUPDATESYSTEM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUSEPLATFORM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\ACHIEVEMENTS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\GAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\KEYBINDS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\LOGGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\MAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\PROFILER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\RESOURCES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\STATE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\UTILITY.CPP was found in the tracking log; source compilation required.
+  Write Tracking Logs:
+  	SickoMenu\Debug\SickoMenu.tlog\CL.write.1.tlog
+  Environment Variables passed to tool:
+    VS_UNICODE_OUTPUT=1916
+    SARIF_OUTPUT_PIPE=1800
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "appdata\il2cpp-functions.cpp" events\CastVoteEvent.cpp events\CheatDetectedEvent.cpp events\DisconnectEvent.cpp events\KillEvent.cpp events\ProtectPlayerEvent.cpp events\ReportDeadBodyEvent.cpp events\ShapeShiftEvent.cpp events\TaskCompletedEvent.cpp events\VentEvent.cpp events\WalkEvent.cpp gui\console.cpp gui\esp.cpp "gui\gui-helpers.cpp" gui\RenderCmd.cpp gui\Renderer.cpp gui\replay.cpp gui\tabs\about_tab.cpp gui\tabs\debug_tab.cpp gui\tabs\doors_tab.cpp gui\tabs\esp_tab.cpp gui\tabs\game_tab.cpp gui\tabs\host_tab.cpp gui\tabs\players_tab.cpp gui\tabs\radar_tab.cpp gui\tabs\replay_tab.cpp gui\tabs\sabotage_tab.cpp gui\tabs\settings_tab.cpp gui\tabs\tasks_tab.cpp hooks\AccountManager.cpp hooks\AirshipStatus.cpp hooks\Camera.cpp hooks\DirectX.cpp hooks\Dleks.cpp hooks\EOSManager.cpp hooks\ExileController.cpp hooks\FungleShipStatus.cpp hooks\GameOptionsManager.cpp hooks\HudManager.cpp hooks\InnerNetClient.cpp hooks\LobbyBehaviour.cpp hooks\NoShadowBehaviour.cpp hooks\PlainDoor.cpp hooks\PlayerPhysics.cpp hooks\PlayerStorageManager.cpp hooks\PolusShipStatus.cpp hooks\RoleManager.cpp hooks\SabotageSystemType.cpp hooks\SaveManager.cpp hooks\UnityDebug.cpp rpc\CmdCheckMurder.cpp rpc\CustomRpcHandler.cpp rpc\RpcPlayerAppearance.cpp rpc\RpcSetRole.cpp rpc\RpcUsePlatform.cpp user\achievements.cpp user\keybinds.cpp rpc\RpcSetColor.cpp rpc\RpcSetName.cpp includes\crc32.cpp includes\directx11.cpp includes\detours\detours.cpp includes\detours\disasm.cpp includes\detours\modules.cpp gui\theme.cpp rpc\RpcCompleteTask.cpp rpc\RpcCloseDoorsOfType.cpp framework\dllmain.cpp hooks\Chat.cpp hooks\Doors.cpp hooks\KeyboardJoystick.cpp hooks\MeetingHud.cpp hooks\PlayerControl.cpp hooks\SceneManager.cpp hooks\ShipStatus.cpp hooks\PlayerBanData.cpp hooks\Vent.cpp hooks\_hooks.cpp rpc\RpcMurderPlayer.cpp rpc\RpcPlayAnimation.cpp rpc\RpcUpdateSystem.cpp rpc\RpcReportBody.cpp rpc\RpcSetScanner.cpp rpc\RpcSnapTo.cpp gui\tabs\self_tab.cpp user\logger.cpp user\profiler.cpp user\resources.cpp user\utility.cpp "framework\il2cpp-init.cpp" gui\menu.cpp gui\radar.cpp includes\imgui\imgui.cpp includes\imgui\imgui_draw.cpp includes\imgui\imgui_impl_dx11.cpp includes\imgui\imgui_impl_win32.cpp includes\imgui\imgui_widgets.cpp user\game.cpp user\main.cpp user\state.cpp
+  Tracking command:
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Debug\SickoMenu.tlog /r "D:\A\SICKOMENU-V5\SICKOMENU-V5\APPDATA\IL2CPP-FUNCTIONS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CASTVOTEEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\CHEATDETECTEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\DISCONNECTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\KILLEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\PROTECTPLAYEREVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\REPORTDEADBODYEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\SHAPESHIFTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\TASKCOMPLETEDEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\VENTEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\EVENTS\WALKEVENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\DLLMAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\IL2CPP-INIT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\CONSOLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\ESP.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\GUI-HELPERS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\MENU.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RADAR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERCMD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\RENDERER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\REPLAY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ABOUT_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DEBUG_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\DOORS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\ESP_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\GAME_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\HOST_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\PLAYERS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\RADAR_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\REPLAY_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SABOTAGE_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SELF_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\SETTINGS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\TABS\TASKS_TAB.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\GUI\THEME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ACCOUNTMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\AIRSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CAMERA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\CHAT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DIRECTX.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DLEKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\DOORS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EOSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\EXILECONTROLLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\FUNGLESHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\GAMEOPTIONSMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\HUDMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\INNERNETCLIENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\KEYBOARDJOYSTICK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\LOBBYBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\MEETINGHUD.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\NOSHADOWBEHAVIOUR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAINDOOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERBANDATA.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERCONTROL.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERPHYSICS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\PLAYERSTORAGEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\POLUSSHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\ROLEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SABOTAGESYSTEMTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SAVEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SCENEMANAGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\SHIPSTATUS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\UNITYDEBUG.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\VENT.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\HOOKS\_HOOKS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\CRC32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DETOURS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\DISASM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DETOURS\MODULES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\DIRECTX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_DRAW.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_DX11.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_IMPL_WIN32.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\INCLUDES\IMGUI\IMGUI_WIDGETS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CMDCHECKMURDER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\CUSTOMRPCHANDLER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCLOSEDOORSOFTYPE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCCOMPLETETASK.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCMURDERPLAYER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYANIMATION.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCPLAYERAPPEARANCE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCREPORTBODY.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETCOLOR.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETNAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETROLE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSETSCANNER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCSNAPTO.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUPDATESYSTEM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\RPC\RPCUSEPLATFORM.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\ACHIEVEMENTS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\GAME.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\KEYBINDS.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\LOGGER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\MAIN.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\PROFILER.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\RESOURCES.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\STATE.CPP|D:\A\SICKOMENU-V5\SICKOMENU-V5\USER\UTILITY.CPP" /b MSBuildConsole_CancelEventd3d18ff6d64d4d089fcc8c9b69790cfc  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /Oy- /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Debug\"" /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Fo"SickoMenu\Debug\\" /Fd"SickoMenu\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:queue /utf-8 "appdata\il2cpp-functions.cpp" events\CastVoteEvent.cpp events\CheatDetectedEvent.cpp events\DisconnectEvent.cpp events\KillEvent.cpp events\ProtectPlayerEvent.cpp events\ReportDeadBodyEvent.cpp events\ShapeShiftEvent.cpp events\TaskCompletedEvent.cpp events\VentEvent.cpp events\WalkEvent.cpp gui\console.cpp gui\esp.cpp "gui\gui-helpers.cpp" gui\RenderCmd.cpp gui\Renderer.cpp gui\replay.cpp gui\tabs\about_tab.cpp gui\tabs\debug_tab.cpp gui\tabs\doors_tab.cpp gui\tabs\esp_tab.cpp gui\tabs\game_tab.cpp gui\tabs\host_tab.cpp gui\tabs\players_tab.cpp gui\tabs\radar_tab.cpp gui\tabs\replay_tab.cpp gui\tabs\sabotage_tab.cpp gui\tabs\settings_tab.cpp gui\tabs\tasks_tab.cpp hooks\AccountManager.cpp hooks\AirshipStatus.cpp hooks\Camera.cpp hooks\DirectX.cpp hooks\Dleks.cpp hooks\EOSManager.cpp hooks\ExileController.cpp hooks\FungleShipStatus.cpp hooks\GameOptionsManager.cpp hooks\HudManager.cpp hooks\InnerNetClient.cpp hooks\LobbyBehaviour.cpp hooks\NoShadowBehaviour.cpp hooks\PlainDoor.cpp hooks\PlayerPhysics.cpp hooks\PlayerStorageManager.cpp hooks\PolusShipStatus.cpp hooks\RoleManager.cpp hooks\SabotageSystemType.cpp hooks\SaveManager.cpp hooks\UnityDebug.cpp rpc\CmdCheckMurder.cpp rpc\CustomRpcHandler.cpp rpc\RpcPlayerAppearance.cpp rpc\RpcSetRole.cpp rpc\RpcUsePlatform.cpp user\achievements.cpp user\keybinds.cpp rpc\RpcSetColor.cpp rpc\RpcSetName.cpp includes\crc32.cpp includes\directx11.cpp includes\detours\detours.cpp includes\detours\disasm.cpp includes\detours\modules.cpp gui\theme.cpp rpc\RpcCompleteTask.cpp rpc\RpcCloseDoorsOfType.cpp framework\dllmain.cpp hooks\Chat.cpp hooks\Doors.cpp hooks\KeyboardJoystick.cpp hooks\MeetingHud.cpp hooks\PlayerControl.cpp hooks\SceneManager.cpp hooks\ShipStatus.cpp hooks\PlayerBanData.cpp hooks\Vent.cpp hooks\_hooks.cpp rpc\RpcMurderPlayer.cpp rpc\RpcPlayAnimation.cpp rpc\RpcUpdateSystem.cpp rpc\RpcReportBody.cpp rpc\RpcSetScanner.cpp rpc\RpcSnapTo.cpp gui\tabs\self_tab.cpp user\logger.cpp user\profiler.cpp user\resources.cpp user\utility.cpp "framework\il2cpp-init.cpp" gui\menu.cpp gui\radar.cpp includes\imgui\imgui.cpp includes\imgui\imgui_draw.cpp includes\imgui\imgui_impl_dx11.cpp includes\imgui\imgui_impl_win32.cpp includes\imgui\imgui_widgets.cpp user\game.cpp user\main.cpp user\state.cpp
+  il2cpp-functions.cpp
+  CastVoteEvent.cpp
+  CheatDetectedEvent.cpp
+  DisconnectEvent.cpp
+  KillEvent.cpp
+  ProtectPlayerEvent.cpp
+  ReportDeadBodyEvent.cpp
+  ShapeShiftEvent.cpp
+  TaskCompletedEvent.cpp
+  VentEvent.cpp
+  WalkEvent.cpp
+  console.cpp
+  esp.cpp
+  gui-helpers.cpp
+  RenderCmd.cpp
+  Renderer.cpp
+  replay.cpp
+  about_tab.cpp
+  debug_tab.cpp
+  doors_tab.cpp
+  esp_tab.cpp
+  game_tab.cpp
+  host_tab.cpp
+  players_tab.cpp
+  radar_tab.cpp
+  replay_tab.cpp
+  sabotage_tab.cpp
+  settings_tab.cpp
+  tasks_tab.cpp
+  AccountManager.cpp
+  AirshipStatus.cpp
+D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(44,19): error C3861: 'il2cpp_class_get_method_from_name': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'gui/tabs/sabotage_tab.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(44,19):
+      'il2cpp_class_get_method_from_name': function was not declared in the template definition context and can be found only via argument-dependent lookup in the instantiation context
+      D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(44,19):
+      the template instantiation context (the oldest one first) is
+          D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\sabotage_tab.cpp(160,78):
+          see reference to class template instantiation 'app::il2cpp::Dictionary<app::Dictionary_2_SystemTypes_ISystemType_>' being compiled
+          D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(41,12):
+          while compiling class template member function 'app::ISystemType *app::il2cpp::Dictionary<app::Dictionary_2_SystemTypes_ISystemType_>::operator [](const app::SystemTypes__Enum &) const'
+              D:\a\SickoMenu-v5\SickoMenu-v5\gui\tabs\sabotage_tab.cpp(160,43):
+              see the first reference to 'app::il2cpp::Dictionary<app::Dictionary_2_SystemTypes_ISystemType_>::operator []' in 'SabotageTab::Render'
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(47,9): error C3536: 'num': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'gui/tabs/sabotage_tab.cpp')
+  
+  Camera.cpp
+  DirectX.cpp
+  Dleks.cpp
+  EOSManager.cpp
+  ExileController.cpp
+  FungleShipStatus.cpp
+  GameOptionsManager.cpp
+  HudManager.cpp
+  InnerNetClient.cpp
+  LobbyBehaviour.cpp
+  NoShadowBehaviour.cpp
+  PlainDoor.cpp
+  PlayerPhysics.cpp
+  PlayerStorageManager.cpp
+  PolusShipStatus.cpp
+  RoleManager.cpp
+  SabotageSystemType.cpp
+  SaveManager.cpp
+  UnityDebug.cpp
+  CmdCheckMurder.cpp
+  CustomRpcHandler.cpp
+  RpcPlayerAppearance.cpp
+  RpcSetRole.cpp
+  RpcUsePlatform.cpp
+  achievements.cpp
+  keybinds.cpp
+  RpcSetColor.cpp
+D:\a\SickoMenu-v5\SickoMenu-v5\user\keybinds.cpp(4,17): error C2871: 'app': a namespace with this name does not exist [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\keybinds.cpp(4,17): error C2065: 'app': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  RpcSetName.cpp
+  crc32.cpp
+  directx11.cpp
+  detours.cpp
+  disasm.cpp
+  modules.cpp
+  theme.cpp
+  RpcCompleteTask.cpp
+  RpcCloseDoorsOfType.cpp
+  dllmain.cpp
+  Chat.cpp
+  Doors.cpp
+  KeyboardJoystick.cpp
+  MeetingHud.cpp
+  PlayerControl.cpp
+  SceneManager.cpp
+  ShipStatus.cpp
+  PlayerBanData.cpp
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1187,97): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+      D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1187,97):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1201,98): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+      D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1201,98):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1739,3): error C2198: 'void (__cdecl *)(app::PlayerControl *,bool,uint8_t,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  Vent.cpp
+  _hooks.cpp
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(1,1): warning C4828: The file contains a character starting at offset 0x284 that is illegal in the current source character set (codepage 65001). [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(1,1): warning C4828: The file contains a character starting at offset 0x2ff that is illegal in the current source character set (codepage 65001). [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  RpcMurderPlayer.cpp
+  RpcPlayAnimation.cpp
+  RpcUpdateSystem.cpp
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(163,2): error C2065: 'Debug_Log': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(164,2): error C2065: 'Debug_LogError': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(165,2): error C2065: 'Debug_LogException': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(166,2): error C2065: 'Debug_LogWarning': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(210,2): error C2065: 'Constants_1_GetBroadcastVersion': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(211,2): error C2065: 'Constants_1_IsVersionModded': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(340,2): error C2065: 'Debug_Log': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(341,2): error C2065: 'Debug_LogError': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(342,2): error C2065: 'Debug_LogException': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(343,2): error C2065: 'Debug_LogWarning': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(385,2): error C2065: 'Constants_1_GetBroadcastVersion': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(386,2): error C2065: 'Constants_1_IsVersionModded': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  RpcReportBody.cpp
+  RpcSetScanner.cpp
+  RpcSnapTo.cpp
+  self_tab.cpp
+  logger.cpp
+D:\a\SickoMenu-v5\SickoMenu-v5\rpc\RpcSetScanner.cpp(14,3): error C2198: 'void (__cdecl *)(app::PlayerControl *,bool,uint8_t,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  profiler.cpp
+  resources.cpp
+  utility.cpp
+  il2cpp-init.cpp
+  menu.cpp
+  radar.cpp
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(44,19): error C3861: 'il2cpp_class_get_method_from_name': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/utility.cpp')
+      D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(44,19):
+      'il2cpp_class_get_method_from_name': function was not declared in the template definition context and can be found only via argument-dependent lookup in the instantiation context
+      D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(44,19):
+      the template instantiation context (the oldest one first) is
+          D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1238,30):
+          see reference to class template instantiation 'app::il2cpp::Dictionary<app::Dictionary_2_PlayerOutfitType_NetworkedPlayerInfo_PlayerOutfit_>' being compiled
+          D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(41,12):
+          while compiling class template member function 'app::NetworkedPlayerInfo_PlayerOutfit *app::il2cpp::Dictionary<app::Dictionary_2_PlayerOutfitType_NetworkedPlayerInfo_PlayerOutfit_>::operator [](const app::PlayerOutfitType__Enum &) const'
+              D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1240,21):
+              see the first reference to 'app::il2cpp::Dictionary<app::Dictionary_2_PlayerOutfitType_NetworkedPlayerInfo_PlayerOutfit_>::operator []' in 'GetPlayerOutfit'
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(47,9): error C3536: 'num': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/utility.cpp')
+  
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  game.cpp
+  main.cpp
+  state.cpp
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(13,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(14,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(15,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(16,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(17,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(18,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(19,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(20,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(21,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(22,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(23,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(24,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(25,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(26,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(27,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(28,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(29,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(29,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(30,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(30,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(31,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(32,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(32,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(33,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(34,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(35,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(36,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(37,1): error C2275: 'app::String': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(37,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(38,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(39,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(40,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(41,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(42,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(43,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(44,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(45,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(46,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(47,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(48,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(49,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(49,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(50,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(51,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(52,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(53,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(53,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(54,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(55,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(56,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(57,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(58,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(59,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(60,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(61,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(62,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(63,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(64,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(65,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(66,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(67,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(68,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(69,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(70,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(71,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(72,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(73,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(73,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(74,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(75,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(76,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(76,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(77,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(78,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(79,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(80,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(80,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(81,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(82,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(83,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(83,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(84,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(85,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(86,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(87,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(87,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(88,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(89,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(90,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(90,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(91,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(92,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(93,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(94,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(94,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(95,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(96,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(97,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(97,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(98,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(99,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
+  
+D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(99,1): error C1003: error count exceeds 100; stopping compilation [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  (compiling source file 'user/main.cpp')
   
   The command exited with code 2.
 Done executing task "CL" -- FAILED.
@@ -1797,94 +2076,169 @@ Build FAILED.
 "D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.sln" (default target) (1) ->
 "D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj" (default target) (2) ->
 (ClCompile target) -> 
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18734,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19763,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19786,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19833,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19834,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19836,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19838,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(19994,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20224,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20353,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20355,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20356,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20368,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20373,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20374,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(20574,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(21431,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(22184,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(22185,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(22186,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(22187,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(23487,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(29840,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(30962,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(145484,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(145485,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(224986,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(224987,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(254587,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327915,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327916,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327917,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327918,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327919,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327920,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327921,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(327922,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(328406,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(328407,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(328408,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(706252,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(706255,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(708954,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(708977,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(709067,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(709068,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(709070,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(709072,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(720427,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796265,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796411,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796413,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796414,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796415,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796416,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(796417,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(797243,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820275,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820276,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820277,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820278,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820279,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(820392,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(931143,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017354,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017441,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017442,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017443,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017444,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017647,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017648,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017649,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017650,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017704,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1017706,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1071989,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1239703,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1239766,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1277766,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1277802,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1277869,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1299738,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1534469,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1544198,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1544256,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
-  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(1593685,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(1,1): warning C4828: The file contains a character starting at offset 0x284 that is illegal in the current source character set (codepage 65001). [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(1,1): warning C4828: The file contains a character starting at offset 0x2ff that is illegal in the current source character set (codepage 65001). [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1041,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1042,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1043,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1045,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1046,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:         with [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:         [ [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:             _Ty=int [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+D:\a\SickoMenu-v5\SickoMenu-v5\user\utility.cpp(1047,34): warning C4244:         ] [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
 
-    0 Warning(s)
-    86 Error(s)
 
-Time Elapsed 00:00:22.62
+"D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.sln" (default target) (1) ->
+"D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj" (default target) (2) ->
+(ClCompile target) -> 
+  D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(44,19): error C3861: 'il2cpp_class_get_method_from_name': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(47,9): error C3536: 'num': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\user\keybinds.cpp(4,17): error C2871: 'app': a namespace with this name does not exist [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\user\keybinds.cpp(4,17): error C2065: 'app': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1187,97): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1201,98): error C2664: 'app::Transform *(app::Component *,MethodInfo *)': cannot convert argument 1 from 'app::Component_1 *' to 'app::Component *' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\PlayerControl.cpp(1739,3): error C2198: 'void (__cdecl *)(app::PlayerControl *,bool,uint8_t,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(163,2): error C2065: 'Debug_Log': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(164,2): error C2065: 'Debug_LogError': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(165,2): error C2065: 'Debug_LogException': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(166,2): error C2065: 'Debug_LogWarning': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(210,2): error C2065: 'Constants_1_GetBroadcastVersion': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(211,2): error C2065: 'Constants_1_IsVersionModded': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(340,2): error C2065: 'Debug_Log': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(341,2): error C2065: 'Debug_LogError': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(342,2): error C2065: 'Debug_LogException': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(343,2): error C2065: 'Debug_LogWarning': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(385,2): error C2065: 'Constants_1_GetBroadcastVersion': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\hooks\_hooks.cpp(386,2): error C2065: 'Constants_1_IsVersionModded': undeclared identifier [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\rpc\RpcSetScanner.cpp(14,3): error C2198: 'void (__cdecl *)(app::PlayerControl *,bool,uint8_t,MethodInfo *)': too few arguments for call [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(44,19): error C3861: 'il2cpp_class_get_method_from_name': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\framework\il2cpp-helpers.h(47,9): error C3536: 'num': cannot be used before it is initialized [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(13,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(14,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(15,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(16,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(17,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(18,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(19,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(20,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(21,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(22,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(23,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(24,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(25,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(26,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(27,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(28,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(29,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(29,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(30,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(30,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(31,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(32,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(32,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(33,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(34,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(35,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(36,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(37,1): error C2275: 'app::String': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(37,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(38,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(39,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(40,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(41,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(42,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(43,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(44,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(45,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(46,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(47,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(48,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(49,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(49,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(50,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(51,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(52,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(53,1): error C2275: 'app::IEnumerator': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(53,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(54,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(55,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(56,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(57,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(58,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(59,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(60,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(61,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(62,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(63,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(64,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(65,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(66,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(67,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(68,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(69,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(70,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(71,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(72,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(73,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(73,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(74,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(75,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(76,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(76,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(77,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(78,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(79,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(80,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(80,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(81,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(82,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(83,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(83,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(84,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(85,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(86,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(87,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(87,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(88,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(89,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(90,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(90,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(91,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(92,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(93,1): error C2062: type 'bool' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(94,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(94,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(95,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(96,1): error C3861: 'DO_APP_FUNC_METHODINFO': identifier not found [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(97,1): error C2275: 'app::Object': expected an expression instead of a type [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(97,1): error C2059: syntax error: ')' [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(98,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(99,1): error C2062: type 'void' unexpected [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+  D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-functions.h(99,1): error C1003: error count exceeds 100; stopping compilation [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
+
+    8 Warning(s)
+    124 Error(s)
+
+Time Elapsed 00:10:34.11
