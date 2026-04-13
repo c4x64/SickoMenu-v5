@@ -7,10 +7,10 @@ using namespace app;
 using namespace std::string_view_literals;
 
 static bool OpenDoor(OpenableDoor* door) {
-    if ("PlainDoor"sv == door->klass->name) {
+    if ("PlainDoor"sv == door->klass->_0.name) {
         app::PlainDoor_SetDoorway(reinterpret_cast<PlainDoor*>(door), true, {});
     }
-    else if ("MushroomWallDoor"sv == door->klass->name) {
+    else if ("MushroomWallDoor"sv == door->klass->_0.name) {
         app::MushroomWallDoor_SetDoorway(reinterpret_cast<MushroomWallDoor*>(door), true, {});
     }
     else {
@@ -24,7 +24,7 @@ void dDoorBreakerGame_Start(DoorBreakerGame* __this, MethodInfo* method) {
     if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dDoorBreakerGame_Start executed");
     if (!MenuState.PanicMode && MenuState.AutoOpenDoors) {
         if (OpenDoor(__this->fields.MyDoor)) {
-            Minigame_Close((Minigame*)__this, {});
+            Minigame_Close((Minigame*)__this, true, nullptr);
             return;
         }
     }
@@ -35,7 +35,7 @@ void dDoorCardSwipeGame_Begin(DoorCardSwipeGame* __this, PlayerTask* playerTask,
     if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dDoorCardSwipeGame_Begin executed");
     if (!MenuState.PanicMode && MenuState.AutoOpenDoors) {
         if (OpenDoor(__this->fields.MyDoor)) {
-            Minigame_Close((Minigame*)__this, {});
+            Minigame_Close((Minigame*)__this, true, nullptr);
             return;
         }
     }
@@ -47,7 +47,7 @@ void dMushroomDoorSabotageMinigame_Begin(MushroomDoorSabotageMinigame* __this, P
     if (!MenuState.PanicMode) {
         if (MenuState.AutoOpenDoors) {
             if (OpenDoor(__this->fields.myDoor)) {
-                Minigame_Close((Minigame*)__this, {});
+                Minigame_Close((Minigame*)__this, true, nullptr);
                 return;
             }
         }

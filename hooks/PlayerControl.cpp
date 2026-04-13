@@ -132,7 +132,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 				if ((IsHost() || !MenuState.SafeMode) && MenuState.ServerSideCustomName) {
 					if (nameDelay <= 0) {
 						auto customName = GetCustomName(convert_from_string(NetworkedPlayerInfo_get_PlayerName(GetPlayerData(__this), nullptr)), false, 0, offset);
-						if (MenuState.ForceNameForEveryone && !(__this == *Game::pLocalPlayer && MenuState.SetName)) customName = GetCustomName(state.hostUserName, true, __this->fields.PlayerId);
+						if (MenuState.ForceNameForEveryone && !(__this == *Game::pLocalPlayer && MenuState.SetName)) customName = GetCustomName(MenuState.hostUserName, true, __this->fields.PlayerId);
 						if ((__this == *Game::pLocalPlayer || MenuState.CustomNameForEveryone) &&
 							customName != convert_from_string(
 								MenuState.SetName && __this == *Game::pLocalPlayer ? convert_to_string(MenuState.userName) :
@@ -260,7 +260,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 				std::string playerIdCol = getHexCodeFromImVec4(MenuState.PlayerIdColor);
 				std::string levelCol = getHexCodeFromImVec4(MenuState.LevelColor);
 				std::string platformCol = getHexCodeFromImVec4(MenuState.PlatformColor);
-				std::string hostCol = getHexCodeFromImVec4(state.hostColor);
+				std::string hostCol = getHexCodeFromImVec4(MenuState.HostColor);
 				std::string friendCol = getHexCodeFromImVec4(MenuState.FriendCodeColor);
 
 				if (isNameLocked && isBlacklisted) {
@@ -439,7 +439,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 								float num = (MenuState.RotateRadius * cos(f + rotationOffset)) + position.x;
 								float num2 = (MenuState.RotateRadius * sin(f + rotationOffset)) + position.y;
 								Vector2 target = { num, num2 };
-								CustomNetworkTransform_SnapTo(player->fields.NetTransform, target, player->fields.NetTransform->fields.lastSequenceId + 1, NULL);
+								CustomNetworkTransform_SnapTo_1(player->fields.NetTransform, target, player->fields.NetTransform->fields.lastSequenceId + 1, NULL);
 								rotateDelay = 0;//25 * float(GetAllPlayerControl().size());
 								f += 360 * 0.017453292f / float(GetAllPlayerControl().size());
 							}
@@ -528,7 +528,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 					pair = MenuState.protectMonitor[__this->fields.PlayerId];
 				}
 				const float ProtectionDurationSeconds = options.GetFloat(app::FloatOptionNames__Enum::ProtectionDurationSeconds, 1.0F);
-				float _Duration = ProtectionDurationSeconds - (app::Time_get_time(nullptr) - pair.second);
+				float _Duration = ProtectionDurationSeconds - (Time_get_time(nullptr) - pair.second);
 				options.SetFloat(app::FloatOptionNames__Enum::ProtectionDurationSeconds, _Duration);
 				if (_Duration > 0.f)
 					app::PlayerControl_TurnOnProtection(__this, MenuState.ShowProtections, pair.first, __this->fields.protectedByGuardianId, nullptr);
@@ -539,7 +539,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 				&& !MenuState.playerToFollow.has_value() && !MenuState.PanicMode) {
 				auto mainCamera = Camera_get_main(NULL);
 
-				Transform* cameraTransform = Component_get_transform((Component_1*)mainCamera, NULL);
+				Transform* cameraTransform = Component_get_transform((Component*)mainCamera, NULL);
 				Vector3 cameraVector3 = Transform_get_position(cameraTransform, NULL);
 				Transform_set_position(cameraTransform, { cameraVector3.x, cameraVector3.y, 1000 }, NULL);
 			}*/
@@ -554,7 +554,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 					};
 				}
 				if (MenuState.FollowerCam != nullptr) {
-					auto chatState = Game::HudManager.GetInstance()->fields.Chat->fields.MenuState;
+					auto chatState = Game::HudManager.GetInstance()->fields.Chat->fields.state;
 					bool chatOpen = chatState == ChatControllerState__Enum::Open || chatState == ChatControllerState__Enum::Opening || chatState == ChatControllerState__Enum::Closing;
 					float oldCamHeight = Camera_get_orthographicSize(MenuState.FollowerCam, NULL);
 					float camHeight = (MenuState.EnableZoom && !MenuState.InMeeting && !chatOpen && (MenuState.GameLoaded || IsInLobby()) && !MenuState.PanicMode) ?
@@ -572,7 +572,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 					else
 						Camera_set_orthographicSize(MenuState.FollowerCam, 3.0f, NULL);*/
 
-					Transform* cameraTransform = Component_get_transform((Component_1*)MenuState.FollowerCam, NULL);
+					Transform* cameraTransform = Component_get_transform((Component*)MenuState.FollowerCam, NULL);
 					Vector3 cameraVector3 = Transform_get_position(cameraTransform, NULL);
 					if (MenuState.EnableZoom && !MenuState.InMeeting && MenuState.CameraHeight > 3.0f)
 						Transform_set_position(cameraTransform, { cameraVector3.x, cameraVector3.y, 100 }, NULL);
@@ -583,14 +583,14 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 				if (role->fields.CanUseKillButton && !playerData->fields.IsDead) {
 					if (__this->fields.ForceKillTimerContinue
 						|| app::PlayerControl_get_IsKillTimerEnabled(__this, nullptr)) {
-						__this->fields.killTimer = (std::max)(__this->fields.killTimer - app::Time_get_fixedDeltaTime(nullptr), 0.f);
+						__this->fields.killTimer = (std::max)(__this->fields.killTimer - Time_get_fixedDeltaTime(nullptr), 0.f);
 					}
 				}
 			}
 
 			/*bool shouldSeeGhost = (MenuState.ShowGhosts && !MenuState.PanicMode) || localData->fields.IsDead;
 			if (playerData->fields.IsDead && __this->fields.cosmetics != NULL) {
-				auto nameObject = Component_get_gameObject((Component_1*)__this->fields.cosmetics->fields.nameText, NULL);
+				auto nameObject = Component_get_gameObject((Component*)__this->fields.cosmetics->fields.nameText, NULL);
 				GameObject_SetActive(nameObject, true, NULL);
 			}*/
 
@@ -621,7 +621,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 			if (!MenuState.FreeCam && __this == *Game::pLocalPlayer && MenuState.prevCamPos.x != NULL) {
 				auto mainCamera = Camera_get_main(NULL);
 
-				Transform* cameraTransform = Component_get_transform((Component_1*)mainCamera, NULL);
+				Transform* cameraTransform = Component_get_transform((Component*)mainCamera, NULL);
 				Vector3 cameraVector3 = Transform_get_position(cameraTransform, NULL);
 				Transform_set_position(cameraTransform, MenuState.prevCamPos, NULL);
 
@@ -632,7 +632,7 @@ void dPlayerControl_FixedUpdate(PlayerControl* __this, MethodInfo* method) {
 			if (MenuState.FreeCam && __this == *Game::pLocalPlayer && !MenuState.PanicMode) {
 				auto mainCamera = Camera_get_main(NULL);
 
-				Transform* cameraTransform = Component_get_transform((Component_1*)mainCamera, NULL);
+				Transform* cameraTransform = Component_get_transform((Component*)mainCamera, NULL);
 				Vector3 cameraVector3 = Transform_get_position(cameraTransform, NULL);
 
 				if (MenuState.camPos.x == NULL) {
@@ -1229,7 +1229,7 @@ void dGameObject_SetActive(GameObject* __this, bool value, MethodInfo* method)
 					if (((playerInfo->fields.IsDead && MenuState.ShowGhosts) || (!playerInfo->fields.IsDead && player->fields.shouldAppearInvisible && MenuState.ShowPhantoms)) ||
 						(!playerInfo->fields.IsDead && MenuState.RevealRoles))
 					{
-						auto nameObject = Component_get_gameObject((Component_1*)player->fields.cosmetics->fields.nameText, NULL);
+						auto nameObject = Component_get_gameObject((Component*)player->fields.cosmetics->fields.nameText, NULL);
 						if (nameObject == __this) {
 							value = true;
 							break;
@@ -1237,7 +1237,7 @@ void dGameObject_SetActive(GameObject* __this, bool value, MethodInfo* method)
 					}
 					else if ((playerInfo->fields.IsDead || (!playerInfo->fields.IsDead && player->fields.shouldAppearInvisible))
 						&& !MenuState.RevealRoles) {
-						auto nameObject = Component_get_gameObject((Component_1*)player->fields.cosmetics->fields.nameText, NULL);
+						auto nameObject = Component_get_gameObject((Component*)player->fields.cosmetics->fields.nameText, NULL);
 						if (nameObject == __this) {
 							value = false;
 							break;
@@ -1317,7 +1317,7 @@ void dPlayerControl_TurnOnProtection(PlayerControl* __this, bool visible, int32_
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dPlayerControl_TurnOnProtection executed");
 	try {
 		app::PlayerControl_TurnOnProtection(__this, visible || MenuState.ShowProtections, colorId, guardianPlayerId, method);
-		std::pair pair{ colorId, app::Time_get_time(nullptr) };
+		std::pair<Game::ColorId, float> pair{ colorId, Time_get_time(nullptr) };
 		synchronized(MenuState.protectMutex) {
 			MenuState.protectMonitor[__this->fields.PlayerId] = pair;
 		}

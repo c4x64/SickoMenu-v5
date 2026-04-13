@@ -356,7 +356,7 @@ bool IsNameValid(std::string str) {
 		properChars.push_back(last_char + str[i]);
 		last_char = "";
 	}*/
-	if (convert_to_string(str)->fields.m_stringLength > 12) return false;
+	if (convert_to_string(str)->fields._stringLength > 12) return false;
 	if (str.find("<") != std::string::npos || str.find(">") != std::string::npos ||
 		str.find("=") != std::string::npos || str.find("-") != std::string::npos ||
 		str.find("\\") != std::string::npos || str.find(":") != std::string::npos ||
@@ -378,7 +378,7 @@ bool IsChatValid(std::string msg) {
 		properChars.push_back(last_char + str[i]);
 		last_char = "";
 	}*/
-	if (convert_to_string(msg)->fields.m_stringLength > 120) return false;
+	if (convert_to_string(msg)->fields._stringLength > 120) return false;
 	if (msg.find("<") != std::string::npos || msg.find(">") != std::string::npos || msg.find("[") != std::string::npos) return false;
 	return true;
 }
@@ -517,7 +517,7 @@ il2cpp::List<List_1_NetworkedPlayerInfo_> GetAllPlayerData() {
 il2cpp::Array<DeadBody__Array> GetAllDeadBodies() {
 	static std::string deadBodyType = translate_type_name("DeadBody, Assembly-CSharp");
 
-	Type* deadBody_Type = app::Type_GetType(convert_to_string(deadBodyType), NULL);
+	Type* deadBody_Type = app::Type_GetType_1(convert_to_string(deadBodyType), false, false, NULL);
 	return (DeadBody__Array*)app::Object_1_FindObjectsOfType(deadBody_Type, NULL);
 }
 
@@ -739,7 +739,7 @@ Vector2 GetSpawnLocation(Game::PlayerId playerId, int32_t numPlayer, bool initia
 	if (MenuState.mapType == Settings::MapType::Ship || MenuState.mapType != Settings::MapType::Pb || initialSpawn)
 	{
 		Vector2 vector = { 0, 1 };
-		vector = Rotate(vector, (float)(playerId - 1) * (360.f / (float)numPlayer));
+		vector = ::Rotate(vector, (float)(playerId - 1) * (360.f / (float)numPlayer));
 		float radius = (*Game::pShipStatus)->fields.SpawnRadius;
 		vector = { vector.x * radius, vector.y * radius };
 		Vector2 spawncenter = (initialSpawn ? (*Game::pShipStatus)->fields.InitialSpawnCenter : (*Game::pShipStatus)->fields.MeetingSpawnCenter);
@@ -1115,38 +1115,38 @@ void ResetOriginalAppearance()
 	try {
 		LOG_DEBUG("Reset appearance values");
 		auto player = app::DataManager_get_Player(nullptr);
-		static FieldInfo* field = il2cpp_class_get_field_from_name(player->klass, "customization");
+		static FieldInfo* field = il2cpp_class_get_field_from_name((Il2CppClass*)player->klass, "customization");
 		LOG_ASSERT(field != nullptr);
-		auto customization = il2cpp_field_get_value_object(field, player);
+		auto customization = il2cpp_field_get_value_object(field, (Il2CppObject*)player);
 		LOG_ASSERT(customization != nullptr);
 
-		/*static FieldInfo* field2 = il2cpp_class_get_field_from_name(customization->klass, "colorID");
-		auto colorId = il2cpp_field_get_value_object(field2, customization);
+		/*static FieldInfo* field2 = il2cpp_class_get_field_from_name((Il2CppClass*)customization->klass, "colorID");
+		auto colorId = il2cpp_field_get_value_object(field2, (Il2CppObject*)customization);
 		LOG_ASSERT(colorId != nullptr);
 		uint8_t originalColor = (uint8_t(colorId) / 16);*/
 
-		static FieldInfo* field3 = il2cpp_class_get_field_from_name(customization->klass, "hat");
-		auto hat = il2cpp_field_get_value_object(field3, customization);
+		static FieldInfo* field3 = il2cpp_class_get_field_from_name((Il2CppClass*)customization->klass, "hat");
+		auto hat = il2cpp_field_get_value_object(field3, (Il2CppObject*)customization);
 		LOG_ASSERT(hat != nullptr);
 		auto originalHat = reinterpret_cast<String*>(hat);
 
-		static FieldInfo* field4 = il2cpp_class_get_field_from_name(customization->klass, "visor");
-		auto visor = il2cpp_field_get_value_object(field4, customization);
+		static FieldInfo* field4 = il2cpp_class_get_field_from_name((Il2CppClass*)customization->klass, "visor");
+		auto visor = il2cpp_field_get_value_object(field4, (Il2CppObject*)customization);
 		LOG_ASSERT(visor != nullptr);
 		auto originalVisor = reinterpret_cast<String*>(visor);
 
-		static FieldInfo* field5 = il2cpp_class_get_field_from_name(customization->klass, "skin");
-		auto skin = il2cpp_field_get_value_object(field5, customization);
+		static FieldInfo* field5 = il2cpp_class_get_field_from_name((Il2CppClass*)customization->klass, "skin");
+		auto skin = il2cpp_field_get_value_object(field5, (Il2CppObject*)customization);
 		LOG_ASSERT(skin != nullptr);
 		auto originalSkin = reinterpret_cast<String*>(skin);
 
-		static FieldInfo* field6 = il2cpp_class_get_field_from_name(customization->klass, "pet");
-		auto pet = il2cpp_field_get_value_object(field6, customization);
+		static FieldInfo* field6 = il2cpp_class_get_field_from_name((Il2CppClass*)customization->klass, "pet");
+		auto pet = il2cpp_field_get_value_object(field6, (Il2CppObject*)customization);
 		LOG_ASSERT(pet != nullptr);
 		auto originalPet = reinterpret_cast<String*>(pet);
 
-		static FieldInfo* field7 = il2cpp_class_get_field_from_name(customization->klass, "namePlate");
-		auto namePlate = il2cpp_field_get_value_object(field7, customization);
+		static FieldInfo* field7 = il2cpp_class_get_field_from_name((Il2CppClass*)customization->klass, "namePlate");
+		auto namePlate = il2cpp_field_get_value_object(field7, (Il2CppObject*)customization);
 		LOG_ASSERT(namePlate != nullptr);
 		auto originalNamePlate = reinterpret_cast<String*>(namePlate);
 
@@ -1456,23 +1456,23 @@ bool Object_1_IsNull(app::Object_1* obj)
 
 std::string GetPlayerName() {
 	auto player = app::DataManager_get_Player(nullptr);
-	static FieldInfo* field = il2cpp_class_get_field_from_name(player->klass, "customization");
+	static FieldInfo* field = il2cpp_class_get_field_from_name((Il2CppClass*)player->klass, "customization");
 	LOG_ASSERT(field != nullptr);
-	auto customization = il2cpp_field_get_value_object(field, player);
+	auto customization = il2cpp_field_get_value_object(field, (Il2CppObject*)player);
 	LOG_ASSERT(customization != nullptr);
-	static FieldInfo* field2 = il2cpp_class_get_field_from_name(customization->klass, "name");
-	auto name = il2cpp_field_get_value_object(field2, customization);
+	static FieldInfo* field2 = il2cpp_class_get_field_from_name((Il2CppClass*)customization->klass, "name");
+	auto name = il2cpp_field_get_value_object(field2, (Il2CppObject*)customization);
 	LOG_ASSERT(name != nullptr);
 	return convert_from_string(reinterpret_cast<String*>(name));
 }
 
 void SetPlayerName(std::string_view name) {
 	auto player = app::DataManager_get_Player(nullptr);
-	static FieldInfo* field = il2cpp_class_get_field_from_name(player->klass, "customization");
+	static FieldInfo* field = il2cpp_class_get_field_from_name((Il2CppClass*)player->klass, "customization");
 	LOG_ASSERT(field != nullptr);
-	auto customization = il2cpp_field_get_value_object(field, player);
+	auto customization = il2cpp_field_get_value_object(field, (Il2CppObject*)player);
 	LOG_ASSERT(customization != nullptr);
-	app::PlayerCustomizationData_set_Name(customization, convert_to_string(name), nullptr);
+	app::PlayerCustomizationData_set_Name((PlayerCustomizationData*)customization, convert_to_string(name), nullptr);
 }
 
 std::string GetCustomName(std::string name, bool forceUnique, uint8_t id, int offset) {

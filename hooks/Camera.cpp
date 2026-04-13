@@ -8,7 +8,7 @@ using namespace app;
 static float camHeight = 3.f;
 static bool refreshChat = true;
 
-Vector3 dCamera_ScreenToWorldPoint(Camera* __this, Vector3 position, MethodInfo* method)
+Vector3 dCamera_ScreenToWorldPoint_1(Camera* __this, Vector3 position, MethodInfo* method)
 {
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dCamera_ScreenToWorldPoint executed");
 	try {
@@ -17,7 +17,7 @@ Vector3 dCamera_ScreenToWorldPoint(Camera* __this, Vector3 position, MethodInfo*
 			//Figured it is better to restore the current camera height than using MenuState
 			float orthographicSize = Camera_get_orthographicSize(__this, NULL);
 			Camera_set_orthographicSize(__this, 3.0f, NULL);
-			Vector3 ret = Camera_ScreenToWorldPoint(__this, position, method);
+			Vector3 ret = Camera_ScreenToWorldPoint_1(__this, position, method);
 			Camera_set_orthographicSize(__this, orthographicSize, NULL);
 			return ret;
 		}
@@ -26,7 +26,7 @@ Vector3 dCamera_ScreenToWorldPoint(Camera* __this, Vector3 position, MethodInfo*
 		LOG_ERROR("Exception occurred in Camera_ScreenToWorldPoint (Camera)"); //better safe than sorry
 	}
 
-	return Camera_ScreenToWorldPoint(__this, position, method);
+	return Camera_ScreenToWorldPoint_1(__this, position, method);
 }
 
 void dFollowerCamera_Update(FollowerCamera* __this, MethodInfo* method) {

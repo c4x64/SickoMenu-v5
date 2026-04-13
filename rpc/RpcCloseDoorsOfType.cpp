@@ -35,8 +35,8 @@ void RpcOpenDoorsOfType::Process()
 		if (door->fields.Room == selectedSystem)
 		{
 			app::ShipStatus_RpcUpdateSystem(*Game::pShipStatus, SystemTypes__Enum::Doors, (uint8_t)(door->fields.Id | 64), NULL);
-			if ("PlainDoor"sv == door->klass->name) app::PlainDoor_SetDoorway(reinterpret_cast<PlainDoor*>(door), true, {});
-			else if ("MushroomWallDoor"sv == door->klass->name) app::MushroomWallDoor_SetDoorway(reinterpret_cast<MushroomWallDoor*>(door), true, {});
+			if ("PlainDoor"sv == door->klass->_0.name) app::PlainDoor_SetDoorway(reinterpret_cast<PlainDoor*>(door), true, {});
+			else if ("MushroomWallDoor"sv == door->klass->_0.name) app::MushroomWallDoor_SetDoorway(reinterpret_cast<MushroomWallDoor*>(door), true, {});
 		}
 	}
 

@@ -128,7 +128,7 @@ void DetourInitilization() {
 	HOOKFUNC(ChatController_SetVisible);
 	HOOKFUNC(GameStartManager_Update);
 	HOOKFUNC(HudManager_Update);
-	HOOKFUNC(Camera_ScreenToWorldPoint);
+	HOOKFUNC(Camera_ScreenToWorldPoint_1);
 	HOOKFUNC(KeyboardJoystick_Update);
 	HOOKFUNC(ScreenJoystick_FixedUpdate);
 	HOOKFUNC(PlainDoor_SetDoorway);
@@ -152,7 +152,7 @@ void DetourInitilization() {
 	HOOKFUNC(PlayerControl_OnGameStart);
 	HOOKFUNC(AmongUsClient_OnPlayerLeft);
 	HOOKFUNC(AmongUsClient_OnPlayerJoined);
-	HOOKFUNC(CustomNetworkTransform_SnapTo);
+	HOOKFUNC(CustomNetworkTransform_SnapTo_1);
 	HOOKFUNC(LobbyBehaviour_Start);
 	HOOKFUNC(LobbyBehaviour_Update);
 	HOOKFUNC(GameObject_SetActive);
@@ -196,7 +196,7 @@ void DetourInitilization() {
 	//HOOKFUNC(ActivityManager_UpdateActivity);
 	HOOKFUNC(PingTracker_Update);
 	HOOKFUNC(FriendsListUI_UpdateFriendCodeUI);
-	HOOKFUNC(KillOverlay_ShowKillAnimation_1);
+	HOOKFUNC(KillOverlay_ShowKillAnimation);
 	HOOKFUNC(KillButton_SetTarget);
 	HOOKFUNC(ImpostorRole_FindClosestTarget);
 	HOOKFUNC(MushroomDoorSabotageMinigame_Begin);
@@ -308,7 +308,7 @@ void DetourUninitialization()
 	UNHOOKFUNC(HudManager_Update);
 	UNHOOKFUNC(ScreenJoystick_FixedUpdate);
 	UNHOOKFUNC(KeyboardJoystick_Update);
-	UNHOOKFUNC(Camera_ScreenToWorldPoint);
+	UNHOOKFUNC(Camera_ScreenToWorldPoint_1);
 	UNHOOKFUNC(PlainDoor_SetDoorway);
 	UNHOOKFUNC(PlayerControl_MurderPlayer);
 	UNHOOKFUNC(PlayerControl_CmdCheckMurder);
@@ -330,7 +330,7 @@ void DetourUninitialization()
 	UNHOOKFUNC(PlayerControl_OnGameStart);
 	UNHOOKFUNC(AmongUsClient_OnPlayerLeft);
 	UNHOOKFUNC(AmongUsClient_OnPlayerJoined);
-	UNHOOKFUNC(CustomNetworkTransform_SnapTo);
+	UNHOOKFUNC(CustomNetworkTransform_SnapTo_1);
 	UNHOOKFUNC(LobbyBehaviour_Start);
 	UNHOOKFUNC(LobbyBehaviour_Update);
 	//UNHOOKFUNC(NoShadowBehaviour_LateUpdate);
@@ -371,7 +371,7 @@ void DetourUninitialization()
 	//UNHOOKFUNC(ActivityManager_UpdateActivity);
 	UNHOOKFUNC(PingTracker_Update);
 	UNHOOKFUNC(FriendsListUI_UpdateFriendCodeUI);
-	UNHOOKFUNC(KillOverlay_ShowKillAnimation_1);
+	UNHOOKFUNC(KillOverlay_ShowKillAnimation);
 	UNHOOKFUNC(KillButton_SetTarget);
 	UNHOOKFUNC(ImpostorRole_FindClosestTarget);
 	UNHOOKFUNC(MushroomDoorSabotageMinigame_Begin);

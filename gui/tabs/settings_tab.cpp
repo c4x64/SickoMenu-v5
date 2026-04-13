@@ -236,7 +236,7 @@ namespace SettingsTab {
 			if (InputString("Custom Code", &MenuState.customCode)) {
 				MenuState.Save();
 			}
-			if (ToggleButton("Replace Streamer Mode Lobby Code", &state.hideCode)) {
+			if (ToggleButton("Replace Streamer Mode Lobby Code", &MenuState.HideCode)) {
 				MenuState.Save();
 			}
 			ImGui::SameLine();
@@ -395,7 +395,7 @@ namespace SettingsTab {
 		}
 
 		if (openCustomization) {
-			if (ToggleButton("Hide Watermark", &state.hideWatermark)) {
+			if (ToggleButton("Hide Watermark", &MenuState.HideWatermark)) {
 				MenuState.Save();
 			}
 
@@ -517,7 +517,7 @@ namespace SettingsTab {
 			}
 
 			if (ImGui::CollapsingHeader("Other Colors")) {
-				ImGui::ColorEdit4("Lobby Host", (float*)&state.hostColor, ImGuiColorEditFlags__OptionsDefault | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar | ImGuiColorEditFlags_AlphaPreview);
+				ImGui::ColorEdit4("Lobby Host", (float*)&MenuState.HostColor, ImGuiColorEditFlags__OptionsDefault | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar | ImGuiColorEditFlags_AlphaPreview);
 				ImGui::SameLine(150.f * MenuState.dpiScale);
 				ImGui::ColorEdit4("Player ID", (float*)&MenuState.PlayerIdColor, ImGuiColorEditFlags__OptionsDefault | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar | ImGuiColorEditFlags_AlphaPreview);
 				ImGui::SameLine(300.f * MenuState.dpiScale);
@@ -538,7 +538,7 @@ namespace SettingsTab {
 				ImGui::ColorEdit4("Lobby Age", (float*)&MenuState.AgeColor, ImGuiColorEditFlags__OptionsDefault | ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_AlphaBar | ImGuiColorEditFlags_AlphaPreview);
 
 				if (AnimatedButton("Reset Other Colors")) {
-					state.hostColor = ImVec4(1.f, 0.73f, 0.f, 1.f);
+					MenuState.HostColor = ImVec4(1.f, 0.73f, 0.f, 1.f);
 					MenuState.PlayerIdColor = ImVec4(1.f, 0.f, 0.f, 1.f);
 					MenuState.LevelColor = ImVec4(0.f, 1.f, 0.f, 1.f);
 					MenuState.PlatformColor = ImVec4(0.73f, 0.f, 1.f, 1.f);

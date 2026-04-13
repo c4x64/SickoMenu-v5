@@ -45,7 +45,7 @@ namespace AboutTab {
         }
 
         if (openWelcome) {
-            ImGui::Text(std::format("Welcome {}to ", state.hasOpenedMenuBefore ? "back " : "").c_str());
+            ImGui::Text(std::format("Welcome {}to ", MenuState.HasOpenedMenuBefore ? "back " : "").c_str());
             ImGui::SameLine(0.0f, 0.0f);
             ImGui::TextColored(SickoCol, "SickoMenu");
             ImGui::SameLine(0.0f, 0.0f);

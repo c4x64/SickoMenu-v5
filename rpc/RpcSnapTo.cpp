@@ -23,7 +23,7 @@ void RpcForceSnapTo::Process()
 {
 	if (!PlayerSelection(Player).has_value()) return;
 
-	CustomNetworkTransform_SnapTo(Player->fields.NetTransform, targetVector, Player->fields.NetTransform->fields.lastSequenceId + 100, NULL);
+	CustomNetworkTransform_SnapTo_1(Player->fields.NetTransform, targetVector, Player->fields.NetTransform->fields.lastSequenceId + 100, NULL);
 	for (auto p : GetAllPlayerControl()) {
 		if (p == *Game::pLocalPlayer) continue;
 		auto writer = InnerNetClient_StartRpcImmediately((InnerNetClient*)(*Game::pAmongUsClient), Player->fields.NetTransform->fields._.NetId,

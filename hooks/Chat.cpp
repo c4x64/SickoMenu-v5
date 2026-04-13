@@ -118,7 +118,7 @@ void doSabotageFlash() {
 
 	float timer = 0;
 	while (timer <= 1.f) {
-		timer += app::Time_get_fixedDeltaTime(nullptr);
+		timer += Time_get_fixedDeltaTime(nullptr);
 	}
 	RepairSabotage(*Game::pLocalPlayer);
 }
@@ -171,7 +171,7 @@ void dChatController_AddChat(ChatController* __this, PlayerControl* sourcePlayer
 		auto local = GetPlayerData(*Game::pLocalPlayer);
 		std::string message = RemoveHtmlTags(convert_from_string(chatText));
 		std::string newChatText = RemoveHtmlTags(convert_from_string(chatText));
-		if (MenuState.BetterChatNotifications && __this->fields.MenuState == ChatControllerState__Enum::Closed && !GetPlayerData(sourcePlayer)->fields.IsDead) {
+		if (MenuState.BetterChatNotifications && __this->fields.state == ChatControllerState__Enum::Closed && !GetPlayerData(sourcePlayer)->fields.IsDead) {
 			auto chatNotif = __this->fields.chatNotification;
 			ChatNotification_SetUp(chatNotif, sourcePlayer, chatText, NULL);
 			ChangeChatNotificationBackground(chatNotif, sourcePlayer);
@@ -191,7 +191,7 @@ void dChatController_AddChat(ChatController* __this, PlayerControl* sourcePlayer
 				local->fields.IsDead = true;
 				wasDead = true;
 			}
-			if (MenuState.BetterChatNotifications && __this->fields.MenuState == ChatControllerState__Enum::Closed) {
+			if (MenuState.BetterChatNotifications && __this->fields.state == ChatControllerState__Enum::Closed) {
 				auto chatNotif = __this->fields.chatNotification;
 				ChatNotification_SetUp(chatNotif, sourcePlayer, chatText, NULL);
 				ChangeChatNotificationBackground(chatNotif, sourcePlayer);
@@ -209,7 +209,7 @@ void dChatController_AddChat(ChatController* __this, PlayerControl* sourcePlayer
 			ChatController_AddChat(__this, sourcePlayer, chatText, censor, method);
 		}
 		if (MenuState.Enable_SMAC) {
-			if (MenuState.SMAC_CheckChat && ((IsInGame() && !MenuState.InMeeting && !player->fields.IsDead) || chatText->fields.m_stringLength > 120)) {
+			if (MenuState.SMAC_CheckChat && ((IsInGame() && !MenuState.InMeeting && !player->fields.IsDead) || chatText->fields._stringLength > 120)) {
 				SMAC_OnCheatDetected(sourcePlayer, "Abnormal Chat");
 			}
 			if (MenuState.SMAC_CheckBadWords) {
@@ -225,7 +225,7 @@ void dChatController_AddChat(ChatController* __this, PlayerControl* sourcePlayer
 		}
 		if (MenuState.BetterMessageSounds && (MenuState.ReadGhostMessages || !player->fields.IsDead) && 
 			(sourcePlayer != *Game::pLocalPlayer ||
-			(MenuState.BetterChatNotifications && __this->fields.MenuState == ChatControllerState__Enum::Closed))) {
+			(MenuState.BetterChatNotifications && __this->fields.state == ChatControllerState__Enum::Closed))) {
 			auto audioSource = SoundManager_PlaySound(SoundManager__TypeInfo->static_fields->instance, (AudioClip*)__this->fields.messageSound, false, 1.f, NULL, NULL);
 			AudioSource_set_pitch(audioSource, 0.5f + (float)sourcePlayer->fields.PlayerId / 15, NULL);
 		}
@@ -290,7 +290,7 @@ static bool isTextCut = false;
 void dChatController_Update(ChatController* __this, MethodInfo* method) {
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dChatController_Update executed");
 	auto freeChatField = __this->fields.freeChatField;
-	int length = freeChatField->fields.textArea->fields.text->fields.m_stringLength;
+	int length = freeChatField->fields.textArea->fields.text->fields._stringLength;
 
 	auto pool = __this->fields.chatBubblePool;
 	if (pool->fields.poolSize == 20 && MenuState.ExtendChatHistory) {
@@ -302,7 +302,7 @@ void dChatController_Update(ChatController* __this, MethodInfo* method) {
 		ObjectPoolBehavior_ReclaimOldest(pool, NULL);
 	}
 	
-	if (__this->fields.MenuState != ChatControllerState__Enum::Closed) {
+	if (__this->fields.state != ChatControllerState__Enum::Closed) {
 		freeChatField->fields.textArea->fields.characterLimit = MenuState.SafeMode ? (MenuState.ExtendChatLimit ? 120 : 100) : 2147483647;
 		freeChatField->fields.textArea->fields.allowAllCharacters = true;
 		freeChatField->fields.textArea->fields.AllowEmail = true;
@@ -692,7 +692,7 @@ void dChatBubble_SetText(ChatBubble* __this, String* chatText, MethodInfo* metho
 void dChatController_SendFreeChat(ChatController* __this, MethodInfo* method) {
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dChatController_SendFreeChat executed");
 	auto chatText = convert_from_string(__this->fields.freeChatField->fields.textArea->fields.text);
-	if (convert_to_string(UncensorLink(chatText, ".­"))->fields.m_stringLength > 120) chatText = UncensorLink(chatText);
+	if (convert_to_string(UncensorLink(chatText, ".­"))->fields._stringLength > 120) chatText = UncensorLink(chatText);
 	else chatText = UncensorLink(chatText, ".­");
 	if (chatText == "") return;
 	std::string chatTextLower = strToLower(chatText);
@@ -976,7 +976,7 @@ void dFreeChatInputField_UpdateCharCount(FreeChatInputField* __this, MethodInfo*
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dFreeChatInputField_UpdateCharCount executed");
 	FreeChatInputField_UpdateCharCount(__this, method);
 	__this->fields.charCountText->fields._.m_enableWordWrapping = false;
-	int length = __this->fields.textArea->fields.text->fields.m_stringLength;
+	int length = __this->fields.textArea->fields.text->fields._stringLength;
 	int charLimit = __this->fields.textArea->fields.characterLimit;
 	std::string chatCooldownText = "";
 	if (MenuState.ShowChatTimer)

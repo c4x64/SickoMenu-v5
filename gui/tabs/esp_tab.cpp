@@ -16,7 +16,7 @@ namespace EspTab {
 
 		changed |= ToggleButton("Show Ghosts", &MenuState.ShowEsp_Ghosts);
 		//dead bodies for v3.1
-		changed |= ToggleButton("Hide During Meetings", &state.hideEsp_During_Meetings);
+		changed |= ToggleButton("Hide During Meetings", &MenuState.HideEsp_During_Meetings);
 
 		changed |= ToggleButton("Show Boxes", &MenuState.ShowEsp_Box);
 		changed |= ToggleButton("Show Tracers", &MenuState.ShowEsp_Tracers);

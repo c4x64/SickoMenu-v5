@@ -27,7 +27,7 @@ void dPlayerPhysics_FixedUpdate(PlayerPhysics* __this, MethodInfo* method)
 			auto roleType = playerData->fields.RoleType;
 			bool isFullyVanished = std::find(MenuState.vanishedPlayers.begin(), MenuState.vanishedPlayers.end(), playerData->fields.PlayerId) != MenuState.vanishedPlayers.end();
 			bool isDead = playerData->fields.IsDead;
-			auto nameText = Component_get_gameObject((Component_1*)player->fields.cosmetics->fields.nameText, NULL);
+			auto nameText = Component_get_gameObject((Component*)player->fields.cosmetics->fields.nameText, NULL);
 			bool isSeekerBody = player->fields.cosmetics->fields.bodyType == PlayerBodyTypes__Enum::Seeker || player->fields.cosmetics->fields.bodyType == PlayerBodyTypes__Enum::LongSeeker;
 			if (player->fields.inVent) {
 				if (!PlayerControl_get_Visible(player, NULL) && MenuState.ShowPlayersInVents && (!isFullyVanished || shouldSeePhantom) && !MenuState.PanicMode) {

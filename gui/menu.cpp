@@ -265,7 +265,7 @@ namespace Menu {
 			//open respective tabs
 			if (openAbout) AboutTab::Render();
 			else {
-				if (!MenuState.hasOpenedMenuBefore) MenuState.hasOpenedMenuBefore = true;
+				if (!MenuState.HasOpenedMenuBefore) MenuState.HasOpenedMenuBefore = true;
 			}
 			if (openSettings) SettingsTab::Render();
 			if (openGame) GameTab::Render();

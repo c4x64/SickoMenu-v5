@@ -14,7 +14,7 @@ float dVent_CanUse(Vent* __this, NetworkedPlayerInfo* pc, bool* canUse, bool* co
 			return app::Vent_CanUse(__this, pc, canUse, couldUse, method);
 		}
 
-		auto ventTransform = app::Component_get_transform((Component_1*)__this, NULL);
+		auto ventTransform = app::Component_get_transform((Component*)__this, NULL);
 		auto ventVector = app::Transform_get_position(ventTransform, NULL);
 
 		auto playerPosition = app::PlayerControl_GetTruePosition(object, NULL);
@@ -37,7 +37,7 @@ float dVent_CanUse(Vent* __this, NetworkedPlayerInfo* pc, bool* canUse, bool* co
 void dVent_EnterVent(Vent* __this, PlayerControl* pc, MethodInfo * method) {
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dVent_EnterVent executed");
 	if (!MenuState.PanicMode) {
-		auto ventVector = app::Transform_get_position(app::Component_get_transform((Component_1*)__this, NULL), NULL);
+		auto ventVector = app::Transform_get_position(app::Component_get_transform((Component*)__this, NULL), NULL);
 		app::Vector2 ventVector2D = { ventVector.x, ventVector.y };
 		synchronized(Replay::replayEventMutex) {
 			MenuState.liveReplayEvents.emplace_back(std::make_unique<VentEvent>(GetEventPlayerControl(pc).value(), ventVector2D, VENT_ACTIONS::VENT_ENTER));
@@ -52,7 +52,7 @@ void dVent_EnterVent(Vent* __this, PlayerControl* pc, MethodInfo * method) {
 void* dVent_ExitVent(Vent* __this, PlayerControl* pc, MethodInfo* method) {
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dVent_ExitVent executed");
 	if (!MenuState.PanicMode) {
-		auto ventVector = app::Transform_get_position(app::Component_get_transform((Component_1*)__this, NULL), NULL);
+		auto ventVector = app::Transform_get_position(app::Component_get_transform((Component*)__this, NULL), NULL);
 		app::Vector2 ventVector2D = { ventVector.x, ventVector.y };
 		synchronized(Replay::replayEventMutex) {
 			MenuState.liveReplayEvents.emplace_back(std::make_unique<VentEvent>(GetEventPlayerControl(pc).value(), ventVector2D, VENT_ACTIONS::VENT_EXIT));

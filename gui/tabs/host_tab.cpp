@@ -220,14 +220,14 @@ namespace HostTab {
 						}
 					}
 					ImGui::SameLine();
-					int hostRoleInt = (int)state.hostRoleToSet;
+					int hostRoleInt = (int)MenuState.HostRoleToSet;
 					if (CustomListBoxInt("###RoleSelector", &hostRoleInt, ROLE_NAMES, 80 * MenuState.dpiScale, ImVec4(1.f, 1.f, 1.f, 0.f), 0, "")) {
-						if (state.hostRoleToSet == RoleType::Impostor || state.hostRoleToSet == RoleType::Shapeshifter || state.hostRoleToSet == RoleType::Phantom) {
+						if (MenuState.HostRoleToSet == RoleType::Impostor || MenuState.HostRoleToSet == RoleType::Shapeshifter || MenuState.HostRoleToSet == RoleType::Phantom) {
 							if (MenuState.impostors_amount + MenuState.shapeshifters_amount + MenuState.phantoms_amount + 1 > GetMaxImpostorAmount((int)GetAllPlayerData().size())) {
 								MenuState.AutoHostRole = false;
 							}
 							else {
-								if (options.GetGameMode() == GameModes__Enum::HideNSeek) state.hostRoleToSet = RoleType::Impostor;
+								if (options.GetGameMode() == GameModes__Enum::HideNSeek) MenuState.HostRoleToSet = RoleType::Impostor;
 							}
 						}
 						else {
@@ -235,10 +235,10 @@ namespace HostTab {
 								MenuState.AutoHostRole = false;
 							}
 							else {
-								if (options.GetGameMode() == GameModes__Enum::HideNSeek) state.hostRoleToSet = RoleType::Engineer;
+								if (options.GetGameMode() == GameModes__Enum::HideNSeek) MenuState.HostRoleToSet = RoleType::Engineer;
 							}
 						}
-						state.hostRoleToSet = (RoleType)hostRoleInt;
+						MenuState.HostRoleToSet = (RoleType)hostRoleInt;
 						MenuState.Save();
 					}
 				}
@@ -378,7 +378,7 @@ namespace HostTab {
 					}
 				}
 
-				CustomListBoxInt(" ­", &state.hostSelectedColorId, HOSTCOLORS, 85.0f * MenuState.dpiScale);
+				CustomListBoxInt(" ­", &MenuState.HostSelectedColorId, HOSTCOLORS, 85.0f * MenuState.dpiScale);
 
 				if (ToggleButton("Force Color for Everyone", &MenuState.ForceColorForEveryone)) {
 					MenuState.Save();
@@ -387,7 +387,7 @@ namespace HostTab {
 				if (ToggleButton("Force Name for Everyone", &MenuState.ForceNameForEveryone)) {
 					MenuState.Save();
 				}
-				if (InputString("Username", &state.hostUserName)) {
+				if (InputString("Username", &MenuState.hostUserName)) {
 					MenuState.Save();
 				}
 

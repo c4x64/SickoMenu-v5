@@ -23,9 +23,9 @@ namespace app {
 		template<typename E>
 		class Dictionary {
 		public:
-			using iterator = decltype(&E::fields.entries->vector[0]);
-			using key_type = decltype(E::fields.entries->vector->key);
-			using value_type = decltype(E::fields.entries->vector->value);
+			using iterator = decltype(&E::fields._entries->vector[0]);
+			using key_type = decltype(E::fields._entries->vector->key);
+			using value_type = decltype(E::fields._entries->vector->value);
 			using pointer = std::conditional_t<std::is_pointer_v<value_type>, value_type, value_type*>;
 			Dictionary(E* dict) : _Ptr(dict) {}
 			size_t size() const {
@@ -35,7 +35,7 @@ namespace app {
 			}
 			iterator begin() const {
 				if (!_Ptr) return nullptr;
-				return _Ptr->fields.entries->vector;
+				return _Ptr->fields._entries->vector;
 			}
 			iterator end() const { return begin() + size(); }
 			pointer operator[](const key_type& _Keyval) const {
@@ -47,9 +47,9 @@ namespace app {
 				if (num < 0)
 					return nullptr;
 				if constexpr (std::is_pointer_v<value_type>)
-					return _Ptr->fields.entries->vector[num].value;
+					return _Ptr->fields._entries->vector[num].value;
 				else
-					return &_Ptr->fields.entries->vector[num].value;
+					return &_Ptr->fields._entries->vector[num].value;
 			}
 			E* get() const { return _Ptr; }
 		protected:

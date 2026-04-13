@@ -16,6 +16,9 @@ namespace app {
 #undef DO_APP_FUNC
 #undef DO_APP_FUNC_METHODINFO
 
+// Compatibility aliases for renamed IL2CPP functions
+#include "il2cpp-compat.h"
+
 #define DO_APP_CLASS(n, s) extern n ## __Class* n ## __TypeInfo
 namespace app {
 #include "il2cpp-classes.h"

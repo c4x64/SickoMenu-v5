@@ -12,11 +12,11 @@ void fakeSuccessfulLogin(EOSManager* eosManager)
 	/*eosManager->fields.loginFlowFinished = true;
 	EOSManager_HasFinishedLoginFlow(eosManager, NULL);*/
 	auto player = app::DataManager_get_Player(nullptr);
-	static FieldInfo* field = il2cpp_class_get_field_from_name(player->klass, "account");
+	static FieldInfo* field = il2cpp_class_get_field_from_name((Il2CppClass*)player->klass, "account");
 	LOG_ASSERT(field != nullptr);
-	auto account = (PlayerAccountData*)il2cpp_field_get_value_object(field, player);
+	auto account = (PlayerAccountData*)il2cpp_field_get_value_object(field, (Il2CppObject*)player);
 	//PlayerAccountData_set_LoginStatus(account, EOSManager_AccountLoginStatus__Enum::LoggedIn, NULL);
-	static FieldInfo* field1 = il2cpp_class_get_field_from_name(account->klass, "loginStatus");
+	static FieldInfo* field1 = il2cpp_class_get_field_from_name((Il2CppClass*)account->klass, "loginStatus");
 	auto loggedIn = EOSManager_AccountLoginStatus__Enum::LoggedIn;
 	il2cpp_field_set_value((Il2CppObject*)account, field1, &loggedIn);
 }
@@ -57,9 +57,9 @@ bool dEOSManager_IsFreechatAllowed(EOSManager* __this, MethodInfo* method)
 	return ret;
 }
 
-QuickChatModes__Enum dMultiplayerSettingsData_get_ChatMode(MultiplayerSettingsData* __this, QuickChatModes__Enum value, MethodInfo* method) {
+QuickChatModes__Enum dMultiplayerSettingsData_get_ChatMode(MultiplayerSettingsData* __this, MethodInfo* method) {
 	if (IsInGame() || IsInLobby()) return QuickChatModes__Enum::FreeChatOrQuickChat;
-	return !isGuestAccount || IsInGame() || IsInLobby() ? MultiplayerSettingsData_get_ChatMode(__this, value, method) : QuickChatModes__Enum::QuickChatOnly;
+	return !isGuestAccount || IsInGame() || IsInLobby() ? MultiplayerSettingsData_get_ChatMode(__this, method) : QuickChatModes__Enum::QuickChatOnly;
 }
 
 bool dEOSManager_IsFriendsListAllowed(EOSManager* __this, MethodInfo* method)
@@ -68,7 +68,7 @@ bool dEOSManager_IsFriendsListAllowed(EOSManager* __this, MethodInfo* method)
 	return app::EOSManager_IsFriendsListAllowed(__this, method);
 }
 
-void dEOSManager_UpdatePermissionKeys(EOSManager* __this, void* callback, MethodInfo* method) {
+void dEOSManager_UpdatePermissionKeys(EOSManager* __this, Action* callback, MethodInfo* method) {
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dEOSManager_UpdatePermissionKeys executed");
 	/*Il2CppClass* klass = get_class("Assembly-CSharp, EOSManager");
 	LOG_ASSERT(klass);
@@ -89,11 +89,11 @@ void dEOSManager_Update(EOSManager* __this, MethodInfo* method) {
 	//EOSManager_set_FriendCode(__this, __this->fields.friendCode, NULL);
 	if (MenuState.SpoofGuestAccount) {
 		auto player = app::DataManager_get_Player(nullptr);
-		static FieldInfo* field = il2cpp_class_get_field_from_name(player->klass, "account");
+		static FieldInfo* field = il2cpp_class_get_field_from_name((Il2CppClass*)player->klass, "account");
 		LOG_ASSERT(field != nullptr);
-		auto account = (PlayerAccountData*)il2cpp_field_get_value_object(field, player);
+		auto account = (PlayerAccountData*)il2cpp_field_get_value_object(field, (Il2CppObject*)player);
 		//PlayerAccountData_set_LoginStatus(account, EOSManager_AccountLoginStatus__Enum::LoggedIn, NULL);
-		static FieldInfo* field1 = il2cpp_class_get_field_from_name(account->klass, "loginStatus");
+		static FieldInfo* field1 = il2cpp_class_get_field_from_name((Il2CppClass*)account->klass, "loginStatus");
 		auto loggedIn = EOSManager_AccountLoginStatus__Enum::LoggedIn;
 		auto loggedOut = EOSManager_AccountLoginStatus__Enum::Offline;
 		if ((int)il2cpp_field_get_value_object(field1, (Il2CppObject*)account) != (int)loggedOut)
@@ -113,11 +113,11 @@ void dEOSManager_Update(EOSManager* __this, MethodInfo* method) {
 
 	if (MenuState.ForceLoginAsGuest) {
 		auto player = app::DataManager_get_Player(nullptr);
-		static FieldInfo* field = il2cpp_class_get_field_from_name(player->klass, "account");
+		static FieldInfo* field = il2cpp_class_get_field_from_name((Il2CppClass*)player->klass, "account");
 		LOG_ASSERT(field != nullptr);
-		auto account = (PlayerAccountData*)il2cpp_field_get_value_object(field, player);
+		auto account = (PlayerAccountData*)il2cpp_field_get_value_object(field, (Il2CppObject*)player);
 		//PlayerAccountData_set_LoginStatus(account, EOSManager_AccountLoginStatus__Enum::LoggedIn, NULL);
-		static FieldInfo* field1 = il2cpp_class_get_field_from_name(account->klass, "loginStatus");
+		static FieldInfo* field1 = il2cpp_class_get_field_from_name((Il2CppClass*)account->klass, "loginStatus");
 		auto loggedIn = EOSManager_AccountLoginStatus__Enum::LoggedIn;
 		auto loggedOut = EOSManager_AccountLoginStatus__Enum::Offline;
 		if ((int)il2cpp_field_get_value_object(field1, (Il2CppObject*)account) != (int)loggedOut)

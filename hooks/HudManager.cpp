@@ -37,21 +37,21 @@ void dHudManager_Update(HudManager* __this, MethodInfo* method) {
 		static bool DisableActivation = false; //so a ghost seek button doesn't show up
 
 		if (MenuState.InMeeting)
-			HudManager_SetHudActive(__this, false, NULL);
+			HudManager_SetHudActive_1(__this, false, NULL);
 		else {
 			if (MenuState.DisableHud && !MenuState.PanicMode) {
-				HudManager_SetHudActive(__this, false, NULL);
+				HudManager_SetHudActive_1(__this, false, NULL);
 				DisableActivation = false;
 			}
 			else if (!DisableActivation) {
-				HudManager_SetHudActive(__this, true, NULL);
+				HudManager_SetHudActive_1(__this, true, NULL);
 				DisableActivation = true;
 			}
 		}
 
 		if ((IsInGame() || IsInLobby())) {
 			auto localData = GetPlayerData(*Game::pLocalPlayer);
-			GameObject* shadowLayerObject = Component_get_gameObject((Component_1*)__this->fields.ShadowQuad, NULL);
+			GameObject* shadowLayerObject = Component_get_gameObject((Component*)__this->fields.ShadowQuad, NULL);
 			if (shadowLayerObject != NULL)
 				GameObject_SetActive(shadowLayerObject,
 					((!(MenuState.IsRevived || MenuState.FreeCam || MenuState.EnableZoom || MenuState.playerToFollow.has_value() || MenuState.Wallhack || (MenuState.MaxVision && IsInLobby()))))
@@ -97,7 +97,7 @@ void dHudManager_Update(HudManager* __this, MethodInfo* method) {
 			{
 				app::RoleBehaviour* playerRole = localData->fields.Role; // Nullable
 				app::RoleTypes__Enum role = playerRole != nullptr ? playerRole->fields.Role : app::RoleTypes__Enum::Crewmate;
-				GameObject* ImpostorVentButton = app::Component_get_gameObject((Component_1*)__this->fields.ImpostorVentButton, NULL);
+				GameObject* ImpostorVentButton = app::Component_get_gameObject((Component*)__this->fields.ImpostorVentButton, NULL);
 
 				if (ImpostorVentButton != NULL) {
 					if (role == RoleTypes__Enum::Engineer && MenuState.UnlockVents && !MenuState.PanicMode)
@@ -137,7 +137,7 @@ void dHudManager_Update(HudManager* __this, MethodInfo* method) {
 						else if (PlayerIsImpostor(playerInfo))
 							playerInfo->fields.Role->fields.CanBeKilled = false;
 					}
-					GameObject* KillButton = app::Component_get_gameObject((Component_1*)__this->fields.KillButton, NULL);
+					GameObject* KillButton = app::Component_get_gameObject((Component*)__this->fields.KillButton, NULL);
 					if (KillButton != NULL && (IsInGame())) {
 						if ((!MenuState.PanicMode && MenuState.UnlockKillButton && (IsHost() || !MenuState.SafeMode) && !localData->fields.IsDead) || amImpostor) {
 							app::GameObject_SetActive(KillButton, true, nullptr);
@@ -184,18 +184,18 @@ void dVersionShower_Start(VersionShower* __this, MethodInfo* method) {
 	if (lmao != wtf && lmao != xd) {
 		MenuState.ProGamer = true;
 		if (!MenuState.TempPanicMode) MenuState.PanicMode = false;
-		state.hideWatermark = false;
+		MenuState.HideWatermark = false;
 	}
 
 	if (MenuState.PanicMode) return;
 
 	int watermarkSize = 100;
-	if (!state.hideWatermark) {
+	if (!MenuState.HideWatermark) {
 		if (MenuState.CurrentScene == "FindAGame") watermarkSize = 60;
 		else if (MenuState.CurrentScene == "MainMenu") watermarkSize = 75;
 	}
 	std::string spoofVersionText = "";
-	if (MenuState.SpoofAUVersion && !state.hideWatermark) {
+	if (MenuState.SpoofAUVersion && !MenuState.HideWatermark) {
 		switch (MenuState.FakeAUVersion) {
 		case 0: // AU v16.0.0 / v16.0.2
 			spoofVersionText = " <#fb0>[Spoofing v16.0.2]</color>";
@@ -209,7 +209,7 @@ void dVersionShower_Start(VersionShower* __this, MethodInfo* method) {
 	std::string watermarkOffset = MenuState.CurrentScene == "MMOnline" ? "<#0000>00000</color>" : "";
 	std::string sickoText = "<#ff006c>SickoMenu</color>";
 	std::string goatText = "<#ef0143>g0aty</color>";
-	/*if (!state.hideWatermark) {
+	/*if (!MenuState.HideWatermark) {
 		sickoText = GetGradientUsername("SickoMenu", ImVec4(1.f, 0.f, 0.424f, 1.f), ImVec4(0.502f, 0.075f, 0.256f, 1.f));
 		goatText = GetGradientUsername("g0aty", ImVec4(0.937f, 0.004f, 0.263f, 1.f), ImVec4(0.529f, 0.008f, 0.157f, 1.f));
 	}*/
@@ -218,7 +218,7 @@ void dVersionShower_Start(VersionShower* __this, MethodInfo* method) {
 		std::format(" • {} <#fb0>{}</color> by {}", sickoText, MenuState.SickoVersion, goatText);
 	const auto& versionText = std::format("<font=\"Barlow-Regular SDF\"><size={}%>{}{}{}{}{}{}</color></size></font>",
 		watermarkSize, MenuState.DarkMode ? "<#666>" : "<#fff>", MenuState.versionShowerDefaultText, spoofVersionText,
-		state.hideWatermark ? "" : watermarkText, disableHostAnticheatText, watermarkOffset);
+		MenuState.HideWatermark ? "" : watermarkText, disableHostAnticheatText, watermarkOffset);
 	TMP_Text_set_text((TMP_Text*)MenuState.versionShower->fields.text, convert_to_string(versionText), nullptr);
 }
 
@@ -232,7 +232,7 @@ void dPingTracker_Update(PingTracker* __this, MethodInfo* method) {
 	if (!MenuState.PanicMode && MenuState.EnableZoom) __this->fields.aspectPosition->fields.DistanceFromEdge.y = initialYdist + 3 * (camHeight - 1);
 	app::TMP_Text_set_alignment((app::TMP_Text*)__this->fields.text, app::TextAlignmentOptions__Enum::Top, nullptr);
 	if (isFreeplay) {
-		GameObject_SetActive(Component_get_gameObject((Component_1*)__this, NULL), true, NULL);
+		GameObject_SetActive(Component_get_gameObject((Component*)__this, NULL), true, NULL);
 		if ((MenuState.PanicMode && !MenuState.TempPanicMode) || MenuState.OldStylePingText)
 			return app::TMP_Text_set_text((app::TMP_Text*)__this->fields.text, convert_to_string(""), nullptr);
 		else {
@@ -277,15 +277,15 @@ void dPingTracker_Update(PingTracker* __this, MethodInfo* method) {
 			}
 			uint8_t pingSize = 100;
 			if (!MenuState.OldStylePingText) {
-				if (!state.hideWatermark || spectating != "") pingSize = 75;
-				if (!state.hideWatermark && spectating != "") pingSize = 50;
+				if (!MenuState.HideWatermark || spectating != "") pingSize = 75;
+				if (!MenuState.HideWatermark && spectating != "") pingSize = 50;
 			}
 			std::string hostText = MenuState.ShowHost && IsInGame() ?
 				(IsHost() ? (sep + "You are Host") : std::format("{}Host: {}", sep, GetHostUsername(true))) : "";
 			std::string voteKicksText = (MenuState.ShowVoteKicks && MenuState.VoteKicks > 0) ? std::format("{}Vote Kicks: {}", sep, MenuState.VoteKicks) : "";
 			std::string sickoText = "";
 			std::string goatText = "";
-			if (!state.hideWatermark) {
+			if (!MenuState.HideWatermark) {
 				static uint8_t gradientOffset = 0;
 				static int gradientDelay = 0;
 				sickoText = GetGradientUsername("SickoMenu", ImVec4(1.f, 0.f, 0.424f, 1.f), ImVec4(0.502f, 0.075f, 0.256f, 1.f), gradientOffset);
@@ -301,7 +301,7 @@ void dPingTracker_Update(PingTracker* __this, MethodInfo* method) {
 				std::format("<size={}%>{} <#fb0>{}</color> by {}{}", IsInGame() ? pingSize : 100, sickoText, MenuState.SickoVersion, goatText, sep);
 			std::string pingText = (isFreeplay && !MenuState.OldStylePingText ? "<size=150%><#0000>0</color></size>\n" : "") +
 				std::format("{}{}{}{}{}{}{}{}{}{}</color></size>", MenuState.DarkMode ? "<#666>" : "<#fff>",
-					state.hideWatermark ? "" : watermarkText, ping, fpsText, hostText, voteKicksText, autoKill, noClip, freeCam, spectating);
+					MenuState.HideWatermark ? "" : watermarkText, ping, fpsText, hostText, voteKicksText, autoKill, noClip, freeCam, spectating);
 			app::TMP_Text_set_alignment((app::TMP_Text*)__this->fields.text, MenuState.OldStylePingText ? 
 				app::TextAlignmentOptions__Enum::TopRight : app::TextAlignmentOptions__Enum::Top, nullptr);
 			app::TMP_Text_set_text((app::TMP_Text*)__this->fields.text, convert_to_string(pingText), nullptr);

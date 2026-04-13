@@ -26,10 +26,10 @@ static std::string strToLower(std::string str) {
 }
 
 static bool OpenDoor(OpenableDoor* door) {
-    if ("PlainDoor"sv == door->klass->name) {
+    if ("PlainDoor"sv == door->klass->_0.name) {
         app::PlainDoor_SetDoorway(reinterpret_cast<PlainDoor*>(door), true, {});
     }
-    else if ("MushroomWallDoor"sv == door->klass->name) {
+    else if ("MushroomWallDoor"sv == door->klass->_0.name) {
         app::MushroomWallDoor_SetDoorway(reinterpret_cast<MushroomWallDoor*>(door), true, {});
     }
     else {
@@ -121,15 +121,15 @@ void dInnerNetClient_Update(InnerNetClient* __this, MethodInfo* method)
             if ((IsInGame() || IsInLobby()) && MenuState.CanChangeOutfit) { //removed hotkeynoclip cuz even if noclip setting is saved and turned on it doesn't work
                 if (!(GetPlayerData(*Game::pLocalPlayer)->fields.IsDead)) {
                     if (!MenuState.PanicMode && (MenuState.NoClip || MenuState.IsRevived))
-                        app::GameObject_set_layer(app::Component_get_gameObject((Component_1*)(*Game::pLocalPlayer), NULL), app::LayerMask_NameToLayer(convert_to_string("Ghost"), NULL), NULL);
+                        app::GameObject_set_layer(app::Component_get_gameObject((Component*)(*Game::pLocalPlayer), NULL), app::LayerMask_NameToLayer(convert_to_string("Ghost"), NULL), NULL);
                     else
-                        app::GameObject_set_layer(app::Component_get_gameObject((Component_1*)(*Game::pLocalPlayer), NULL), app::LayerMask_NameToLayer(convert_to_string("Players"), NULL), NULL);
+                        app::GameObject_set_layer(app::Component_get_gameObject((Component*)(*Game::pLocalPlayer), NULL), app::LayerMask_NameToLayer(convert_to_string("Players"), NULL), NULL);
                 }
                 else
-                    app::GameObject_set_layer(app::Component_get_gameObject((Component_1*)(*Game::pLocalPlayer), NULL), app::LayerMask_NameToLayer(convert_to_string("Ghost"), NULL), NULL);
+                    app::GameObject_set_layer(app::Component_get_gameObject((Component*)(*Game::pLocalPlayer), NULL), app::LayerMask_NameToLayer(convert_to_string("Ghost"), NULL), NULL);
                 /*for (auto player : GetAllPlayerControl()) {
                     if (player != *Game::pLocalPlayer)
-                        app::GameObject_set_layer(app::Component_get_gameObject((Component_1*)(player), NULL), app::LayerMask_NameToLayer(convert_to_string("Ghost"), NULL), NULL);
+                        app::GameObject_set_layer(app::Component_get_gameObject((Component*)(player), NULL), app::LayerMask_NameToLayer(convert_to_string("Ghost"), NULL), NULL);
                 }*/ //unintentionally prevents admin from working, workaround can be found later
             }
 
@@ -614,10 +614,10 @@ void dInnerNetClient_Update(InnerNetClient* __this, MethodInfo* method)
                     if (forceColorDelay <= 0) {
                         auto outfit = GetPlayerOutfit(GetPlayerData(player));
                         auto colorId = outfit->fields.ColorId;
-                        if (IsInGame() && colorId != state.hostSelectedColorId)
-                            MenuState.rpcQueue.push(new RpcForceColor(player, state.hostSelectedColorId));
-                        else if (IsInLobby() && colorId != state.hostSelectedColorId)
-                            MenuState.lobbyRpcQueue.push(new RpcForceColor(player, state.hostSelectedColorId));
+                        if (IsInGame() && colorId != MenuState.HostSelectedColorId)
+                            MenuState.rpcQueue.push(new RpcForceColor(player, MenuState.HostSelectedColorId));
+                        else if (IsInLobby() && colorId != MenuState.HostSelectedColorId)
+                            MenuState.lobbyRpcQueue.push(new RpcForceColor(player, MenuState.HostSelectedColorId));
                         forceColorDelay = int(0.5 * GetFps());
                     }
                     else {
@@ -634,7 +634,7 @@ void dInnerNetClient_Update(InnerNetClient* __this, MethodInfo* method)
                         if (!(MenuState.CustomName && MenuState.ServerSideCustomName && (player == *Game::pLocalPlayer || MenuState.CustomNameForEveryone))) {
                             auto outfit = GetPlayerOutfit(GetPlayerData(player));
                             std::string playerName = convert_from_string(NetworkedPlayerInfo_get_PlayerName(GetPlayerData(player), nullptr));
-                            std::string newName = std::format("{}<size=0><{}></size>", state.hostUserName, player->fields.PlayerId);
+                            std::string newName = std::format("{}<size=0><{}></size>", MenuState.hostUserName, player->fields.PlayerId);
                             if (playerName == newName) continue;
                             if (IsHost()) {
                                 PlayerControl_RpcSetName(player, convert_to_string(newName), NULL);
@@ -1152,7 +1152,7 @@ void dInnerNetClient_Update(InnerNetClient* __this, MethodInfo* method)
                     PlayerControl* playerCtrl = GetPlayerControlById(playerData->fields.PlayerId);
                     if (playerCtrl == nullptr) continue;
 
-                    if (*Game::pLocalPlayer == playerCtrl && MenuState.assignedRoles[index] != state.hostRoleToSet) {
+                    if (*Game::pLocalPlayer == playerCtrl && MenuState.assignedRoles[index] != MenuState.HostRoleToSet) {
                         MenuState.engineers_amount = (int)GetRoleCount(RoleType::Engineer);
                         MenuState.scientists_amount = (int)GetRoleCount(RoleType::Scientist);
                         MenuState.trackers_amount = (int)GetRoleCount(RoleType::Tracker);
@@ -1160,14 +1160,14 @@ void dInnerNetClient_Update(InnerNetClient* __this, MethodInfo* method)
                         MenuState.shapeshifters_amount = (int)GetRoleCount(RoleType::Shapeshifter);
                         MenuState.phantoms_amount = (int)GetRoleCount(RoleType::Phantom);
                         MenuState.impostors_amount = (int)GetRoleCount(RoleType::Impostor);
-                        if (state.hostRoleToSet == RoleType::Impostor || state.hostRoleToSet == RoleType::Shapeshifter || state.hostRoleToSet == RoleType::Phantom) {
+                        if (MenuState.HostRoleToSet == RoleType::Impostor || MenuState.HostRoleToSet == RoleType::Shapeshifter || MenuState.HostRoleToSet == RoleType::Phantom) {
                             if (MenuState.impostors_amount + MenuState.shapeshifters_amount + MenuState.phantoms_amount >= GetMaxImpostorAmount((int)GetAllPlayerData().size())) {
                                 MenuState.assignedRoles[index] = RoleType::Random;
                                 MenuState.AutoHostRole = false;
                             }
                             else {
-                                if (options.GetGameMode() == GameModes__Enum::HideNSeek) state.hostRoleToSet = RoleType::Impostor;
-                                MenuState.assignedRoles[index] = state.hostRoleToSet;
+                                if (options.GetGameMode() == GameModes__Enum::HideNSeek) MenuState.HostRoleToSet = RoleType::Impostor;
+                                MenuState.assignedRoles[index] = MenuState.HostRoleToSet;
                             }
                         }
                         else {
@@ -1176,8 +1176,8 @@ void dInnerNetClient_Update(InnerNetClient* __this, MethodInfo* method)
                                 MenuState.AutoHostRole = false;
                             }
                             else {
-                                if (options.GetGameMode() == GameModes__Enum::HideNSeek) state.hostRoleToSet = RoleType::Engineer;
-                                MenuState.assignedRoles[index] = state.hostRoleToSet;
+                                if (options.GetGameMode() == GameModes__Enum::HideNSeek) MenuState.HostRoleToSet = RoleType::Engineer;
+                                MenuState.assignedRoles[index] = MenuState.HostRoleToSet;
                             }
                         }
                         break;
@@ -1299,7 +1299,7 @@ bool bogusTransformSnap(PlayerSelection& _player, Vector2 newPosition)
     if (!player.has_value()) return false; //Error getting playercontroller
     //if (player.is_LocalPlayer()) return false;
     if (player.get_PlayerControl()->fields.inVent) return false; //Vent buttons are warps
-    if (GameObject_get_layer(app::Component_get_gameObject((Component_1*)player.get_PlayerControl(), NULL), NULL) == LayerMask_NameToLayer(convert_to_string("Ghost"), NULL))
+    if (GameObject_get_layer(app::Component_get_gameObject((Component*)player.get_PlayerControl(), NULL), NULL) == LayerMask_NameToLayer(convert_to_string("Ghost"), NULL))
         return false; //For some reason the playercontroller is not marked dead at this point, so we check what layer the player is on
     auto currentPosition = PlayerControl_GetTruePosition(player.get_PlayerControl(), NULL);
     auto distanceToTarget = (int32_t)Vector2_Distance(currentPosition, newPosition, NULL); //rounding off as the smallest kill distance is zero
@@ -1323,12 +1323,12 @@ bool bogusTransformSnap(PlayerSelection& _player, Vector2 newPosition)
     return true; //We have ruled out all possible scenarios.  Off with his head!
 }
 
-void dCustomNetworkTransform_SnapTo(CustomNetworkTransform* __this, Vector2 position, uint16_t minSid, MethodInfo* method) {
+void dCustomNetworkTransform_SnapTo_1(CustomNetworkTransform* __this, Vector2 position, uint16_t minSid, MethodInfo* method) {
     if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dCustomNetworkTransform_SnapTo executed");
     /*try {//Leave this out until we fix it.
         if (!MenuState.PanicMode) {
             if (!IsInGame()) {
-                CustomNetworkTransform_SnapTo(__this, position, minSid, method);
+                CustomNetworkTransform_SnapTo_1(__this, position, minSid, method);
                 return;
             }
 
@@ -1349,7 +1349,7 @@ void dCustomNetworkTransform_SnapTo(CustomNetworkTransform* __this, Vector2 posi
     catch (...) {
         LOG_ERROR("Exception occurred in CustomNetworkTransform_SnapTo (InnerNetClient)");
     }*/
-    CustomNetworkTransform_SnapTo(__this, position, minSid, method);
+    CustomNetworkTransform_SnapTo_1(__this, position, minSid, method);
 }
 
 void dAmongUsClient_OnGameEnd(AmongUsClient* __this, EndGameResult* endGameResult, MethodInfo* method) {
@@ -1464,7 +1464,7 @@ void dGameManager_RpcEndGame(GameManager* __this, GameOverReason__Enum endReason
     GameManager_RpcEndGame(__this, endReason, showAd, method);
 }
 
-void dKillOverlay_ShowKillAnimation_1(KillOverlay* __this, NetworkedPlayerInfo* killer, NetworkedPlayerInfo* victim, MethodInfo* method) {
+void dKillOverlay_ShowKillAnimation(KillOverlay* __this, NetworkedPlayerInfo* killer, NetworkedPlayerInfo* victim, MethodInfo* method) {
     if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dKillOverlay_ShowKillAnimation_1 executed");
     try {
         if (!MenuState.PanicMode && MenuState.DisableKillAnimation)
@@ -1473,7 +1473,7 @@ void dKillOverlay_ShowKillAnimation_1(KillOverlay* __this, NetworkedPlayerInfo* 
     catch (...) {
         SickoLog.Debug("Exception occurred in KillOverlay_ShowKillAnimation_1 (InnerNetClient)");
     }
-    return KillOverlay_ShowKillAnimation_1(__this, killer, victim, method);
+    return KillOverlay_ShowKillAnimation(__this, killer, victim, method);
 }
 
 float dLogicOptions_GetKillDistance(LogicOptions* __this, MethodInfo* method) {

@@ -172,7 +172,7 @@ void dShipStatus_UpdateSystem(ShipStatus* __this, SystemTypes__Enum systemType, 
 	ShipStatus_UpdateSystem(__this, systemType, player, amount, method);
 }
 
-void dShipStatus_AddTasksFromList(ShipStatus* __this, int32_t* start, int32_t count, void* tasks, void* usedTaskTypes, List_1_NormalPlayerTask_* unusedTasks, MethodInfo* method) {
+void dShipStatus_AddTasksFromList(ShipStatus* __this, int32_t* start, int32_t count, List_1_System_Byte_* tasks, HashSet_1_TaskTypes_* usedTaskTypes, List_1_NormalPlayerTask_* unusedTasks, MethodInfo* method) {
 	if (MenuState.DisableMedbayScan) {
 		il2cpp::List<List_1_NormalPlayerTask_> tasks = unusedTasks;
 		size_t max = tasks.size();

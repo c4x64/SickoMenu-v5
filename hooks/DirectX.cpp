@@ -63,12 +63,12 @@ ImVec2 DirectX::GetWindowSize()
 
 static bool CanDrawEsp()
 {
-	return (!MenuState.PanicMode && IsInGame() || IsInLobby()) && MenuState.ShowEsp && (!MenuState.InMeeting || !state.hideEsp_During_Meetings);
+	return (!MenuState.PanicMode && IsInGame() || IsInLobby()) && MenuState.ShowEsp && (!MenuState.InMeeting || !MenuState.HideEsp_During_Meetings);
 }
 
 static bool CanDrawRadar()
 {
-	return !MenuState.PanicMode && IsInGame() && MenuState.ShowRadar && (!MenuState.InMeeting || !state.hideRadar_During_Meetings);
+	return !MenuState.PanicMode && IsInGame() && MenuState.ShowRadar && (!MenuState.InMeeting || !MenuState.HideRadar_During_Meetings);
 }
 
 static bool CanDrawReplay()
@@ -107,7 +107,7 @@ LRESULT __stdcall dWndProc(const HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lPa
         if (KeyBinds::IsKeyPressed(MenuState.KeyBinds.Toggle_Radar)) MenuState.ShowRadar = !MenuState.ShowRadar;
         if (KeyBinds::IsKeyPressed(MenuState.KeyBinds.Toggle_Console)) MenuState.ShowConsole = !MenuState.ShowConsole;
         if (KeyBinds::IsKeyPressed(MenuState.KeyBinds.Repair_Sabotage) && IsInGame()) RepairSabotage(*Game::pLocalPlayer);
-        if (KeyBinds::IsKeyPressed(MenuState.KeyBinds.Toggle_Noclip) && (IsInGame() || IsInLobby())) { MenuState.NoClip = !MenuState.NoClip; state.hotkeyNoClip = true; }
+        if (KeyBinds::IsKeyPressed(MenuState.KeyBinds.Toggle_Noclip) && (IsInGame() || IsInLobby())) { MenuState.NoClip = !MenuState.NoClip; MenuState.HotkeyNoClip = true; }
         if (KeyBinds::IsKeyPressed(MenuState.KeyBinds.Toggle_Autokill) && (IsInGame() || IsInLobby())) MenuState.AutoKill = !MenuState.AutoKill;
         if (KeyBinds::IsKeyPressed(MenuState.KeyBinds.Close_All_Doors) && IsInGame()) MenuState.CloseAllDoors = true;
         if (KeyBinds::IsKeyPressed(MenuState.KeyBinds.Toggle_Zoom) && (IsInGame() || IsInLobby())) { MenuState.EnableZoom = !MenuState.EnableZoom; if (!MenuState.EnableZoom) RefreshChat(); }

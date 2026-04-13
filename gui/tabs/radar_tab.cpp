@@ -32,7 +32,7 @@ namespace RadarTab {
 		ImGui::Separator();
 		ImGui::Dummy(ImVec2(7, 7) * MenuState.dpiScale);
 
-		if (ToggleButton("Hide Radar During Meetings", &state.hideRadar_During_Meetings)) {
+		if (ToggleButton("Hide Radar During Meetings", &MenuState.HideRadar_During_Meetings)) {
 			MenuState.Save();
 		}
 		if (ToggleButton("Draw Player Icons", &MenuState.RadarDrawIcons)) {

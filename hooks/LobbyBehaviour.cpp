@@ -191,8 +191,8 @@ void dGameStartManager_Update(GameStartManager* __this, MethodInfo* method) {
 				if (glitchEndings.find(codeEnding) != glitchEndings.end()) glitchDisplay = " * ";
 			}*/
 
-			if (state.hideCode && IsStreamerMode() && !MenuState.PanicMode && LobbyCode != "") {
-				std::string customCode = state.hideCode && IsStreamerMode() ? MenuState.customCode : "******";
+			if (MenuState.HideCode && IsStreamerMode() && !MenuState.PanicMode && LobbyCode != "") {
+				std::string customCode = MenuState.HideCode && IsStreamerMode() ? MenuState.customCode : "******";
 				if (MenuState.RgbLobbyCode)
 					TMP_Text_set_text((TMP_Text*)__this->fields.GameRoomNameCode, convert_to_string(MenuState.rgbCode + /*glitchDisplay +*/ customCode + lobbyTimeDisplay), NULL);
 				else

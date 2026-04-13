@@ -440,8 +440,8 @@ namespace GameTab {
                 if (!MenuState.SafeMode && !IsHost()) {
                     if (AnimatedButton("Set Name for Everyone")) {
                         for (auto p : GetAllPlayerControl()) {
-                            if (IsInGame()) MenuState.rpcQueue.push(new RpcForceName(p, std::format("{}<size=0><{}></size>", state.hostUserName, p->fields.PlayerId)));
-                            if (IsInLobby()) MenuState.lobbyRpcQueue.push(new RpcForceName(p, std::format("{}<size=0><{}></size>", state.hostUserName, p->fields.PlayerId)));
+                            if (IsInGame()) MenuState.rpcQueue.push(new RpcForceName(p, std::format("{}<size=0><{}></size>", MenuState.hostUserName, p->fields.PlayerId)));
+                            if (IsInLobby()) MenuState.lobbyRpcQueue.push(new RpcForceName(p, std::format("{}<size=0><{}></size>", MenuState.hostUserName, p->fields.PlayerId)));
                         }
                     }
                     ImGui::SameLine();
@@ -449,14 +449,14 @@ namespace GameTab {
                         MenuState.Save();
                     }
 
-                    if (InputString("Username", &state.hostUserName)) {
+                    if (InputString("Username", &MenuState.hostUserName)) {
                         MenuState.Save();
                     }
 
                     if (AnimatedButton("Set Color for Everyone")) {
                         for (auto p : GetAllPlayerControl()) {
-                            if (IsInGame()) MenuState.rpcQueue.push(new RpcForceColor(p, state.hostSelectedColorId));
-                            if (IsInLobby()) MenuState.lobbyRpcQueue.push(new RpcForceColor(p, state.hostSelectedColorId));
+                            if (IsInGame()) MenuState.rpcQueue.push(new RpcForceColor(p, MenuState.HostSelectedColorId));
+                            if (IsInLobby()) MenuState.lobbyRpcQueue.push(new RpcForceColor(p, MenuState.HostSelectedColorId));
                         }
                     }
                     ImGui::SameLine();
@@ -464,7 +464,7 @@ namespace GameTab {
                         MenuState.Save();
                     }
 
-                    if (CustomListBoxInt(" ­", &state.hostSelectedColorId, HOSTCOLORS, 85.0f * MenuState.dpiScale)) MenuState.Save();
+                    if (CustomListBoxInt(" ­", &MenuState.HostSelectedColorId, HOSTCOLORS, 85.0f * MenuState.dpiScale)) MenuState.Save();
                 }
             }
         }

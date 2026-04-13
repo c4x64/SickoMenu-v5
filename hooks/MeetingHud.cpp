@@ -16,7 +16,7 @@ void dMeetingHud_Awake(MeetingHud* __this, MethodInfo* method) {
 		MenuState.voteMonitor.clear();
 		MenuState.InMeeting = true;
 		static std::string strVoteSpreaderType = translate_type_name("VoteSpreader, Assembly-CSharp");
-		voteSpreaderType = app::Type_GetType(convert_to_string(strVoteSpreaderType), nullptr);
+		voteSpreaderType = app::Type_GetType_1(convert_to_string(strVoteSpreaderType), false, false, nullptr);
 		if (MenuState.confuser && MenuState.confuseOnMeeting && !MenuState.PanicMode)
 			ControlAppearance(true);
 	}
@@ -50,20 +50,20 @@ void dMeetingHud_Close(MeetingHud* __this, MethodInfo* method) {
 }
 
 static void Transform_RemoveVotes(app::Transform* transform, size_t count) {
-	auto voteSpreader = (VoteSpreader*)app::Component_GetComponent((app::Component_1*)transform, voteSpreaderType, nullptr);
+	auto voteSpreader = (VoteSpreader*)app::Component_GetComponent((Component*)transform, voteSpreaderType, nullptr);
 	if (!voteSpreader) return;
 	il2cpp::List votes(voteSpreader->fields.Votes);
 	const auto length = votes.size();
 	if (length == 0) return;
 	if (count >= length) {
 		for (auto spriteRenderer : votes) {
-			app::Object_DestroyImmediate((app::Object_1*)spriteRenderer, nullptr);
+			Object_DestroyImmediate((app::Object_1*)spriteRenderer, nullptr);
 		}
 		votes.clear();
 		return;
 	}
 	for (size_t pos = length - 1; pos >= length - count; pos--) {
-		app::Object_DestroyImmediate((app::Object_1*)votes[pos], nullptr);
+		Object_DestroyImmediate((app::Object_1*)votes[pos], nullptr);
 		votes.erase(pos);
 	}
 }
@@ -74,7 +74,7 @@ static void Transform_RemoveAllVotes(app::Transform* transform) {
 
 static void Transform_RevealAnonymousVotes(app::Transform* transform, Game::VotedFor votedFor) {
 	if (!transform) return;
-	auto voteSpreader = (VoteSpreader*)app::Component_GetComponent((app::Component_1*)transform, voteSpreaderType, nullptr);
+	auto voteSpreader = (VoteSpreader*)app::Component_GetComponent((Component*)transform, voteSpreaderType, nullptr);
 	if (!voteSpreader) return;
 	auto votes = il2cpp::List(voteSpreader->fields.Votes);
 	if (MenuState.RevealAnonymousVotes) {
@@ -148,7 +148,7 @@ void ManageCallout(uint8_t playerId, uint8_t suspectIdx) {
 		LOG_DEBUG("Callout failed: " + ToString(target) + " has already been called out before");
 }
 
-void dMeetingHud_PopulateResults(MeetingHud* __this, Il2CppArraySize* states, MethodInfo* method) {
+void dMeetingHud_PopulateResults(MeetingHud* __this, MeetingHud_VoterState__Array* states, MethodInfo* method) {
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dMeetingHud_PopulateResults executed");
 	try {// remove all votes before populating results
 		for (auto votedForArea : il2cpp::Array(__this->fields.playerStates)) {
@@ -156,7 +156,7 @@ void dMeetingHud_PopulateResults(MeetingHud* __this, Il2CppArraySize* states, Me
 				// oops: game bug
 				continue;
 			}
-			auto transform = app::Component_get_transform((app::Component_1*)votedForArea, nullptr);
+			auto transform = app::Component_get_transform((Component*)votedForArea, nullptr);
 			Transform_RemoveAllVotes(transform);
 		}
 		if (__this->fields.SkippedVoting) {
@@ -185,7 +185,7 @@ void RevealAnonymousVotes() {
 	auto meetingHud = app::MeetingHud__TypeInfo->static_fields->Instance;
 	for (auto votedForArea : il2cpp::Array(meetingHud->fields.playerStates)) {
 		if (!votedForArea) continue;
-		auto transform = app::Component_get_transform((app::Component_1*)votedForArea, nullptr);
+		auto transform = app::Component_get_transform((Component*)votedForArea, nullptr);
 		Transform_RevealAnonymousVotes(transform, votedForArea->fields.TargetPlayerId);
 	}
 	if (meetingHud->fields.SkippedVoting) {
@@ -197,7 +197,7 @@ void RevealAnonymousVotes() {
 void dMeetingHud_Update(MeetingHud* __this, MethodInfo* method) {
 	if (MenuState.ShowHookLogs) LOG_DEBUG("Hook dMeetingHud_Update executed");
 	try {
-		const bool isBeforeResultsState = __this->fields.MenuState < app::MeetingHud_VoteStates__Enum::Results;
+		const bool isBeforeResultsState = __this->fields.state < app::MeetingHud_VoteStates__Enum::Results;
 		il2cpp::Array playerStates(__this->fields.playerStates);
 		for (auto playerVoteArea : playerStates) {
 			if (!playerVoteArea) {
@@ -292,7 +292,7 @@ void dMeetingHud_Update(MeetingHud* __this, MethodInfo* method) {
 						if (playerVoteArea->fields.VotedFor != Game::SkippedVote) {
 							for (auto votedForArea : playerStates) {
 								if (votedForArea->fields.TargetPlayerId == playerVoteArea->fields.VotedFor) {
-									auto transform = app::Component_get_transform((app::Component_1*)votedForArea, nullptr);
+									auto transform = app::Component_get_transform((Component*)votedForArea, nullptr);
 									MeetingHud_BloopAVoteIcon(__this, playerData, 0, transform, nullptr);
 									break;
 								}
@@ -314,7 +314,7 @@ void dMeetingHud_Update(MeetingHud* __this, MethodInfo* method) {
 					// Remove all votes for disconnected player 
 					for (auto votedForArea : playerStates) {
 						if (votedForArea->fields.TargetPlayerId == dcPlayer) {
-							auto transform = app::Component_get_transform((app::Component_1*)votedForArea, nullptr);
+							auto transform = app::Component_get_transform((Component*)votedForArea, nullptr);
 							Transform_RemoveVotes(transform, 1); // remove a vote
 							break;
 						}
@@ -329,11 +329,11 @@ void dMeetingHud_Update(MeetingHud* __this, MethodInfo* method) {
 					// oops: game bug
 					continue;
 				}
-				auto transform = app::Component_get_transform((app::Component_1*)votedForArea, nullptr);
-				auto voteSpreader = (VoteSpreader*)app::Component_GetComponent((app::Component_1*)transform, voteSpreaderType, nullptr);
+				auto transform = app::Component_get_transform((Component*)votedForArea, nullptr);
+				auto voteSpreader = (VoteSpreader*)app::Component_GetComponent((Component*)transform, voteSpreaderType, nullptr);
 				if (!voteSpreader) continue;
 				for (auto spriteRenderer : il2cpp::List(voteSpreader->fields.Votes)) {
-					auto gameObject = app::Component_get_gameObject((app::Component_1*)spriteRenderer, nullptr);
+					auto gameObject = app::Component_get_gameObject((Component*)spriteRenderer, nullptr);
 					app::GameObject_SetActive(gameObject, !MenuState.PanicMode && MenuState.RevealVotes, nullptr);
 				}
 			}

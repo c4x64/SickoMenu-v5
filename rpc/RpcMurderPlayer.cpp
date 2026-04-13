@@ -459,7 +459,7 @@ RpcSpawnDummy::RpcSpawnDummy(uint8_t colorId, std::string_view name) {
 void RpcSpawnDummy::Process()
 {
 	return; // Disable temporarily
-	PlayerControl* dummyPc = (PlayerControl*)Object_1_Instantiate((Object*)(*Game::pAmongUsClient)->fields.PlayerPrefab, NULL);
+	PlayerControl* dummyPc = (PlayerControl*)Object_1_Instantiate_2((Object_1*)(*Game::pAmongUsClient)->fields.PlayerPrefab, NULL);
 	if (dummyPc != NULL) {
 		try {
 			GameData_AddDummy(*Game::pGameData, dummyPc, NULL);
