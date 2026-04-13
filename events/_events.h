@@ -1,9 +1,9 @@
 #pragma once
+#include "pch-il2cpp.h"
+#include "il2cpp-helpers.h"
 #include <optional>
 #include <chrono>
 #include <format>
-#include "il2cpp-helpers.h"
-#include "pch-il2cpp.h"
 #include "game.h"
 
 using namespace app;
@@ -72,7 +72,7 @@ struct EVENT_PLAYER {
 	EVENT_PLAYER(NetworkedPlayerInfo* playerInfo) {
 		playerId = playerInfo->fields.PlayerId;
 
-		auto outfit = app::app::NetworkedPlayerInfo__get_DefaultOutfit(playerInfo, nullptr);
+		auto outfit = app::NetworkedPlayerInfo__get_DefaultOutfit(playerInfo, nullptr);
 		if (outfit != nullptr)
 		{
 			colorId = outfit->fields.ColorId;
@@ -87,11 +87,14 @@ struct EVENT_PLAYER {
 		isDead = playerInfo->fields.IsDead;
 		isAngel = (playerInfo->fields.Role) ? playerInfo->fields.Role->fields.Role == RoleTypes__Enum::GuardianAngel : false;
 		
-		if (auto object = app::NetworkedPlayerInfo_get_Object(playerInfo, NULL))
-			isProtected = (object->fields.protectedByGuardianId >= 0);
-		else
-			isProtected = false;
-	}
+		if (auto object = app::NetworkedPlayerInfo__get_Object(playerInfo, nullptr))
+{
+    isProtected = (object->fields.protectedByGuardianId >= 0);
+}
+else
+{
+    isProtected = false;
+}
 };
 
 class EventInterface {
