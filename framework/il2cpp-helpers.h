@@ -1,5 +1,13 @@
 #pragma once
+#include "../appdata/il2cpp-api-functions.h"
 
+// Define the macro so the compiler recognizes the functions in the header
+#ifndef DO_API
+#define DO_API(return_type, name, params) extern "C" return_type name params;
+#endif
+
+// Re-include to apply the macro definition to the API list
+#include "../appdata/il2cpp-api-functions.h"
 void new_console();
 std::string convert_from_string(Il2CppString* input);
 std::string convert_from_string(app::String* input);
@@ -41,7 +49,7 @@ namespace app {
 			pointer operator[](const key_type& _Keyval) const {
 				static_assert(std::is_arithmetic_v<key_type> || is_scoped_enum_v<key_type>);
 				if (!_Ptr) return nullptr;
-				auto method = il2cpp_class_get_method_from_name(_Ptr->klass, "FindEntry", 1);
+				auto method = ::il2cpp_class_get_method_from_name(_Ptr->klass, "FindEntry", 1);
 				if (!method) return nullptr;
 				auto num = ((int32_t(*)(void*, key_type, const void*))(method->methodPointer))(_Ptr, _Keyval, method);
 				if (num < 0)
