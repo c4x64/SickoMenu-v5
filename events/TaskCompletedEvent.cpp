@@ -1,6 +1,7 @@
 #include "pch-il2cpp.h"
 #include "_events.h"
 #include "utility.h"
+#include "il2cpp-helpers.h"
 using namespace app;
 
 TaskCompletedEvent::TaskCompletedEvent(const EVENT_PLAYER& source, const std::optional<TaskTypes__Enum>& taskType, const Vector2& position) : EventInterface(source, EVENT_TYPES::EVENT_TASK) {

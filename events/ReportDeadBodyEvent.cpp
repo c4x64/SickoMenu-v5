@@ -1,6 +1,7 @@
 #include "pch-il2cpp.h"
 #include "_events.h"
 #include "utility.h"
+#include "il2cpp-helpers.h"
 using namespace app;
 
 ReportDeadBodyEvent::ReportDeadBodyEvent(const EVENT_PLAYER& source, const std::optional<EVENT_PLAYER>& target, const Vector2& position, const std::optional<Vector2>& targetPosition)

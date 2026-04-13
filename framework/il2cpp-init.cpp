@@ -37,7 +37,8 @@ void init_il2cpp()
     #undef DO_APP_FUNC_METHODINFO
 
     // 3. Initialize Class TypeInfos
-    #define DO_APP_CLASS(n, s) n ## __TypeInfo = reinterpret_cast<decltype(n ## __TypeInfo)>(get_class(s))
+ 
+#define DO_API(r, n, p) n = reinterpret_cast<r(*)p>(GetProcAddress(moduleHandle, #n))
     #include "../appdata/il2cpp-classes.h"
     #undef DO_APP_CLASS
 }

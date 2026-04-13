@@ -1,6 +1,7 @@
 #include "pch-il2cpp.h"
 #include "_events.h"
 #include "utility.h"
+#include "il2cpp-helpers.h"
 using namespace app;
 
 ProtectPlayerEvent::ProtectPlayerEvent(const EVENT_PLAYER& source, const EVENT_PLAYER& target) : EventInterface(source, EVENT_TYPES::EVENT_PROTECTPLAYER) {

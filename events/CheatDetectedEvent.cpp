@@ -1,6 +1,7 @@
 #include "pch-il2cpp.h"
 #include "_events.h"
 #include "utility.h"
+#include "il2cpp-helpers.h"
 using namespace app;
 
 CheatDetectedEvent::CheatDetectedEvent(const EVENT_PLAYER& source, CHEAT_ACTIONS action) : EventInterface(source, EVENT_TYPES::EVENT_CHEAT) {

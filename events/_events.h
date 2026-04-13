@@ -3,6 +3,7 @@
 #include <chrono>
 #include <format>
 #include "il2cpp-helpers.h"
+#include "pch-il2cpp.h"
 #include "game.h"
 
 using namespace app;
@@ -71,7 +72,7 @@ struct EVENT_PLAYER {
 	EVENT_PLAYER(NetworkedPlayerInfo* playerInfo) {
 		playerId = playerInfo->fields.PlayerId;
 
-		auto outfit = app::NetworkedPlayerInfo_get_DefaultOutfit(playerInfo, nullptr);
+		auto outfit = app::app::NetworkedPlayerInfo__get_DefaultOutfit(playerInfo, nullptr);
 		if (outfit != nullptr)
 		{
 			colorId = outfit->fields.ColorId;

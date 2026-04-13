@@ -1,6 +1,7 @@
 #include "pch-il2cpp.h"
 #include "_events.h"
 #include "utility.h"
+#include "il2cpp-helpers.h"
 using namespace app;
 
 DisconnectEvent::DisconnectEvent(const EVENT_PLAYER& source) : EventInterface(source, EVENT_TYPES::EVENT_DISCONNECT) { }

@@ -4400,7 +4400,7 @@ static void FindHoveredWindow()
 }
 
 // Test if mouse cursor is hovering given rectangle
-// NB- Rectangle is clipped by our current clip setting
+// NB- app::Rectangle is clipped by our current clip setting
 // NB- Expand the rectangle to be generous on imprecise inputs systems (g.Style.TouchExtraPadding)
 bool ImGui::IsMouseHoveringRect(const ImVec2& r_min, const ImVec2& r_max, bool clip)
 {
