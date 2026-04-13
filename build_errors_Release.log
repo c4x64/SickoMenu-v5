@@ -1,4 +1,4 @@
-Build started 4/13/2026 8:07:29 AM.
+Build started 4/13/2026 8:26:14 AM.
 Logging verbosity is set to: Detailed.Process = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe"
 MSBuild executable path = "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe"
 Command line arguments = ""C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\MSBuild.exe" -property:Configuration=Release -property:PlatformToolset=v143 -fl -flp:logfile=build_errors_Release.log"
@@ -1342,11 +1342,11 @@ Using "CL" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Ent
 Task "CL"
   All source files are not up-to-date: missing command TLog "D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Release\SickoMenu.tlog\CL.command.1.tlog".
   Environment Variables passed to tool:
-    VS_UNICODE_OUTPUT=1808
-    SARIF_OUTPUT_PIPE=1816
+    VS_UNICODE_OUTPUT=1784
+    SARIF_OUTPUT_PIPE=1792
   C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /nologo /W3 /WX- /diagnostics:column /sdl /MP /Ox /Oy- /GL /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Release\"" /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Release\SickoMenu.pch" /Fo"SickoMenu\Release\\" /Fd"SickoMenu\Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
   Tracking command:
-  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Release\SickoMenu.tlog /r D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\PCH-IL2CPP.CPP /b MSBuildConsole_CancelEventb40ee30132174019b5e776b633afc6cb  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /nologo /W3 /WX- /diagnostics:column /sdl /MP /Ox /Oy- /GL /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Release\"" /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Release\SickoMenu.pch" /Fo"SickoMenu\Release\\" /Fd"SickoMenu\Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Msbuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu\Release\SickoMenu.tlog /r D:\A\SICKOMENU-V5\SICKOMENU-V5\FRAMEWORK\PCH-IL2CPP.CPP /b MSBuildConsole_CancelEventb2751d4ff742429daab2fc4384b2c8f9  /c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX86\x86\CL.exe"  /c /I"D:\a\SickoMenu-v5\SickoMenu-v5\appdata" /I"D:\a\SickoMenu-v5\SickoMenu-v5\events" /I"D:\a\SickoMenu-v5\SickoMenu-v5\framework" /I"D:\a\SickoMenu-v5\SickoMenu-v5\gui" /I"D:\a\SickoMenu-v5\SickoMenu-v5\hooks" /I"D:\a\SickoMenu-v5\SickoMenu-v5\includes" /I"D:\a\SickoMenu-v5\SickoMenu-v5\resources" /I"D:\a\SickoMenu-v5\SickoMenu-v5\rpc" /I"D:\a\SickoMenu-v5\SickoMenu-v5\user" /I"D:\a\SickoMenu-v5\SickoMenu-v5\\" /nologo /W3 /WX- /diagnostics:column /sdl /MP /Ox /Oy- /GL /D WIN32 /D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING /D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS /D _WINDOWS /D _USRDLL /D "_CONFIGURATION_NAME=\"Release\"" /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /permissive- /Yc"pch-il2cpp.h" /Fp"SickoMenu\Release\SickoMenu.pch" /Fo"SickoMenu\Release\\" /Fd"SickoMenu\Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue /utf-8 "framework\pch-il2cpp.cpp"
   pch-il2cpp.cpp
 D:\a\SickoMenu-v5\SickoMenu-v5\appdata\il2cpp-types.h(18734,12): error C2011: 'app::Color32': 'union' type redefinition [D:\a\SickoMenu-v5\SickoMenu-v5\SickoMenu.vcxproj]
   (compiling source file 'framework/pch-il2cpp.cpp')
@@ -1881,4 +1881,4 @@ Build FAILED.
     0 Warning(s)
     86 Error(s)
 
-Time Elapsed 00:00:20.99
+Time Elapsed 00:00:20.54
